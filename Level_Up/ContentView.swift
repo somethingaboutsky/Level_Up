@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var userPrefs = UserPreferences(favouriteGames: [32, 53])
-    @State var result: String = "a"
+    @State var result: String = ""
     
     init(){
         storePreferences(userPrefs: userPrefs)

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Level_UpApp: App {
+        
     var body: some Scene {
+        let path = createDefaultPath()
+        let _ = print(path.relativePath)
+        
         WindowGroup {
             ContentView()
         }
     }
+    
 }

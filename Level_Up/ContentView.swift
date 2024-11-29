@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var userPrefs = UserPreferences(favouriteGames: [32, 53])
+    
+    init(){
+        storePreferences(userPrefs: userPrefs)
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
         }
         .padding()
     }

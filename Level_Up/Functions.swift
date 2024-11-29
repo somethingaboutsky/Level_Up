@@ -15,7 +15,6 @@ func storePreferences (userPrefs: UserPreferences) {
         print(jsonString)
         
         if var url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
-            url.appendPathComponent("Level Up")
             url.appendPathComponent("preferences.json")
  
             try jsonData.write(to: url)
@@ -25,18 +24,34 @@ func storePreferences (userPrefs: UserPreferences) {
     }
 }
 
-
-func loadPreferences(jsonData: Data) -> UserPreferences? {
-    do {
-        let decodedPrefs = try JSONDecoder().decode(UserPreferences.self, from: jsonData)
-        print(decodedPrefs)
-        return decodedPrefs
-    } catch {
-        print(error)
+func loadPreferences() -> String? {
+    let fileManager = FileManager.default
+    guard let docDirectoryURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else {
+        print("Failed to locate document directory.")
+        return nil
     }
-    return nil
-}
 
+    let inputFileURL = docDirectoryURL.appendingPathComponent("preferences.json")
+    
+    // Check if the file exists
+    guard fileManager.fileExists(atPath: inputFileURL.path) else {
+        print("Preferences file does not exist.")
+        return nil
+    }
+    
+    do {
+        // Read the JSON data from the file
+        let inputData = try Data(contentsOf: inputFileURL)
+        
+        // Convert the data into a string
+        let jsonString = String(data: inputData, encoding: .utf8)
+        print(jsonString)
+        return jsonString
+    } catch {
+        print("Error reading JSON data: \(error)")
+        return nil
+    }
+}
 
 func createDefaultPath() -> URL {
     let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)

@@ -8,7 +8,7 @@
 import Foundation
 
 struct Game: Codable , Identifiable{
-    var id = UUID()
+    var id: Int
     var title: String
     var gameImage: URL
     var releaseYear: Int

@@ -16,22 +16,25 @@ struct ContentView: View {
     }
     
     var body: some View {
-        VStack {
-            Label("Se funziona la lettura dati qua sotto devi vedere roba, altrimenti piango", systemImage: "arrow.2.circlepath.circle")
-            TextField("", text: $result)
-                           .textFieldStyle(RoundedBorderTextFieldStyle())
-                           .padding()
-                   }
-                   .onAppear {
-                       // Load preferences when the view appears
-                       if let loadedResult = loadPreferences() {
-                           result = loadedResult
-                       } else {
-                           result = "No preferences found."
-                       }
-                   }
-               }
-        }
+        /*VStack {
+             Label("Se funziona la lettura dati qua sotto devi vedere roba, altrimenti piango", systemImage: "arrow.2.circlepath.circle")
+             TextField("", text: $result)
+                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                 .padding()
+             }
+                 .onAppear {
+                     // Load preferences when the view appears
+                     if let loadedResult = loadPreferences() {
+                        result = loadedResult
+                     } else {
+                        result = "No preferences found."
+                     }
+                }
+         }*/
+        Home()
+    }
+}
+
 
 #Preview {
     ContentView()

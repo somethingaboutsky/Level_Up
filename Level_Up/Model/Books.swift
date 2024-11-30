@@ -9,5 +9,5 @@ import Foundation
 
 struct Books: Codable {
     let title: String
-    let bookImage: URL
+    let cover: URL
 }

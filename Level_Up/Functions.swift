@@ -45,7 +45,7 @@ func loadPreferences() -> String? {
         
         // Convert the data into a string
         let jsonString = String(data: inputData, encoding: .utf8)
-        print(jsonString)
+        //print(jsonString)
         return jsonString
     } catch {
         print("Error reading JSON data: \(error)")

@@ -11,70 +11,47 @@ struct Home: View {
     var screenWidth = UIScreen.main.bounds.width
     var screenHeight = UIScreen.main.bounds.height
     
+    
     @State private var currentGame = 0
     
     var body: some View {
+
         VStack {
-            Image(.acLogo)
-                .resizable()
-                .frame(width: 64, height: 64)
-                .frame(maxWidth: .infinity, alignment: .center)
-            
-            ScrollView(.vertical) {
-                VStack(alignment: .leading) {
-                    // Game series carousel
-                    ScrollView(.horizontal) {
-                        LazyHStack (alignment: .top, spacing: 16) {
-                            ForEach(0..<5) { i in
-                                RoundedRectangle(cornerRadius: 32)
-                                    .fill(Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0))
-                                    .frame(width: 352, height: 512)
-                                    .overlay(VStack(alignment: .center) {
-                                        Image(.acLogo)
-                                            .resizable()
-                                            .frame(width: 352, height: 352)
-                                            .shadow(color: Color(red:212.0/255.0, green: 71.0/255.0, blue: 236.0/255.0), radius: 24, x: 0, y: 0)
-                                        Text("Assassin's creed \(i+1)")
-                                            .font(.system(size: 28, weight: .semibold))
-                                            .padding(.vertical, 10)
-                                        Text("Release Year \(i+1)")
-                                    })
-                                
-                            }
-                        }
-                       
+            GeometryReader { geometry in
+                VStack {
+                    HStack {
+                        Spacer()
+                        Image(.acLogo)
+                            .resizable()
+                            .frame(width: screenWidth * 0.1592, height: screenHeight * 0.073226)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                        Spacer()
                     }
-                    .padding(.horizontal)
-                    .padding(.top, 64)
-                    .scrollClipDisabled(true)
-                    .scrollTargetBehavior(.paging)
+                    .frame(height: screenHeight * 0.07780320366132723)
+                    .background(Color.black.opacity(0.2))
+                    .padding(.bottom, 0)
                     
-                    // Related Media
-                    Text("Related Movies")
-                        .font(.system(size: 28, weight: .semibold))
-                        .padding(.leading, 10)
-                    ScrollView(.horizontal) {
-                        
+                    ScrollView(.vertical) {
+                        VStack {
+                            // Game series carousel
+                            GameCarousel()
+                            // Related Media Carousels
+                            MoviesCarousel()
+                                .padding(.bottom, 10)
+                            TVShowsCarousel()
+                                .padding(.bottom, 10)
+                            BooksCarousel()
+                        }
                     }
-                    Text("Related TV Shows")
-                        .font(.system(size: 28, weight: .semibold))
-                        .padding(.leading, 10)
-                    ScrollView(.horizontal) {
-                        
-                    }
-                    Text("Related Books")
-                        .font(.system(size: 28, weight: .semibold))
-                        .padding(.leading, 10)
-                    ScrollView(.horizontal) {
-                        
-                    }
+                    .scrollTargetBehavior(.paging)
                 }
+                
+                
             }
-            
-            .scrollTargetBehavior(.paging)
         }
         .background(.black)
         .foregroundColor(.white)
+        
     }
 }
 

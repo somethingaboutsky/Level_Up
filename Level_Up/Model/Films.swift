@@ -7,8 +7,7 @@
 
 import Foundation
 
-
 struct Films: Codable {
     let title: String
-    let filmImage: URL
+    let cover: URL
 }

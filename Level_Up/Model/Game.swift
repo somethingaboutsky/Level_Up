@@ -10,7 +10,7 @@ import Foundation
 struct Game: Codable , Identifiable{
     var id: Int
     var title: String
-    var gameImage: URL
+    var cover: URL
     var releaseYear: Int
     var platform: String
     var recAge: Int

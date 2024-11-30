@@ -16,6 +16,7 @@ struct Level_UpApp: App {
         
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
     

@@ -9,12 +9,11 @@ import SwiftUI
 
 struct MoviesCarousel: View {
     let screenWidth = UIScreen.main.bounds.width
-    let screenHeight = UIScreen.main.bounds.height
-    let totalPages = 3
-    
+    let screenHeight = UIScreen.main.bounds.height    
     let uif = UIFunctions()
     
     @State private var currentPage: Int = 0
+    @Binding var films: [Movie]
     
     var body: some View {
         VStack (spacing: 0) {
@@ -27,23 +26,25 @@ struct MoviesCarousel: View {
             .padding(.leading, 10)
             
             TabView (selection: $currentPage) {
-                ForEach(0..<totalPages) { i in
+                ForEach($films, id: \.id) { film in
                     RoundedRectangle(cornerRadius: 32)
                         .fill(Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0))
-                        .frame(width: screenWidth * 0.8, height: screenHeight * 0.5858124)
+                        .frame(width: 360, height: 600)
                         .overlay(VStack(alignment: .center) {
-                            Image(.acLogo)
+                            Image(ImageResource(name: film.cover.wrappedValue, bundle: Bundle.main))
                                 .resizable()
-                                .frame(width: screenWidth * 0.8756219, height: screenHeight * 0.40274599542334094)
-                                .shadow(color: .accentColor, radius: 24, x: 0, y: 0)
-                            Text("Assassin's Creed Movie \(i+1)")
-                                .font(.system(size: 28, weight: .semibold))
-                                .padding(.vertical, 10)
-                            Text("Release Year \(i+1)")
+                                .frame(width: 300, height: 420)
+                                .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
+                            Text(film.title.wrappedValue)
+                                .font(.system(size: 36, weight: .semibold))
+                                .padding(.top, 15)
+                                .padding(.bottom, 10)
+                            Text(String(film.releaseYear.wrappedValue))
+                                .font(.system(size: 22, weight: .light))
                         })
                         .frame(maxWidth: .infinity)
                         .frame(alignment: .center)
-                        .padding(.horizontal, 10)
+                        .padding(.horizontal, 15)
                 }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
@@ -51,7 +52,7 @@ struct MoviesCarousel: View {
             Spacer()
             // Custom page control
             HStack(spacing: 8) {
-                ForEach(uif.visiblePages(totalPages: totalPages, currentPage: currentPage), id: \.self) { page in
+                ForEach(uif.visiblePages(totalPages: films.count, currentPage: currentPage), id: \.self) { page in
                     Circle()
                         .fill(page == currentPage ? .accentColor : Color.gray)
                         .frame(width: 10, height: 10)
@@ -67,5 +68,5 @@ struct MoviesCarousel: View {
 }
 
 #Preview {
-    MoviesCarousel()
+    MoviesCarousel(films: .constant([Movie(id: 1, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016)]))
 }

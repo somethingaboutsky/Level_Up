@@ -19,24 +19,9 @@ struct Home: View {
         ZStack (alignment: .top) {
             HStack {
                 Spacer()
-                
-                AsyncImage(url: URL(string: gameSeries.seriesImage)) { phase in
-                                switch phase {
-                                case .empty:
-                                    ProgressView() // Mostra un indicatore di caricamento
-                                case .success(let image):
-                                    image
-                                        .resizable()
-                                        .frame(width: 64, height: 64)
-                                case .failure:
-                                    Image(systemName: "photo")
-                                        .resizable()
-                                        .frame(width: 64, height: 64)
-                                        .foregroundColor(.gray) 
-                                @unknown default:
-                                    EmptyView()
-                                }
-                            }
+                Image(ImageResource(name: gameSeries.seriesImage, bundle: Bundle.main))
+                    .resizable()
+                    .frame(width: 64, height: 64)
                 Spacer()
             }
             .background(.black)
@@ -46,11 +31,17 @@ struct Home: View {
                 ScrollView(.vertical) {
                     VStack (spacing: 0) {
                         // Game series carousel
-                        GameCarousel()
+                        GameCarousel(games: $gameSeries.games)
                         // Related Media Carousels
-                        MoviesCarousel()
-                        TVShowsCarousel()
-                        BooksCarousel()
+                        if gameSeries.films.count > 0 {
+                            MoviesCarousel(films: $gameSeries.films)
+                        }
+                        /*if gameSeries.tvShows.count > 0 {
+                            TVShowsCarousel()
+                        }*/
+                        if gameSeries.books.count > 0 {
+                            BooksCarousel(bookCollection: $gameSeries.books)
+                        }
                     }
                 }
                 .scrollTargetBehavior(.paging)
@@ -61,5 +52,6 @@ struct Home: View {
 }
 
 #Preview {
-    Home(gameSeries: .constant(GameSeries(name: "Assassin's Creed", seriesImage: "acLogo", desc: "An iconic series exploring the eternal struggle between Assassins and Templars through history.")))
+    Home(gameSeries: .constant(GameSeries(
+        name: "Assassin's Creed", seriesImage: "ACLogo", desc: "An iconic series exploring the eternal struggle between Assassins and Templars through history.", games: [Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])], films: [Movie(id: 0, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016)])))
 }

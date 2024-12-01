@@ -1,20 +1,56 @@
 {
   "name": "Assassin's Creed",
-  "seriesImage": "https://example.com/assassins-creed-series-image.png",
+  "seriesImage": "ACLogo",
   "desc": "An iconic series exploring the eternal struggle between Assassins and Templars through history.",
   "games": [
     {
-      "id": 1,
+      "id": 0,
       "title": "Assassin's Creed",
-      "cover": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_%28video_game%29",
+      "cover": "Assassins_ Creed",
       "releaseYear": 2007,
       "platform": ["PlayStation 3", "Xbox 360", "PC"],
       "recAge": 18,
       "favourite": true,
       "characters": []
+    },
+    {
+      "id": 1,
+      "title": "Assassin's Creed II",
+      "cover": "Assassins_Creed_2",
+      "releaseYear": 2009,
+      "platform": ["PlayStation 3", "Xbox 360", "PC"],
+      "recAge": 18,
+      "favourite": false,
+      "characters": []
     }
   ],
-  "books": [],
-  "films": [],
+  "books": [
+      {
+          "id": 0,
+          "title": "The Secret Crusade",
+          "cover": "the_secret_crusade",
+          "releaseYear": 2007
+      },
+      {
+          "id": 1,
+          "title": "Renaissance",
+          "cover": "Renaissance",
+          "releaseYear": 2009
+      },
+      {
+          "id": 2,
+          "title": "Unity",
+          "cover": "unity",
+          "releaseYear": 2015
+      }
+  ],
+  "films": [
+      {
+          "id": 0,
+          "title": "Assassin's Creed",
+          "cover": "ac_movie",
+          "releaseYear": 2016
+      }
+  ],
   "guides": []
 }

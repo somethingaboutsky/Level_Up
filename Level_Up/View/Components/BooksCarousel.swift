@@ -15,6 +15,7 @@ struct BooksCarousel: View {
     let uif = UIFunctions()
     
     @State private var currentPage: Int = 0
+    @Binding var bookCollection: [Book]
     
     var body: some View {
         VStack (spacing: 0) {
@@ -28,19 +29,21 @@ struct BooksCarousel: View {
             
             
             TabView (selection: $currentPage) {
-                ForEach(0..<totalPages) { i in
+                ForEach($bookCollection, id: \.id) { book in
                     RoundedRectangle(cornerRadius: 32)
                         .fill(Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0))
-                        .frame(width: screenWidth * 0.8, height: screenHeight * 0.5858124)
+                        .frame(width: 360, height: 600)
                         .overlay(VStack(alignment: .center) {
-                            Image(.acLogo)
+                            Image(ImageResource(name: book.cover.wrappedValue, bundle: Bundle.main))
                                 .resizable()
-                                .frame(width: screenWidth * 0.8756219, height: screenHeight * 0.40274599542334094)
-                                .shadow(color: .accentColor, radius: 24, x: 0, y: 0)
-                            Text("Assassin's Creed Book \(i+1)")
-                                .font(.system(size: 28, weight: .semibold))
-                                .padding(.vertical, 10)
-                            Text("Release Year \(i+1)")
+                                .frame(width: 300, height: 420)
+                                .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
+                            Text(book.title.wrappedValue)
+                                .font(.system(size: 36, weight: .semibold))
+                                .padding(.top, 15)
+                                .padding(.bottom, 10)
+                            Text(String(book.releaseYear.wrappedValue))
+                                .font(.system(size: 22, weight: .light))
                         })
                         .frame(maxWidth: .infinity)
                         .frame(alignment: .center)
@@ -51,7 +54,7 @@ struct BooksCarousel: View {
             
             // Custom page control
             HStack(spacing: 8) {
-                ForEach(uif.visiblePages(totalPages: totalPages, currentPage: currentPage), id: \.self) { page in
+                ForEach(uif.visiblePages(totalPages: bookCollection.count, currentPage: currentPage), id: \.self) { page in
                     Circle()
                         .fill(page == currentPage ? .accent : Color.gray)
                         .frame(width: 10, height: 10)
@@ -66,6 +69,6 @@ struct BooksCarousel: View {
 }
 
 #Preview {
-    BooksCarousel()
+    BooksCarousel(bookCollection: .constant([Book(id: 0, title: "The Secret Crusade", cover: "the_secret_crusade", releaseYear: 2007), Book(id: 1, title: "Renaissance", cover: "Renaissance", releaseYear: 2009), Book(id: 2, title: "Unity", cover: "unity", releaseYear: 2015)]))
 }
 

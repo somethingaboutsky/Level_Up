@@ -21,7 +21,6 @@ class DataLoader {
             let data = asset.data
             do {
                 let decodedData = try JSONDecoder().decode(GameSeries.self, from: data)
-                print(decodedData)
                 gameSeries = decodedData
             } catch {
                 print(error.localizedDescription)

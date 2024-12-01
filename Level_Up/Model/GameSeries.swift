@@ -12,7 +12,7 @@ struct GameSeries: Codable{
     var seriesImage: String
     var desc: String
     var games: [Game] = []
-    var books: [Books] = []
-    var films: [Films] = []
+    var books: [Book] = []
+    var films: [Movie] = []
     var guides: [Guide] = []
 }

@@ -12,6 +12,8 @@ struct GameCarousel: View {
     let screenHeight = UIScreen.main.bounds.height
     let totalPages: Int = 5
     
+    let uif = UIFunctions()
+    
     @State private var currentPage: Int = 0
     
     var body: some View {
@@ -41,7 +43,7 @@ struct GameCarousel: View {
             
             // Custom page control
             HStack(spacing: 8) {
-                ForEach(0..<totalPages, id: \.self) { page in
+                ForEach(uif.visiblePages(totalPages: totalPages, currentPage: currentPage), id: \.self) { page in
                     Circle()
                         .fill(page == currentPage ? .accentColor : Color.gray)
                         .frame(width: 10, height: 10)
@@ -51,7 +53,8 @@ struct GameCarousel: View {
             .padding()
         }
         .padding()
-        .frame(width: screenWidth, height: .infinity)
+        .frame(width: screenWidth, height: screenHeight - 40)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .preferredColorScheme(.dark)
     }
 }

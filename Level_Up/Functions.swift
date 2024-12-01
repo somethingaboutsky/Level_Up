@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 func storePreferences (userPrefs: UserPreferences) {
     do {
@@ -45,13 +46,43 @@ func loadPreferences() -> String? {
         
         // Convert the data into a string
         let jsonString = String(data: inputData, encoding: .utf8)
-        print(jsonString)
+        print(jsonString!)
         return jsonString
     } catch {
         print("Error reading JSON data: \(error)")
         return nil
     }
 }
+
+
+func loadJSONFromBundle(named fileName: String) -> Data? {
+    let paths = Bundle.main.paths(forResourcesOfType: ".json", inDirectory: nil)
+    print("File JSON nel bundle:", paths)
+    
+    if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+        do {
+            return try Data(contentsOf: url)
+        } catch {
+            print("Errore durante il caricamento del file JSON: \(error)")
+        }
+    } else {
+        print("File \(fileName) non trovato nel bundle.")
+    }
+    return nil
+}
+
+
+func parseJSONData<T: Decodable>(_ data: Data, to type: T.Type) -> T? {
+    do {
+        // Decodifica il JSON in una struttura Swift
+        let decodedData = try JSONDecoder().decode(T.self, from: data)
+        return decodedData
+    } catch {
+        print("Errore durante la decodifica del JSON: \(error)")
+    }
+    return nil
+}
+
 
 func createDefaultPath() -> URL {
     let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)

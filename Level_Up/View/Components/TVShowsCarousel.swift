@@ -12,14 +12,16 @@ struct TVShowsCarousel: View {
     let screenHeight = UIScreen.main.bounds.height
     let totalPages = 6
     
+    let uif = UIFunctions()
+
     @State private var currentPage: Int = 0
     
     var body: some View {
         VStack {
             Text("Related TV Shows")
                 .font(.system(size: 28, weight: .semibold))
-                .padding(.top, 70)
-                .padding(.bottom, 0)
+                .padding(.top, 80)
+            
             TabView (selection: $currentPage) {
                 ForEach(0..<totalPages) { i in
                     RoundedRectangle(cornerRadius: 32)
@@ -44,7 +46,7 @@ struct TVShowsCarousel: View {
             
             // Custom page control
             HStack(spacing: 8) {
-                ForEach(0..<totalPages, id: \.self) { page in
+                ForEach(uif.visiblePages(totalPages: totalPages, currentPage: currentPage), id: \.self) { page in
                     Circle()
                         .fill(page == currentPage ? .accentColor : Color.gray)
                         .frame(width: 10, height: 10)
@@ -53,7 +55,8 @@ struct TVShowsCarousel: View {
             }
             .padding()
         }
-        .frame(width: screenWidth, height: .infinity)
+        .frame(width: screenWidth, height: screenHeight - 80)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .preferredColorScheme(.dark)
     }
 }

@@ -12,10 +12,12 @@ struct BooksCarousel: View {
     let screenHeight = UIScreen.main.bounds.height
     let totalPages = 15
     
+    let uif = UIFunctions()
+    
     @State private var currentPage: Int = 0
     
     var body: some View {
-        VStack {
+        VStack (spacing: 0) {
             Text("Related Books")
                 .font(.system(size: 28, weight: .semibold))
                 .padding(.top, 70)
@@ -44,7 +46,7 @@ struct BooksCarousel: View {
             
             // Custom page control
             HStack(spacing: 8) {
-                ForEach(0..<totalPages, id: \.self) { page in
+                ForEach(uif.visiblePages(totalPages: totalPages, currentPage: currentPage), id: \.self) { page in
                     Circle()
                         .fill(page == currentPage ? .accent : Color.gray)
                         .frame(width: 10, height: 10)
@@ -53,7 +55,7 @@ struct BooksCarousel: View {
             }
             .padding()
         }
-        .frame(width: screenWidth, height: .infinity)
+        .frame(width: screenWidth, height: screenHeight - 80)
         .preferredColorScheme(.dark)
     }
 }

@@ -1,16 +1,18 @@
-{
-  "name": "Assassin's Creed",
-  "seriesImage": "https://example.com/assassins-creed-series-image.png",
-  "desc": "An iconic series exploring the eternal struggle between Assassins and Templars through history.",
-  "games": [
+[
     {
-      "id": 1,
-      "title": "Assassin's Creed",
-      "cover": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_%28video_game%29",
-      "releaseYear": 2007,
-      "platform": "PlayStation 3, Xbox 360, PC",
-      "recAge": 18,
-      "favourite": true
+      "name": "Assassin's Creed",
+      "seriesImage": "https://example.com/assassins-creed-series-image.png",
+      "desc": "An iconic series exploring the eternal struggle between Assassins and Templars through history.",
+      "games": [
+        {
+          "id": 1,
+          "title": "Assassin's Creed",
+          "cover": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_%28video_game%29",
+          "releaseYear": 2007,
+          "platform": "PlayStation 3, Xbox 360, PC",
+          "recAge": 18,
+          "favourite": true
+        }
+      ]
     }
-  ]
-}
+]

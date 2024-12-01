@@ -26,21 +26,15 @@ struct Home: View {
             .background(.black)
             .zIndex(1)
             
-            VStack {
+            VStack(spacing: 0) {
                 ScrollView(.vertical) {
-                    VStack {
+                    VStack (spacing: 0) {
                         // Game series carousel
                         GameCarousel()
-                            .frame(width: screenWidth, height: screenHeight - 60)
                         // Related Media Carousels
                         MoviesCarousel()
-                            .frame(width: screenWidth, height: screenHeight - 100)
-                            .padding()
                         TVShowsCarousel()
-                            .frame(width: screenWidth, height: screenHeight - 100)
-                            .padding()
                         BooksCarousel()
-                            .frame(width: screenWidth, height: screenHeight - 100)
                     }
                 }
                 .scrollTargetBehavior(.paging)

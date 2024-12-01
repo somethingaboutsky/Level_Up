@@ -7,11 +7,12 @@
 
 import Foundation
 
-
 struct GameSeries: Codable{
     var name: String
-    var seriesImage: URL
+    var seriesImage: String
     var desc: String
     var games: [Game] = []
-    
+    var books: [Books] = []
+    var films: [Films] = []
+    var guides: [Guide] = []
 }

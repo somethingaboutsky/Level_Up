@@ -10,7 +10,7 @@ import UIKit
 
 class DataLoader {
     
-    @Published var gameSeries = [GameSeries]()
+    @Published var gameSeries : GameSeries?
     
     init() {
         load()
@@ -20,27 +20,15 @@ class DataLoader {
         if let asset = NSDataAsset.init(name: "db") {
             let data = asset.data
             do {
-                gameSeries = try JSONDecoder().decode([GameSeries].self, from: data)
+                let decodedData = try JSONDecoder().decode(GameSeries.self, from: data)
+                print(decodedData)
+                gameSeries = decodedData
             } catch {
                 print(error.localizedDescription)
+                print(error)
             }
         } else {
             print("Nessun asset chiamato \"db\"")
         }
-        
-        
-        /*if let fileLocation = Bundle.main.url(forResource: "db", withExtension: "json") {
-            do {
-                print(fileLocation)
-                let data = try Data(contentsOf: fileLocation)
-                let decoder = JSONDecoder()
-                self.gameSeries = try decoder.decode([GameSeries].self, from: data)
-                print(self.gameSeries)
-            } catch {
-                print(error)
-            }
-        } else {
-            print("File ProvaDb.json non trovato")
-        }*/
     }
 }

@@ -12,11 +12,8 @@ struct Game: Codable , Identifiable{
     var title: String
     var cover: URL
     var releaseYear: Int
-    var platform: String
+    var platform: [String]
     var recAge: Int
     var favourite: Bool
-    var characters: [Characters] = []
-    var books: [Books] = []
-    var films: [Films] = []
-    var guide: [Guide] = []
+    var characters: [Characters]
 }

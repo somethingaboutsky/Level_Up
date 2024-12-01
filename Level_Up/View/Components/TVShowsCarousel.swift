@@ -18,9 +18,14 @@ struct TVShowsCarousel: View {
     
     var body: some View {
         VStack {
-            Text("Related TV Shows")
-                .font(.system(size: 28, weight: .semibold))
-                .padding(.top, 80)
+            HStack {
+                Text("Related TV Shows")
+                    .font(.system(size: 28, weight: .semibold))
+                    .padding(.top, 80)
+                Spacer()
+            }
+            .padding(.leading, 10)
+            
             
             TabView (selection: $currentPage) {
                 ForEach(0..<totalPages) { i in

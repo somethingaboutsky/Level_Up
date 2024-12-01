@@ -18,10 +18,14 @@ struct MoviesCarousel: View {
     
     var body: some View {
         VStack (spacing: 0) {
-            Text("Related Movies")
-                .font(.system(size: 28, weight: .semibold))
-                .padding(.top, 70)
-
+            HStack {
+                Text("Related Movies")
+                    .font(.system(size: 28, weight: .semibold))
+                    .padding(.top, 70)
+                Spacer()
+            }
+            .padding(.leading, 10)
+            
             TabView (selection: $currentPage) {
                 ForEach(0..<totalPages) { i in
                     RoundedRectangle(cornerRadius: 32)

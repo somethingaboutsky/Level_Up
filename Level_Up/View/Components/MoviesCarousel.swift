@@ -18,7 +18,7 @@ struct MoviesCarousel: View {
         VStack {
             Text("Related Movies")
                 .font(.system(size: 28, weight: .semibold))
-                .padding(.leading, 10)
+                .padding(.top, 70)
                 .padding(.bottom, 0)
             TabView (selection: $currentPage) {
                 ForEach(0..<totalPages) { i in
@@ -29,7 +29,7 @@ struct MoviesCarousel: View {
                             Image(.acLogo)
                                 .resizable()
                                 .frame(width: screenWidth * 0.8756219, height: screenHeight * 0.40274599542334094)
-                                .shadow(color: Color(red:212.0/255.0, green: 71.0/255.0, blue: 236.0/255.0), radius: 24, x: 0, y: 0)
+                                .shadow(color: .accentColor, radius: 24, x: 0, y: 0)
                             Text("Assassin's Creed Movie \(i+1)")
                                 .font(.system(size: 28, weight: .semibold))
                                 .padding(.vertical, 10)
@@ -53,7 +53,8 @@ struct MoviesCarousel: View {
             }
             .padding()
         }
-        .frame(width: screenWidth, height: screenHeight * 0.8)
+        .frame(width: screenWidth, height: .infinity)
+        .preferredColorScheme(.dark)
     }
 }
 

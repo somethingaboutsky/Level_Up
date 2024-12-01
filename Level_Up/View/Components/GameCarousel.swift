@@ -26,7 +26,7 @@ struct GameCarousel: View {
                             Image(.acLogo)
                                 .resizable()
                                 .frame(width: screenWidth * 0.8756219, height: screenHeight * 0.40274599542334094)
-                                .shadow(color: Color(red:212.0/255.0, green: 71.0/255.0, blue: 236.0/255.0), radius: 24, x: 0, y: 0)
+                                .shadow(color: .accentColor, radius: 24, x: 0, y: 0)
                             Text("Assassin's Creed \(i+1)")
                                 .font(.system(size: 28, weight: .semibold))
                                 .padding(.vertical, 10)
@@ -50,8 +50,9 @@ struct GameCarousel: View {
             }
             .padding()
         }
-        .frame(width: screenWidth, height: screenHeight * 0.83)
-        //.padding(.bottom, 20)
+        .padding()
+        .frame(width: screenWidth, height: .infinity)
+        .preferredColorScheme(.dark)
     }
 }
 

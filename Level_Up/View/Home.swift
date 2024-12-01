@@ -15,43 +15,38 @@ struct Home: View {
     @State private var currentGame = 0
     
     var body: some View {
-
-        VStack {
-            GeometryReader { geometry in
-                VStack {
-                    HStack {
-                        Spacer()
-                        Image(.acLogo)
-                            .resizable()
-                            .frame(width: screenWidth * 0.1592, height: screenHeight * 0.073226)
-                            .frame(maxWidth: .infinity, alignment: .center)
-                        Spacer()
+        ZStack (alignment: .top) {
+            HStack {
+                Spacer()
+                Image(.acLogo)
+                    .resizable()
+                    .frame(width: 64, height: 64)
+                Spacer()
+            }
+            .background(.black)
+            .zIndex(1)
+            
+            VStack {
+                ScrollView(.vertical) {
+                    VStack {
+                        // Game series carousel
+                        GameCarousel()
+                            .frame(width: screenWidth, height: screenHeight - 60)
+                        // Related Media Carousels
+                        MoviesCarousel()
+                            .frame(width: screenWidth, height: screenHeight - 100)
+                            .padding()
+                        TVShowsCarousel()
+                            .frame(width: screenWidth, height: screenHeight - 100)
+                            .padding()
+                        BooksCarousel()
+                            .frame(width: screenWidth, height: screenHeight - 100)
                     }
-                    .frame(height: screenHeight * 0.07780320366132723)
-                    .background(Color.black.opacity(0.2))
-                    .padding(.bottom, 0)
-                    
-                    ScrollView(.vertical) {
-                        VStack {
-                            // Game series carousel
-                            GameCarousel()
-                            // Related Media Carousels
-                            MoviesCarousel()
-                                .padding(.bottom, 10)
-                            TVShowsCarousel()
-                                .padding(.bottom, 10)
-                            BooksCarousel()
-                        }
-                    }
-                    .scrollTargetBehavior(.paging)
                 }
-                
-                
+                .scrollTargetBehavior(.paging)
             }
         }
-        .background(.black)
-        .foregroundColor(.white)
-        
+        .preferredColorScheme(.dark)
     }
 }
 

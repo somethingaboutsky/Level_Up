@@ -8,7 +8,7 @@
 import Foundation
 
 struct Characters: Codable {
-    let name: String
-    let characterImage: URL
-    let desc: String
+    var name: String
+    var characterImage: URL
+    var desc: String
 }

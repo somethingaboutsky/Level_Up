@@ -4,7 +4,7 @@
   "desc": "Assassin's Creed è una serie di videogiochi d'azione e avventura storica e un franchise multimediale pubblicato da Ubisoft e sviluppato principalmente dal suo studio Ubisoft Montreal utilizzando il motore di gioco Anvil e i suoi derivati ​​più avanzati.\n\nCreata da Patrice Désilets, Jade Raymond e Corey May, la serie di videogiochi Assassin's Creed descrive una lotta immaginaria vecchia di millenni tra l'Ordine degli Assassini, che combatte per la pace e il libero arbitrio, e i Cavalieri Templari, che desiderano la pace attraverso l'ordine e il controllo.\n\nLa serie presenta personaggi di narrativa storica, fantascienza e di fantasia intrecciati con eventi storici e personaggi storici del mondo reale. Nella maggior parte dei giochi, i giocatori controllano un Assassino storico mentre giocano anche come un Iniziato Assassino o qualcuno coinvolto nel conflitto tra Assassini e Templari nella trama di cornice odierna.\n\nConsiderato un successore spirituale della serie Prince of Persia, Assassin's Creed ha preso ispirazione dal romanzo Alamut dello scrittore sloveno Vladimir Bartol, basato sulla setta storica Hashashin dell'Iran medievale (Persia).",
   "games": [
     {
-      "id": 1,
+      "id": 0,
       "title": "Assassin's Creed",
       "cover": "Assassins_Creed.png",
       "story": "Assassin's Creed (2007), il primo capitolo della saga, è un gioco d'azione e avventura sviluppato da Ubisoft.\nLa storia si svolge su due piani temporali principali: Presente e passato.\n\nNel presente seguiamo Desmond Miles, un barista che viene rapito dalla misteriosa compagnia \"Abstergo Industries\". L'Abstergo utilizza una tecnologia avanzata chiamata Animus, capace di leggere i ricordi genetici dei suoi antenati.\n\nNel passato riviviamo i ricordi di Altair Ibn-La'Ahad, un assassino vissuto durante la Terza Crociata nel 1191. Desmond scopre di essere un discendente degli Assassini, un'antica confraternita in lotta contro i Templari. I Templari moderni, mascherati da Abstergo, vogliono utilizzare l'Animus per trovare manufatti leggendari chiamati Frutti dell'Eden, che conferiscono il controllo mentale su chiunque.\n\nAltair è un membro degli Assassini, ma la sua arroganza causa una missione fallimentare e la perdita di molti alleati. Come punizione, il suo mentore Al Mualim lo degrada e gli assegna una missione per redimersi: eliminare nove figure di spicco, colpevoli di perpetuare conflitti e oppressioni durante la Crociata.",
@@ -41,7 +41,7 @@
   ]
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Assassin's Creed II",
       "cover": "Assassins_Creed_2.png",
        "story": "Rispetto al primo gioco, Assassin's Creed II (2009) ha una trama più emotiva e un protagonista più umano. Anche a distanza di anni è il gioco più amato dai fan per la sua storia, le sue ambientazioni ricche dell'Italia del Rinascimento e il protagonista: Ezio Auditore da Firenze.\n\nAnch'egli antenato di Desmond Miles, ci viene presentato come un giovane aristocratico fiorentino che si trasforma in un Assassino dopo che la sua famiglia viene coinvolta in una cospirazione.\n\nLa storia ruota attorno alla vendetta, alla scoperta di un antico ordine, e alla lotta contro i Templari, che continuano a tramare per ottenere il controllo del mondo.\n\nEzio viene coinvolto in una rete di intrighi politici e scopre segreti che lo collegano a una guerra secolare tra Assassini e Templari; durante il suo viaggio, si allea con figure storiche come Leonardo da Vinci, che lo aiuta con invenzioni e con l'interpretazione di antichi codici.\n\nLa trama si sviluppa in una narrazione personale e allo stesso tempo epica, con Ezio che gradualmente abbraccia il suo ruolo nella lotta per la libertà. Tramite il gioco non solo vedremo la crescita del protagonista e della trama, ma anche delle costruzioni di quel tempo. \n\nIl giocatore si muoverà in varie città italiane del gioco: partirà da Firenze per spostarsi a Monteriggioni, San Gimignano, Forlì e si recherà poi a Venezia e Città del Vaticano. \n\nIl gioco amplia le meccaniche introdotte nel primo capitolo, migliorando il parkour, il combattimento e l'esplorazione. Introduce nuovi strumenti e abilità, come la doppia lama celata, il volo con le macchine di Leonardo e nuove tecniche di assassinio; le città sono vive e vibranti, con la possibilità di interagire con NPC, comprare oggetti, investire denaro e personalizzare l'equipaggiamento di Ezio.\n\nVendetta e giustizia, potere e corruzione, eredità e identità sono le tematiche che il videogioco esplora, facendo innamorare il giocatore con le sue colonne sonore pluripremiate, che rendono lo scenario ancor più coinvolgente.",
@@ -120,7 +120,7 @@
       "characterImage": "Rodrigo_Borgia.png",
       "desc": "Presentato come l'antagonista centrale di Assassin's Creed II, Rodrigo Borgia è un cardinale e, successivamente, papa, ed è una figura di spicco dei Templari.\nEgli si presenta come un uomo ambizioso, manipolatore e spietato, Rodrigo è disposto a fare qualsiasi cosa per ottenere il potere e portare avanti l'agenda dei Templari. La sua figura storica è basata sul vero papa Alessandro VI.\nRodrigo cospirò quindi assieme al corrotto Uberto Alberti e alla famiglia Pazzi per far arrestare Giovanni e i suoi figli, per poi giustiziarli con l'accusa di \"tradimento\", approfittando dell'assenza di Lorenzo de' Medici e, diventando così, l'acerrimo nemico del protagonista, Ezio Auditore."
     },
-     "id": 3,
+     "id": 2,
      "title": "Assassin's Creed Brotherhood",
      "cover": "Assassins_Creed_Brotherhood.png",
      "story": "Assassin's Creed: Brotherhood (2010) è il terzo capitolo principale della saga, un seguito diretto di Assassin's Creed II. Questo gioco continua a raccontare la storia di Ezio Auditore, ora più maturo e con un ruolo di maggiore responsabilità, mentre affronta nuove sfide sia personali che legate alla sua missione di Assassino. Il gioco introduce nuovi elementi di gameplay e approfondisce la lotta tra Assassini e Templari.\n\nL'intera trama si svolge principalmente a Roma, il cuore del potere dei Templari. Rispetto a Firenze, Venezia o Monteriggioni viste in Assassin's Creed II, Roma è una città immensa, con una struttura sociale ed economica più complessa. I contrasti visivi e sociali sono più che chiari: Roma è divisa tra quartieri fiorenti e zone degradate sotto il controllo dei Templari. Il giocatore può vedere gli effetti dell'oppressione e lavorare per liberare la città dalla corruzione.\n\nLuoghi iconici come il Colosseo, il Vaticano e Castel Sant’Angelo fanno da sfondo a molte missioni, rendendo Roma un vero protagonista del gioco. Ezio, ora un leader, si assume la responsabilità di ricostruire e guidare la Confraternita degli Assassini. Il tema del lavoro di squadra e della leadership è centrale.\n\nEsplorando meglio il gameplay di questo gioco, notiamo diverse innovazioni rispetto ai capitoli precedenti, rendendo l'esperienza di gioco più ricca e varia. Tra le modifiche vi sono:\n\n- **Il sistema di combattimento:**\n  Il combattimento è stato migliorato, con l'aggiunta di nuove mosse e armi. Ezio può ora effettuare uccisioni a catena, permettendo di affrontare gruppi di nemici con maggiore fluidità. La gestione delle armi è stata ampliata, includendo nuovi strumenti come la balestra e bombe fumogene.\n\n- **La gestione della confraternita:**\n  Una delle novità più significative è la possibilità di reclutare cittadini oppressi per farli entrare nella Confraternita degli Assassini.\n  - **Addestramento e missioni:** I nuovi Assassini possono essere addestrati e inviati in missioni secondarie per guadagnare risorse e ridurre il controllo dei Templari in varie aree.\n  - **Supporto durante le missioni:** Gli alleati possono essere richiamati durante le missioni principali, permettendo di pianificare attacchi più strategici.\n\n- **Rigenerazione di Roma:**\n  Come leader della Confraternita, Ezio ha il compito di restaurare Roma. Questo include:\n  - Liberare zone della città distruggendo torri Templari;\n  - Ristrutturare negozi e infrastrutture per migliorare l'economia locale;\n  - Guadagnare denaro attraverso le attività commerciali restaurate.\n\n- **Missioni secondarie:**\n  Oltre alla trama principale, ci sono numerose attività opzionali:\n  - Sfide legate ai mercenari, ai ladri e alle cortigiane, ognuna delle quali rappresenta un'alleanza utile nella lotta contro i Templari.\n  - Esplorazione di antichi sotterranei romani, simili alle tombe degli Assassini di Assassin's Creed II, per ottenere equipaggiamenti speciali.\n\n- **Multiplayer (Novità):**\n  Brotherhood è il primo capitolo della saga a introdurre una modalità multiplayer. I giocatori possono scegliere tra diversi personaggi Templari e competere in modalità che combinano stealth e strategia. Ogni personaggio ha abilità uniche, rendendo le partite varie e coinvolgenti.",
@@ -186,90 +186,102 @@
         }
   ]
     },
-    "id": 4,
+    "id": 3,
     "title": "Assassin's Creed Revelations",
     "cover": "Assassins_Creed_Revelations.png",
-    "story": "Assassin's Creed: Revelations (2011), il quarto capitolo principale della saga, è un gioco che approfondisce la storia personale di Ezio Auditore e il suo legame con Altair Ibn-La'Ahad, il protagonista del primo Assassin’s Creed. Il gioco mantiene l'equilibrio tra le vicende storiche del Rinascimento e quelle moderne, espandendo ulteriormente il conflitto tra Assassini e Templari.
-    Il gioco si svolge principalmente a Costantinopoli (odierna Istanbul), una città vibrante e culturalmente ricca, che al tempo era al centro dell'Impero Ottomano, il contesto storico è quello della lotta per il potere tra i Bizantini e gli Ottomani che si intreccia con il conflitto segreto tra Assassini e Templari.
-    L'ambientazione è visivamente affascinante, con monumenti come la Basilica di Santa Sofia e strade affollate che riflettono il crocevia di culture di Costantinopoli.
-    La trama segue Ezio Auditore, ormai un uomo maturo e Maestro Assassino, nel suo viaggio personale per scoprire i segreti del Credo e comprendere il legame tra la sua vita e quella di Altair. Il gioco introduce il concetto di "chiusura" per Ezio: è un viaggio non solo fisico ma anche spirituale, dove cerca di trovare risposte alle domande lasciate in sospeso nelle sue avventure precedenti; si esplorano i temi di conoscenza, saggezza e eredità, con Ezio che riflette sul significato più profondo della sua missione.
-    Le novità ci sono anche per questo capitolo e sono:
-    -Rampino: Una delle novità è il rampino, che permette a Ezio di muoversi più velocemente tra i tetti e di eseguire nuovi tipi di attacchi.
-    -Bombe Personalizzabili: I giocatori possono creare diversi tipi di bombe per affrontare le missioni in modo più strategico, adattandosi a diversi stili di gioco.
-    -Ricordi di Altair: I giocatori possono rivivere momenti chiave della vita di Altair tramite sequenze speciali, approfondendo il suo personaggio e il suo legame con Ezio.
-    -Sequenze Moderne: Il gioco include sezioni in cui Desmond Miles, bloccato nell'Animus, esplora i suoi ricordi e riflette sulla sua identità.
-    Assassin's Creed: Revelations è un capitolo che punta più sullo sviluppo emotivo dei suoi personaggi che sull'introduzione di grandi novità nella trama generale. È una storia ricca di introspezione, che dà ai fan della serie un senso di conclusione per due dei personaggi più iconici della saga.",
+    "story": "Assassin's Creed: Revelations (2011), il quarto capitolo principale della saga, è un gioco che approfondisce la storia personale di Ezio Auditore e il suo legame con Altair Ibn-La'Ahad, il protagonista del primo Assassin’s Creed. Il gioco mantiene l'equilibrio tra le vicende storiche del Rinascimento e quelle moderne, espandendo ulteriormente il conflitto tra Assassini e Templari.\n\nIl gioco si svolge principalmente a Costantinopoli (odierna Istanbul), una città vibrante e culturalmente ricca, che al tempo era al centro dell'Impero Ottomano. Il contesto storico è quello della lotta per il potere tra i Bizantini e gli Ottomani che si intreccia con il conflitto segreto tra Assassini e Templari. L'ambientazione è visivamente affascinante, con monumenti come la Basilica di Santa Sofia e strade affollate che riflettono il crocevia di culture di Costantinopoli.\n\nLa trama segue Ezio Auditore, ormai un uomo maturo e Maestro Assassino, nel suo viaggio personale per scoprire i segreti del Credo e comprendere il legame tra la sua vita e quella di Altair. Il gioco introduce il concetto di \"chiusura\" per Ezio: è un viaggio non solo fisico ma anche spirituale, dove cerca di trovare risposte alle domande lasciate in sospeso nelle sue avventure precedenti. Si esplorano i temi di conoscenza, saggezza e eredità, con Ezio che riflette sul significato più profondo della sua missione.\n\nLe novità ci sono anche per questo capitolo e sono:\n- **Rampino:** Una delle novità è il rampino, che permette a Ezio di muoversi più velocemente tra i tetti e di eseguire nuovi tipi di attacchi.\n- **Bombe Personalizzabili:** I giocatori possono creare diversi tipi di bombe per affrontare le missioni in modo più strategico, adattandosi a diversi stili di gioco.\n- **Ricordi di Altair:** I giocatori possono rivivere momenti chiave della vita di Altair tramite sequenze speciali, approfondendo il suo personaggio e il suo legame con Ezio.\n- **Sequenze Moderne:** Il gioco include sezioni in cui Desmond Miles, bloccato nell'Animus, esplora i suoi ricordi e riflette sulla sua identità.\n\nAssassin's Creed: Revelations è un capitolo che punta più sullo sviluppo emotivo dei suoi personaggi che sull'introduzione di grandi novità nella trama generale. È una storia ricca di introspezione, che dà ai fan della serie un senso di conclusione per due dei personaggi più iconici della saga."
     "releaseYear": 2011,
     "platform": ["PlayStation 3", "Xbox 360", "PC"],
     "recAge": 18,
     "favourite": false,
     "characters": [
-        {
-          "name": "Ezio Auditore",
-          "characterImage": "la_volpe.png",
-          "desc": "Ora un uomo più maturo e riflessivo, Ezio è alla ricerca di saggezza e pace interiore. La sua crescita personale è al centro della trama.
-          In Assassin's Creed: Revelations, Ezio Auditore è un uomo maturo, consapevole del peso degli anni e delle scelte che ha compiuto nella sua lunga carriera come Assassino.
-          Alla fine della storia, Ezio ha 52 anni, essendo nato nel 1459 e gli eventi del gioco svolgendosi nel 1511; è cresciuto molto rispetto al giovane ribelle e impulsivo che abbiamo conosciuto in Assassin's Creed II. Ora è un uomo riflessivo, che valuta con attenzione le sue azioni e le loro conseguenze.
-          Gli anni di battaglie contro i Templari hanno lasciato il segno su di lui, sia fisicamente che emotivamente. Tuttavia, non ha perso la sua determinazione a combattere per ciò che ritiene giusto.
-          Come Maestro Assassino, Ezio è ora una figura di guida per i nuovi membri della Confraternita, la sua leadership è carismatica e basata sull'esperienza diretta.
-          In questo capitolo, Ezio si interroga sul significato più profondo della sua missione e sulla sua eredità come Assassino. Il tema della ricerca di sé è centrale. Il suo aspetto non è per niente come quello dei capitoli scorsi della saga, ci ritroviamo davanti un Ezio che mostra chiaramente i segni dell'età. Ha rughe sul volto e una barba più folta, che riflettono la sua maturità e le difficoltà affrontate nel corso degli anni.
-          Il suo abbigliamento è quello di un Maestro Assassino, con dettagli che rappresentano il suo alto rango e il rispetto che ha guadagnato nella Confraternita.
-          Nonostante l'età, Ezio è ancora un combattente formidabile, agile e intelligente. Ha affinato le sue abilità nel corso degli anni, rendendolo ancora più letale e strategico.
-          In Revelations, utilizza strumenti innovativi come il rampino e bombe personalizzabili, che dimostrano la sua capacità di adattarsi e sperimentare nuovi metodi.
-          L'Ezio di Revelations è il ritratto di un uomo che ha vissuto intensamente, che porta il peso delle sue azioni con dignità e che è determinato a concludere il suo viaggio con onore. La sua maturità e il suo sviluppo lo rendono uno dei personaggi più amati e complessi della saga."
+      {
+        "name": "Ezio Auditore",
+        "characterImage": "ezio_rev.png",
+        "desc": "Ora un uomo più maturo e riflessivo, Ezio è alla ricerca di saggezza e pace interiore. La sua crescita personale è al centro della trama.\nIn Assassin's Creed: Revelations, Ezio Auditore è un uomo maturo, consapevole del peso degli anni e delle scelte che ha compiuto nella sua lunga carriera come Assassino.\nAlla fine della storia, Ezio ha 52 anni, essendo nato nel 1459 e gli eventi del gioco svolgendosi nel 1511; è cresciuto molto rispetto al giovane ribelle e impulsivo che abbiamo conosciuto in Assassin's Creed II. Ora è un uomo riflessivo, che valuta con attenzione le sue azioni e le loro conseguenze.\nGli anni di battaglie contro i Templari hanno lasciato il segno su di lui, sia fisicamente che emotivamente. Tuttavia, non ha perso la sua determinazione a combattere per ciò che ritiene giusto.\nCome Maestro Assassino, Ezio è ora una figura di guida per i nuovi membri della Confraternita, la sua leadership è carismatica e basata sull'esperienza diretta.\nIn questo capitolo, Ezio si interroga sul significato più profondo della sua missione e sulla sua eredità come Assassino. Il tema della ricerca di sé è centrale. Il suo aspetto non è per niente come quello dei capitoli scorsi della saga, ci ritroviamo davanti un Ezio che mostra chiaramente i segni dell'età. Ha rughe sul volto e una barba più folta, che riflettono la sua maturità e le difficoltà affrontate nel corso degli anni.\nIl suo abbigliamento è quello di un Maestro Assassino, con dettagli che rappresentano il suo alto rango e il rispetto che ha guadagnato nella Confraternita.\nNonostante l'età, Ezio è ancora un combattente formidabile, agile e intelligente. Ha affinato le sue abilità nel corso degli anni, rendendolo ancora più letale e strategico.\nIn Revelations, utilizza strumenti innovativi come il rampino e bombe personalizzabili, che dimostrano la sua capacità di adattarsi e sperimentare nuovi metodi.\nL'Ezio di Revelations è il ritratto di un uomo che ha vissuto intensamente, che porta il peso delle sue azioni con dignità e che è determinato a concludere il suo viaggio con onore. La sua maturità e il suo sviluppo lo rendono uno dei personaggi più amati e complessi della saga."
+      },
+      {
+        "name": "Yusuf Tazim",
+        "characterImage": "yusuf.png",
+        "desc": "Yusuf è profondamente radicato nella cultura ottomana e conosce alla perfezione Costantinopoli. La sua padronanza delle dinamiche sociali e politiche locali lo rende un leader rispettato e un alleato prezioso per Ezio.\nÈ il capo della Confraternita degli Assassini a Costantinopoli e, in questa veste, è responsabile delle operazioni degli Assassini nella città e della gestione delle relazioni con le varie fazioni locali.\nÈ un combattente esperto, strategico e ingegnoso. Una delle sue innovazioni principali è l’introduzione del rampino assassino, che non solo facilita la mobilità in città ma aggiunge nuove possibilità tattiche nel combattimento.\nYusuf si dimostra sin da subito un personaggio carismatico, leale, astuto, amichevole e inclusivo: è immediatamente affabile e conquista chiunque con il suo atteggiamento positivo e il suo senso dell'umorismo.\nNonostante il suo ruolo serio, tende a mantenere un approccio rilassato e ottimista; è profondamente devoto al Credo degli Assassini e alla missione di proteggere la libertà contro i Templari. La sua lealtà verso Ezio è evidente fin dal primo incontro, e si impegna a fornire tutto il supporto necessario.\nYusuf è anche molto astuto e pragmatico. Capisce quando è il momento di agire con discrezione e quando invece è necessario un intervento deciso. A differenza di altri leader che potrebbero essere più rigidi, Yusuf accoglie Ezio con calore e gli fa sentire che fa parte della Confraternita locale fin da subito.\nYusuf ed Ezio sviluppano rapidamente un rapporto di stima reciproca. Yusuf riconosce il valore di Ezio come Maestro Assassino, ma non perde l’occasione di insegnargli nuove tecniche e di fargli conoscere la città e le sue peculiarità. Il loro rapporto è arricchito da momenti di leggerezza grazie al senso dell'umorismo di Yusuf, che bilancia il tono spesso più serio di Ezio.\nYusuf è uno dei personaggi più memorabili di Revelations grazie alla sua personalità vivace e alla sua capacità di rendere ogni scena in cui appare interessante e coinvolgente. La sua presenza offre una prospettiva unica sulla Confraternita degli Assassini in una cultura diversa da quella italiana, mostrando come il Credo si adatti alle diverse realtà del mondo."
+      },
+      {
+          "name": "Altair Ibn-La'Ahad",
+          "characterImage": "aci.png",
+          "desc": "In Assassin's Creed: Revelations, Altair non è più il giovane temerario che abbiamo visto nel primo capitolo, ma un uomo che ha trovato una sorta di pace interiore, pur affrontando grandi sacrifici. La sua storia si completa in questo capitolo, creando un parallelo con Ezio che lo porta a completare il suo viaggio personale, sia nel passato che nel presente.\nAltair rappresenta il simbolo della crescita, della saggezza e della comprensione, elementi che guidano la narrazione di Revelations e offrono al giocatore una chiusura emotiva e spirituale per due dei più iconici Assassini della saga.\nIn Revelations, le sequenze che riguardano Altair sono giocabili e danno ai giocatori un'idea più chiara del suo sviluppo. Queste sequenze non si limitano a momenti storici passati, ma mostrano anche il cambiamento interiore di Altair, che evolve da un giovane arrogante a un leader saggio e riflessivo, passando per momenti di grande sacrificio personale.\nQueste missioni permettono di esplorare in prima persona i luoghi iconici della vita di Altair, come la sua fortezza e il suo villaggio natale.\nIl giocatore ha anche modo di osservare la crescita spirituale di Altair, la sua lotta con la sua stessa natura e la sua continua ricerca di verità. Il percorso di Ezio in Revelations è molto influenzato dalla figura di Altair, non solo come figura storica, ma come un mentore spirituale, per così dire. Il confronto con Altair aiuta Ezio a riflettere sulla propria vita e sulla propria missione, mettendo in discussione il significato più profondo della Confraternita degli Assassini.\nIl gioco approfondisce l’eredità di Altair, che è ormai leggendaria. Non solo è stato il fondatore del Credo degli Assassini, ma la sua vita e le sue scelte hanno avuto un impatto duraturo su tutta la Confraternita.\nIn Revelations, Ezio si trova a esplorare i \"Ricordi di Altair,\" ossia sequenze che rivelano momenti chiave della vita di Altair e che offrono spunti su come la Confraternita è cambiata e evoluta nel corso dei secoli."
         },
+      {
+        "name": "Clay Kaczmarek",
+        "characterImage": "clay.png",
+        "desc": "Un ex utilizzatore dell'Animus che appare a Desmond in circostanze enigmatiche. Clay è un personaggio introdotto nei giochi precedenti, la cui storia si intreccia con quella di Desmond. Clay è enigmatico, introverso e a tratti tormentato. Fornisce indizi e guida Desmond, ma il suo comportamento è spesso criptico.\nIl suo ruolo è molto importante: aiuta Desmond (in coma) a esplorare i suoi ricordi e a comprendere meglio il funzionamento dell'Animus."
+      },
+      {
+        "name": "Principe Ahmet",
+        "characterImage": "ahmet.png",
+        "desc": "Ahmet è un membro della famiglia imperiale ottomana, figlio del sultano e potenziale erede al trono. Sebbene non sia il sovrano, la sua posizione di principe lo rende un attore importante nelle lotte di potere interne all'Impero Ottomano. È un uomo ambizioso, che ha grandi sogni di potere e un desiderio di governare l'Impero. La sua posizione e le sue ambizioni lo mettono in contrasto con altre figure politiche e familiari, che vedono la sua ascesa al trono come una minaccia.\nAhmet non è impulsivo, ma sa come muoversi strategicamente nella corte ottomana, utilizzando astuzia e inganno per cercare di accumulare influenza. È una figura che agisce sempre con un piano, anche se non tutte le sue mosse si rivelano efficaci. Sebbene sia motivato dalla sua brama di potere, ha anche delle debolezze, in particolare nelle sue interazioni con il padre e gli altri membri della famiglia imperiale. Questo lo rende un personaggio interessante, che non si limita a essere un antagonista monolitico, ma che ha anche dei conflitti interni.\nAhmet ha contatti con i Templari, che cercano di sfruttare le sue ambizioni per i propri scopi. Il suo ruolo nei confronti dei Templari è ambiguo, poiché mentre cerca di ottenere il potere per sé, è anche manipolato e utilizzato dai Templari, che vedono in lui un potenziale alleato.\nSebbene Ahmet non sia un nemico diretto come alcuni altri antagonisti, la sua posizione e le sue azioni mettono in pericolo la Confraternita degli Assassini, che è sempre attenta a chi cerca di destabilizzare l'ordine mondiale. Ezio Auditore, insieme agli altri Assassini, si trova a dover affrontare indirettamente le sue azioni politiche e le sue alleanze.\nAhmet, pur non essendo un guerriero come alcuni altri antagonisti, è pericoloso in quanto manipola le persone e sfrutta le loro debolezze. È una figura che agisce dietro le quinte, influenzando eventi politici con astuzia e inganno, creando scompiglio nelle dinamiche di Costantinopoli.\nIl Principe Ahmet rappresenta il tema del potere e delle ambizioni politiche che si intrecciano con le lotte tra Assassini e Templari. Sebbene non sia il principale antagonista di Ezio, il suo ruolo nella storia è fondamentale per capire le forze in gioco a Costantinopoli. La sua posizione e le sue azioni spingono Ezio e gli altri Assassini a entrare in conflitto con lui, anche se in modi indiretti.\nQuindi, non è un semplice \"cattivo\" nel senso tradizionale, ma una figura complessa che agisce per il suo interesse, manipolando le circostanze a suo favore, ma anche mettendo in pericolo l'equilibrio della città e della Confraternita. La sua ambizione lo rende un nemico insidioso, difficile da affrontare direttamente, ma che spinge il protagonista e la Confraternita a intervenire."
+      },
+      {
+        "name": "Sofia Sartor",
+        "characterImage": "sofia.png",
+        "desc": "Sofia è una giovane bibliotecaria e una studiosa originaria di Venezia, ma si trova a Costantinopoli per motivi legati alla sua carriera. È una donna intelligente e affascinante, con una profonda passione per i libri e la conoscenza. La sua professione come bibliotecaria la porta a essere coinvolta nel contesto storico e culturale di Costantinopoli; gestisce una vasta raccolta di libri e documenti antichi, che includono anche alcuni degli scritti di Altair. La sua conoscenza delle opere storiche e filosofiche è notevole, ed è proprio grazie a questa sua competenza che Ezio entra in contatto con lei.\nSofia è una donna estremamente intelligente, con una grande passione per la conoscenza. La sua curiosità e il suo amore per i libri la spingono a cercare continuamente nuove informazioni, ed è per questa ragione che si trova coinvolta in alcune delle ricerche più misteriose della trama, in particolare legate agli scritti di Altair. Nonostante sia una figura che può sembrare più fragile rispetto ad altri personaggi della saga, Sofia è estremamente indipendente e non si lascia facilmente intimidire. La sua determinazione e la sua forza interiore emergono più volte durante il gioco, quando affronta le difficoltà e si confronta con le situazioni che la circondano. Si distingue per la sua natura gentile e la sua sensibilità. È un personaggio che, pur non essendo un combattente, riesce a entrare in sintonia con Ezio grazie alla sua umanità e alla sua empatia. La sua sensibilità la rende anche una figura che offre a Ezio un punto di riflessione emotiva durante la sua lunga e difficile missione.\nIl primo incontro tra Sofia e Ezio avviene quando Ezio arriva a Costantinopoli. All'inizio, Sofia è un personaggio piuttosto distante, focalizzata sulla sua carriera e sulla sua passione per i libri. Tuttavia, man mano che Ezio esplora la città e si avventura alla ricerca delle informazioni su Altair, il loro legame cresce lentamente. Sebbene Sofia non faccia parte della Confraternita degli Assassini e non partecipi direttamente nelle missioni di combattimento, diventa un importante alleato per Ezio, fornendo supporto intellettuale e pratico. La sua conoscenza dei libri e dei documenti storici aiuta Ezio a raccogliere informazioni cruciali per la sua missione.\nNel corso del gioco, il rapporto tra Ezio e Sofia si sviluppa in modo naturale, con un crescente legame emotivo. Sofia rappresenta un momento di rifugio e calma nella vita di Ezio, che sta affrontando una missione pericolosa e turbolenta. La loro connessione cresce anche sul piano personale, con Ezio che comincia a vedere in Sofia una figura che gli offre un punto di equilibrio e un interesse che va oltre la sua missione.\nSofia Sartor è un personaggio che arricchisce Assassin's Creed: Revelations con la sua profondità emotiva e intellettuale. Sebbene non sia coinvolta nel combattimento o nelle azioni di guerra come altri personaggi, la sua intelligenza, indipendenza e la sua connessione con Ezio la rendono una figura chiave nel gioco. La sua presenza nella trama offre a Ezio un'opportunità di crescita personale, mentre il loro legame fornisce una dolce ma potente dinamica che bilancia la serietà e la tensione della missione di Ezio."
+      },
+      {
+        "name": "Manual Palaiologos",
+        "characterImage": "manuel.png",
+        "desc": "Un ex utilizzatore dell'Animus che appare a Desmond in circostanze enigmatiche. Clay è un personaggio introdotto nei giochi precedenti, la cui storia si intreccia con quella di Desmond. Clay è enigmatico, introverso e a tratti tormentato. Fornisce indizi e guida Desmond, ma il suo comportamento è spesso criptico.\nIl suo ruolo è molto importante: aiuta Desmond (in coma) a esplorare i suoi ricordi e a comprendere meglio il funzionamento dell'Animus."
+      }
   ],
   "books": [
     {
-      "id": 1,
+      "id": 0,
       "title": "Assassin's Creed: The Secret Crusade",
       "cover": "the_secret_crusade.png",
       "releaseYear": 2011
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Assassin's Creed: Renaissance",
       "cover": "Renaissence.png",
       "releaseYear": 2009
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Assassin's Creed: Brotherhood",
       "cover": "Brotherhood.png",
       "releaseYear": 2010
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Assassin's Creed: Black Flag",
       "cover": "black_flag.png",
       "releaseYear": 2013
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Assassin's Creed: Desert Oath",
       "cover": "desert_oath.png",
       "releaseYear": 2017
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Assassin's Creed: Forsaken",
       "cover": "forsaken.png",
       "releaseYear": 2012
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Assassin's Creed: Revelations",
       "cover": "revelations.png",
       "releaseYear": 2011
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Assassin's Creed: Underworld",
       "cover": "underworld.png",
       "releaseYear": 2015
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Assassin's Creed: Unity",
       "cover": "unity.png",
       "releaseYear": 2014
@@ -277,19 +289,19 @@
   ],
   "films": [
     {
-      "id": 1,
+      "id": 0,
       "title": "Assassin's Creed",
       "cover": "ac_movie.png",
       "releaseYear": 2016
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Assassin's Creed Embers",
       "cover": "ac_embers.png",
       "releaseYear": 2011
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Assassin's Creed Lineage",
       "cover": "ac_lineage.png",
       "releaseYear": 2009
@@ -304,5 +316,6 @@
     }
   ]
 }
+
 
 

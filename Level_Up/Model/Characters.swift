@@ -9,6 +9,6 @@ import Foundation
 
 struct Characters: Codable {
     var name: String
-    var characterImage: URL
+    var characterImage: [String]
     var desc: String
 }

@@ -1,8 +1,9 @@
 {
   "data" : [
     {
-      "filename" : "jeanne.jeanne.webp",
-      "idiom" : "universal"
+      "filename" : "jeanne.png",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.png"
     }
   ],
   "info" : {

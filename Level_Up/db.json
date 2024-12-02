@@ -120,6 +120,7 @@
       "characterImage": "Rodrigo_Borgia",
       "desc": "Presentato come l'antagonista centrale di Assassin's Creed II, Rodrigo Borgia è un cardinale e, successivamente, papa, ed è una figura di spicco dei Templari.\nEgli si presenta come un uomo ambizioso, manipolatore e spietato, Rodrigo è disposto a fare qualsiasi cosa per ottenere il potere e portare avanti l'agenda dei Templari. La sua figura storica è basata sul vero papa Alessandro VI.\nRodrigo cospirò quindi assieme al corrotto Uberto Alberti e alla famiglia Pazzi per far arrestare Giovanni e i suoi figli, per poi giustiziarli con l'accusa di \"tradimento\", approfittando dell'assenza di Lorenzo de' Medici e, diventando così, l'acerrimo nemico del protagonista, Ezio Auditore."
     },
+    {
      "id": 2,
      "title": "Assassin's Creed Brotherhood",
      "cover": "Assassins_Creed_Brotherhood",
@@ -186,6 +187,7 @@
         }
   ]
     },
+    {
     "id": 3,
     "title": "Assassin's Creed Revelations",
     "cover": "Assassins_Creed_Revelations",
@@ -232,6 +234,7 @@
       }
   ],
     },
+    {
     "id": 4,
     "title": "Assassin's Creed III",
     "cover": "Assassins_Creed_3",

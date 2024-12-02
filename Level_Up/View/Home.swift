@@ -53,5 +53,5 @@ struct Home: View {
 
 #Preview {
     Home(gameSeries: .constant(GameSeries(
-        name: "Assassin's Creed", seriesImage: "ACLogo", desc: "An iconic series exploring the eternal struggle between Assassins and Templars through history.", games: [Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])], films: [Movie(id: 0, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016)])))
+        name: "Assassin's Creed", seriesImage: "ACLogo", desc: "An iconic series exploring the eternal struggle between Assassins and Templars through history.", games: [Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed",story: "a", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2",story: "a", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])], films: [Movie(id: 0, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016)])))
 }

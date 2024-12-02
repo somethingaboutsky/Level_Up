@@ -63,5 +63,5 @@ struct GameCarousel: View {
 }
 
 #Preview {
-    GameCarousel(games: .constant([Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed",story: "a", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2",story: "a", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])]))
+    GameCarousel(games: .constant([Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])]))
 }

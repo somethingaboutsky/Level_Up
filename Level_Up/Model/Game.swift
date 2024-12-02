@@ -11,7 +11,7 @@ struct Game: Codable , Identifiable{
     var id: Int
     var title: String
     var cover: String
-    var story: String
+    //var story: String
     var releaseYear: Int
     var platform: [String]
     var recAge: Int

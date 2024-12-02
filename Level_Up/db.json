@@ -185,7 +185,39 @@
           "desc": "La sorella minore di Ezio. Cresciuta in una famiglia coinvolta nel conflitto tra Assassini e Templari, Claudia si trova inevitabilmente coinvolta negli eventi della saga.\nIntelligente, risoluta e capace. Claudia è una donna forte che dimostra di saper affrontare le sfide con coraggio e determinazione. La sua maturità cresce significativamente nel corso della serie. Claudia diventa una figura più centrale nel sostegno alla Confraternita. La sua capacità di gestione e la sua presenza emotiva sono cruciali per Ezio e gli altri."
         }
   ]
-    }
+    },
+    "id": 4,
+    "title": "Assassin's Creed Revelations",
+    "cover": "Assassins_Creed_Revelations.png",
+    "story": "Assassin's Creed: Revelations (2011), il quarto capitolo principale della saga, è un gioco che approfondisce la storia personale di Ezio Auditore e il suo legame con Altair Ibn-La'Ahad, il protagonista del primo Assassin’s Creed. Il gioco mantiene l'equilibrio tra le vicende storiche del Rinascimento e quelle moderne, espandendo ulteriormente il conflitto tra Assassini e Templari.
+    Il gioco si svolge principalmente a Costantinopoli (odierna Istanbul), una città vibrante e culturalmente ricca, che al tempo era al centro dell'Impero Ottomano, il contesto storico è quello della lotta per il potere tra i Bizantini e gli Ottomani che si intreccia con il conflitto segreto tra Assassini e Templari.
+    L'ambientazione è visivamente affascinante, con monumenti come la Basilica di Santa Sofia e strade affollate che riflettono il crocevia di culture di Costantinopoli.
+    La trama segue Ezio Auditore, ormai un uomo maturo e Maestro Assassino, nel suo viaggio personale per scoprire i segreti del Credo e comprendere il legame tra la sua vita e quella di Altair. Il gioco introduce il concetto di "chiusura" per Ezio: è un viaggio non solo fisico ma anche spirituale, dove cerca di trovare risposte alle domande lasciate in sospeso nelle sue avventure precedenti; si esplorano i temi di conoscenza, saggezza e eredità, con Ezio che riflette sul significato più profondo della sua missione.
+    Le novità ci sono anche per questo capitolo e sono:
+    -Rampino: Una delle novità è il rampino, che permette a Ezio di muoversi più velocemente tra i tetti e di eseguire nuovi tipi di attacchi.
+    -Bombe Personalizzabili: I giocatori possono creare diversi tipi di bombe per affrontare le missioni in modo più strategico, adattandosi a diversi stili di gioco.
+    -Ricordi di Altair: I giocatori possono rivivere momenti chiave della vita di Altair tramite sequenze speciali, approfondendo il suo personaggio e il suo legame con Ezio.
+    -Sequenze Moderne: Il gioco include sezioni in cui Desmond Miles, bloccato nell'Animus, esplora i suoi ricordi e riflette sulla sua identità.
+    Assassin's Creed: Revelations è un capitolo che punta più sullo sviluppo emotivo dei suoi personaggi che sull'introduzione di grandi novità nella trama generale. È una storia ricca di introspezione, che dà ai fan della serie un senso di conclusione per due dei personaggi più iconici della saga.",
+    "releaseYear": 2011,
+    "platform": ["PlayStation 3", "Xbox 360", "PC"],
+    "recAge": 18,
+    "favourite": false,
+    "characters": [
+        {
+          "name": "Ezio Auditore",
+          "characterImage": "la_volpe.png",
+          "desc": "Ora un uomo più maturo e riflessivo, Ezio è alla ricerca di saggezza e pace interiore. La sua crescita personale è al centro della trama.
+          In Assassin's Creed: Revelations, Ezio Auditore è un uomo maturo, consapevole del peso degli anni e delle scelte che ha compiuto nella sua lunga carriera come Assassino.
+          Alla fine della storia, Ezio ha 52 anni, essendo nato nel 1459 e gli eventi del gioco svolgendosi nel 1511; è cresciuto molto rispetto al giovane ribelle e impulsivo che abbiamo conosciuto in Assassin's Creed II. Ora è un uomo riflessivo, che valuta con attenzione le sue azioni e le loro conseguenze.
+          Gli anni di battaglie contro i Templari hanno lasciato il segno su di lui, sia fisicamente che emotivamente. Tuttavia, non ha perso la sua determinazione a combattere per ciò che ritiene giusto.
+          Come Maestro Assassino, Ezio è ora una figura di guida per i nuovi membri della Confraternita, la sua leadership è carismatica e basata sull'esperienza diretta.
+          In questo capitolo, Ezio si interroga sul significato più profondo della sua missione e sulla sua eredità come Assassino. Il tema della ricerca di sé è centrale. Il suo aspetto non è per niente come quello dei capitoli scorsi della saga, ci ritroviamo davanti un Ezio che mostra chiaramente i segni dell'età. Ha rughe sul volto e una barba più folta, che riflettono la sua maturità e le difficoltà affrontate nel corso degli anni.
+          Il suo abbigliamento è quello di un Maestro Assassino, con dettagli che rappresentano il suo alto rango e il rispetto che ha guadagnato nella Confraternita.
+          Nonostante l'età, Ezio è ancora un combattente formidabile, agile e intelligente. Ha affinato le sue abilità nel corso degli anni, rendendolo ancora più letale e strategico.
+          In Revelations, utilizza strumenti innovativi come il rampino e bombe personalizzabili, che dimostrano la sua capacità di adattarsi e sperimentare nuovi metodi.
+          L'Ezio di Revelations è il ritratto di un uomo che ha vissuto intensamente, che porta il peso delle sue azioni con dignità e che è determinato a concludere il suo viaggio con onore. La sua maturità e il suo sviluppo lo rendono uno dei personaggi più amati e complessi della saga."
+        },
   ],
   "books": [
     {

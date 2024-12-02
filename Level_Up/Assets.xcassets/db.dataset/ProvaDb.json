@@ -10,7 +10,7 @@
       "releaseYear": 2007,
       "platform": ["PlayStation 3", "Xbox 360", "PC"],
       "recAge": 18,
-      "favourite": true,
+      "favourite": false,
       "characters": []
     },
     {

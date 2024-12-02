@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var userPrefs = UserPreferences(favouriteGames: [32, 53])
+    @State var userPrefs = UserPreferences(favouriteGames: [])
     @State var result: String = ""
     @State var gameSeries = DataLoader().gameSeries!
     
     init(){
-        storePreferences(userPrefs: userPrefs)
+        let fileManager = FileManager.default
+        
+        let baseURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first
+        let preferencesURL = baseURL?.appendingPathComponent("preferences.json")
+        
+        if fileManager.fileExists(atPath: preferencesURL!.path) {
+            userPrefs = loadPreferences()!
+        } else {
+            storePreferences(userPrefs: userPrefs)
+        }
     }
     
     var body: some View {

@@ -11,10 +11,12 @@ struct ChosenSectionView : View {
    
     var selectedSection: Section
     
+    @Binding var game: Game
+    
     var body: some View {
         switch selectedSection {
         case .overview:
-            GameDetailOverview(selectedSection: selectedSection)
+            GameDetailOverview(selectedSection: selectedSection, game: $game)
         case .story:
             GameDetailStory()
         case .characters:
@@ -28,20 +30,24 @@ struct ChosenSectionView : View {
 
 struct GameMainView : View {
     @State  var selectedSection: Section = .overview
+    @Binding var game: Game
+    
     let img_logo = ImageResource(name: "ACLogo", bundle: .main)
     
     var body: some View {
         VStack(alignment: .center) {
-            Image(img_logo)
-                .resizable()
-                .frame(width: 64, height: 64)
-            
             PickerSegmentedControl(selectedSection: $selectedSection)
-            
+        }
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Image(img_logo)
+                    .resizable()
+                    .frame(width: 64, height: 64)
+            }
         }
         .preferredColorScheme(.dark)
         
-        ChosenSectionView(selectedSection: selectedSection)
+        ChosenSectionView(selectedSection: selectedSection, game: $game)
     }
 }
 
@@ -49,11 +55,12 @@ struct GameMainView : View {
 
 struct GameDetailOverview: View {
     var selectedSection: Section
-    let img_logo =  ImageResource(name: "ACLogo", bundle: .main)
+    
+    @Binding var game: Game
+    
+    @State var userPreferences: UserPreferences = loadPreferences()!
     
     var body: some View {
-    
-        
         Rectangle()
             .cornerRadius(32)
             .foregroundColor(Color(hex: 0x2b2b2b))
@@ -61,14 +68,33 @@ struct GameDetailOverview: View {
             .frame(width: 320, height: 600)
             .overlay(
                 VStack {
-                    Image(img_logo)
+                    Image(ImageResource(name: game.cover, bundle: .main))
                         .resizable()
-                        .frame(width: 320, height: 300)
+                        .frame(width: 240, height: 320)
                         .shadow(color: .purple, radius: 12, x: 0, y: 0)
-                    Text("Assassin's Creed : Game")
+                    Text(game.title)
                         .font(.system(size: 28, weight: .bold))
+                        .padding(.vertical, 20)
+                    Button (action: {
+                        game.favourite = !game.favourite
+                        updateUserPreferences(game: game, isFavorite: game.favourite)
+                    }) {
+                        Image(systemName: game.favourite ? "heart.fill" : "heart")
+                            .resizable()
+                            .frame(width: 28, height: 28)
+                            .padding()
+                            .foregroundColor(.black)
+                            .background(.gray)
+                            .cornerRadius(50)
+                    }
                         
                 })
+            .onAppear {
+                userPreferences = loadPreferences()!
+                if userPreferences.favouriteGames.contains(game.id) {
+                    game.favourite = true
+                }
+            }
     }
        
 }
@@ -108,6 +134,6 @@ extension Color {
     
 
 #Preview {
-    GameMainView()
+    GameMainView(selectedSection: .overview, game: .constant(Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", releaseYear: 2007, platform: ["PC", "XBOX 360", "PS3"], recAge: 18, favourite: false, characters: [])))
 }
 

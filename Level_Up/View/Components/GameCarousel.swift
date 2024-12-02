@@ -18,28 +18,30 @@ struct GameCarousel: View {
     @Binding var games: [Game]
     
     var body: some View {
-
         VStack {
             TabView (selection: $currentPage) {
                 ForEach($games, id: \.id) { game in
-                    RoundedRectangle(cornerRadius: 32)
-                        .fill(Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0))
-                        .frame(width: 360, height: 600)
-                        .overlay(VStack(alignment: .center) {
-                            Image(ImageResource(name: game.cover.wrappedValue, bundle: Bundle.main))
-                                .resizable()
-                                .frame(width: 300, height: 420)
-                                .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
-                            Text(game.title.wrappedValue)
-                                .font(.system(size: 36, weight: .semibold))
-                                .padding(.top, 15)
-                                .padding(.bottom, 10)
-                            Text(String(game.releaseYear.wrappedValue))
-                                .font(.system(size: 22, weight: .light))
-                        })
-                        .frame(maxWidth: .infinity)
-                        .frame(alignment: .center)
-                        .padding(.horizontal, 10)
+                    NavigationLink (destination: GameMainView(game: game)) {
+                        RoundedRectangle(cornerRadius: 32)
+                            .fill(Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0))
+                            .frame(width: 360, height: 600)
+                            .overlay(VStack(alignment: .center) {
+                                Image(ImageResource(name: game.cover.wrappedValue, bundle: Bundle.main))
+                                    .resizable()
+                                    .frame(width: 300, height: 420)
+                                    .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
+                                Text(game.title.wrappedValue)
+                                    .font(.system(size: 36, weight: .semibold))
+                                    .padding(.top, 15)
+                                    .padding(.bottom, 10)
+                                Text(String(game.releaseYear.wrappedValue))
+                                    .font(.system(size: 22, weight: .light))
+                            })
+                            .frame(maxWidth: .infinity)
+                            .frame(alignment: .center)
+                            .padding(.horizontal, 10)
+                    }
+                    .foregroundColor(.white)
                 }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))

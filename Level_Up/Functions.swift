@@ -11,21 +11,19 @@ import UIKit
 func storePreferences (userPrefs: UserPreferences) {
     do {
         let jsonData = try JSONEncoder().encode(userPrefs)
-        let jsonString = String(data: jsonData, encoding: .utf8)!
-        
-        print(jsonString)
-        
+                
         if var url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
             url.appendPathComponent("preferences.json")
  
             try jsonData.write(to: url)
+            print("Stored preferences")
         }
     } catch {
         print(error)
     }
 }
 
-func loadPreferences() -> String? {
+func loadPreferences() -> UserPreferences? {
     let fileManager = FileManager.default
     guard let docDirectoryURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else {
         print("Failed to locate document directory.")
@@ -43,16 +41,35 @@ func loadPreferences() -> String? {
     do {
         // Read the JSON data from the file
         let inputData = try Data(contentsOf: inputFileURL)
+            
+        let jsonDecoder = JSONDecoder()
+        let userPrefs = try jsonDecoder.decode(UserPreferences.self, from: inputData)
         
-        // Convert the data into a string
-        let jsonString = String(data: inputData, encoding: .utf8)
-        print(jsonString!)
-        return jsonString
+        print("Loaded preferences: \(userPrefs.favouriteGames)")
+
+        return userPrefs
     } catch {
         print("Error reading JSON data: \(error)")
         return nil
     }
 }
+
+
+func updateUserPreferences(game: Game, isFavorite favorite: Bool) {
+    // Se esiste un file delle preferenze
+    if var userPreferences = loadPreferences() {
+        // In base al valore di favorite si aggiunge o si rimuove l'ID dai preferiti
+        if favorite {
+            userPreferences.favouriteGames.append(game.id)
+        } else {
+            userPreferences.favouriteGames.removeAll { $0 == game.id }
+        }
+        print(userPreferences.favouriteGames)
+        // Si rendono persistenti i cambiamenti
+        storePreferences(userPrefs: userPreferences)
+    }
+}
+
 
 
 func loadJSONFromBundle(named fileName: String) -> Data? {

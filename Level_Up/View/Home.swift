@@ -11,40 +11,41 @@ struct Home: View {
     let screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
     
-    
     @State private var currentGame = 0
     @Binding var gameSeries: GameSeries
     
     var body: some View {
-        ZStack (alignment: .top) {
-            HStack {
-                Spacer()
-                Image(ImageResource(name: gameSeries.seriesImage, bundle: Bundle.main))
-                    .resizable()
-                    .frame(width: 64, height: 64)
-                Spacer()
-            }
-            .background(.black)
-            .zIndex(1)
-            
-            VStack(spacing: 0) {
-                ScrollView(.vertical) {
-                    VStack (spacing: 0) {
-                        // Game series carousel
-                        GameCarousel(games: $gameSeries.games)
-                        // Related Media Carousels
-                        if gameSeries.films.count > 0 {
-                            MoviesCarousel(films: $gameSeries.films)
-                        }
-                        /*if gameSeries.tvShows.count > 0 {
-                            TVShowsCarousel()
-                        }*/
-                        if gameSeries.books.count > 0 {
-                            BooksCarousel(bookCollection: $gameSeries.books)
+        NavigationView {
+            ZStack (alignment: .top) {
+                HStack {
+                    Spacer()
+                    Image(ImageResource(name: gameSeries.seriesImage, bundle: Bundle.main))
+                        .resizable()
+                        .frame(width: 64, height: 64)
+                    Spacer()
+                }
+                .background(.black)
+                .zIndex(1)
+                
+                VStack(spacing: 0) {
+                    ScrollView(.vertical) {
+                        VStack (spacing: 0) {
+                            // Game series carousel
+                            GameCarousel(games: $gameSeries.games)
+                            // Related Media Carousels
+                            if gameSeries.films.count > 0 {
+                                MoviesCarousel(films: $gameSeries.films)
+                            }
+                            /*if gameSeries.tvShows.count > 0 {
+                                TVShowsCarousel()
+                            }*/
+                            if gameSeries.books.count > 0 {
+                                BooksCarousel(bookCollection: $gameSeries.books)
+                            }
                         }
                     }
+                    .scrollTargetBehavior(.paging)
                 }
-                .scrollTargetBehavior(.paging)
             }
         }
         .preferredColorScheme(.dark)

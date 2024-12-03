@@ -20,14 +20,17 @@ struct CharactersView: View {
             
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 15) {
-                    ForEach(characters, id: \.id) { character in
+                    ForEach(0..<characters.count, id: \.self) { index in
+                        
+                        let character = characters[index]
+                        
                         VStack {
                             RoundedRectangle(cornerRadius: CGFloat(16))
                                 .frame(width: 150, height: 240)
                                 .background(Color(hex: 0x2b2b2b))
                                 .shadow(color: .accent, radius: 12, x: 0, y: 0)
                                 .overlay(content: {
-                                    Image(ImageResource(name: character.characterImage, bundle: .main))
+                                    Image(ImageResource(name: character.characterImage[0], bundle: .main))
                                         .resizable()
                                         .scaledToFill()
                                         .frame(width: 300)
@@ -48,5 +51,5 @@ struct CharactersView: View {
 }
 
 #Preview {
-    CharactersView(characters: .constant([Characters(id: 0, name: "Altair", characterImage: "Altair", desc: "Altair è bello e bravo"), Characters(id: 1, name: "Al Mualim", characterImage: "Al_Mualim_ACR", desc: "Al Mualim è brutto e cattivo")]))
+    CharactersView(characters: .constant([Characters(name: "Altair", characterImage: ["Altair"], desc: "Altair è bello e bravo"), Characters(name: "Al Mualim", characterImage: ["Al_Mualim_ACR"], desc: "Al Mualim è brutto e cattivo")]))
 }

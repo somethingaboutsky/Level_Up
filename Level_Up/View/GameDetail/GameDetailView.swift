@@ -18,7 +18,7 @@ struct ChosenSectionView : View {
         case .overview:
             GameDetailOverview(selectedSection: selectedSection, game: $game)
         case .story:
-            GameDetailStory()
+            StoryView(story: $game.story)
         case .characters:
             CharactersView(characters: $game.characters)
         case .map:
@@ -43,6 +43,7 @@ struct GameMainView : View {
                 Image(img_logo)
                     .resizable()
                     .frame(width: 64, height: 64)
+                    .padding(.vertical, 10)
             }
         }
         .padding(.top, 48)
@@ -169,17 +170,6 @@ struct GameDetailOverview: View {
             }
     }
        
-}
-
-
-
-
-struct GameDetailStory: View {
-    var body: some View {
-        Text("Story")
-        Spacer()
-    }
-    
 }
 
 

@@ -67,5 +67,5 @@ struct GameCarousel: View {
 }
 
 #Preview {
-    GameCarousel(games: .constant([Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", story: "La chiamavano bocca di rosa, ma non era una bocca. Era un'espressione di amore, di passione, di un'amore che non era mai stata condivisa.", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2", story: "Sparagli Piero, sparagli adesso, prima che lui faccia lo stesso", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])]))
+    GameCarousel(games: .constant([Game(id: 0, title: "Assassin's Creed", cover: "Assassins_Creed_1", story: "La chiamavano bocca di rosa, ma non era una bocca. Era un'espressione di amore, di passione, di un'amore che non era mai stata condivisa.", releaseYear: 2007, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: []), Game(id: 1, title: "Assassin's Creed 2", cover: "Assassins_Creed_2", story: "Sparagli Piero, sparagli adesso, prima che lui faccia lo stesso", releaseYear: 2009, platform: ["PS3", "XBOX 360", "PC"], recAge: 18, favourite: false, characters: [])]))
 }

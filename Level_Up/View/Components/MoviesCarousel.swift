@@ -35,6 +35,7 @@ struct MoviesCarousel: View {
                                 Image(ImageResource(name: film.cover.wrappedValue, bundle: Bundle.main))
                                     .resizable()
                                     .frame(width: 300, height: 420)
+                                    .cornerRadius(12)
                                     .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
                                 
                                 Text(film.title.wrappedValue)

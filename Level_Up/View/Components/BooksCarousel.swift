@@ -38,6 +38,7 @@ struct BooksCarousel: View {
                                 Image(ImageResource(name: book.cover.wrappedValue, bundle: Bundle.main))
                                     .resizable()
                                     .frame(width: 300, height: 420)
+                                    .cornerRadius(12)
                                     .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
                                     
                                 Text(book.title.wrappedValue)

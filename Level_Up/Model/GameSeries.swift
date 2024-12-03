@@ -14,5 +14,4 @@ struct GameSeries: Codable{
     var games: [Game] = []
     var books: [Book] = []
     var films: [Movie] = []
-    var guides: [Guide] = []
 }

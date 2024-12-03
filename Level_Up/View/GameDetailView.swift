@@ -2,7 +2,7 @@
 //  GameDetailView.swift
 //  LevelUp
 //
-//  Created by Ilenia Munfuletto on 29/11/24.
+//  Created by Ilenia Munfuletto & Vincenzo Fardella on 29/11/24.
 //
 
 import SwiftUI
@@ -72,7 +72,7 @@ struct GameDetailOverview: View {
                 VStack {
                     Image(ImageResource(name: game.cover, bundle: .main))
                         .resizable()
-                        .frame(width: 240, height: 320)
+                        .frame(width: 160, height: 240)
                         .shadow(color: .purple, radius: 12, x: 0, y: 0)
                     Text(game.title)
                         .font(.system(size: 28, weight: .bold))
@@ -90,6 +90,9 @@ struct GameDetailOverview: View {
                             .background(.gray)
                             .cornerRadius(50)
                     }
+                    Text(game.story)
+                        .lineLimit(5)
+                        .padding(10)
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
                         VStack (spacing: 10) {
                             Text("Piattaforme")
@@ -179,9 +182,9 @@ struct GameDetailStory: View {
 
 enum Section : String, CaseIterable {
     case overview = "Overview"
-    case story = "Story"
-    case characters = "Characters"
-    case guides = "Guides"
+    case story = "Storia"
+    case characters = "Personaggi"
+    case guides = "Guide"
 }
 
 
@@ -210,6 +213,6 @@ extension Color {
     
 
 #Preview {
-    GameMainView(selectedSection: .overview, game: .constant(Game(id: 0, title: "Assassin's Creed", cover: "Assassins_Creed_1", releaseYear: 2007, platform: ["PC", "XBOX 360", "PS3"], recAge: 18, favourite: false, characters: [])))
+    GameMainView(selectedSection: .overview, game: .constant(Game(id: 0, title: "Assassin's Creed", cover: "Assassins_Creed_1", story: "La chiamavano bocca di rosa per la sua bellissima bellezza, ma non era una bellezza. Era una storia di guerra e di amore. Vendeva amore e guerra, e quando la guerra era finita, la bellezza era ancora più grande.", releaseYear: 2007, platform: ["PC", "XBOX 360", "PS3"], recAge: 18, favourite: false, characters: [])))
 }
 

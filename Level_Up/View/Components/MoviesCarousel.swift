@@ -18,7 +18,7 @@ struct MoviesCarousel: View {
     var body: some View {
         VStack (spacing: 0) {
             HStack {
-                Text("Related Movies")
+                Text("Film Correlati")
                     .font(.system(size: 28, weight: .semibold))
                     .padding(.top, 70)
                 Spacer()

@@ -20,7 +20,7 @@ struct BooksCarousel: View {
     var body: some View {
         VStack (spacing: 0) {
             HStack {
-                Text("Related Books")
+                Text("Libri Correlati")
                     .font(.system(size: 28, weight: .semibold))
                     .padding(.top, 70)
                 Spacer()

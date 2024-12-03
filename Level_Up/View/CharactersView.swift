@@ -24,7 +24,7 @@ struct CharactersView: View {
                         
                         @State var character = characters[index]
                         
-                        NavigationLink(destination: CharacterDetailView(character: character)) {
+                        /*NavigationLink(destination: CharacterDetailView(character: character)) {
                             VStack {
                                 RoundedRectangle(cornerRadius: CGFloat(16))
                                     .frame(width: 150, height: 240)
@@ -42,8 +42,24 @@ struct CharactersView: View {
                                     .font(.system(size: 18, weight: .semibold))
                                     .padding(.top, 10)
                             }
+                        }*/
+                        VStack {
+                            RoundedRectangle(cornerRadius: CGFloat(16))
+                                .frame(width: 150, height: 240)
+                                .background(Color(hex: 0x2b2b2b))
+                                .shadow(color: .accent, radius: 12, x: 0, y: 0)
+                                .overlay(content: {
+                                    Image(ImageResource(name: character.characterImage[0], bundle: .main))
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 300)
+                                        .position(x: 90, y: 290)
+                                        .cornerRadius(16)
+                                })
+                            Text(character.name)
+                                .font(.system(size: 18, weight: .semibold))
+                                .padding(.top, 10)
                         }
-                        
                     }
                 }
             }

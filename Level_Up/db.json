@@ -120,7 +120,7 @@
         },
         {
           "name": "Francesco De' Pazzi",
-          "characterImage": ["Missing"],
+          "characterImage": ["Francesco_De_Pazzi"],
           "desc": "Un altro antagonista importante, Francesco è un membro della potente famiglia dei Pazzi, una delle famiglie rivali di Firenze.\nAmbizioso, corrotto e spinto dalla brama di potere, Francesco si allea con i Templari per rovesciare la famiglia Medici e prendere il controllo di Firenze. È una delle figure centrali nel complotto contro Ezio e la sua famiglia."
         },
         {
@@ -314,7 +314,7 @@
     {
       "id": 1,
       "title": "Assassin's Creed: Renaissance",
-      "cover": "Renaissence",
+      "cover": "Renaissance",
       "releaseYear": 2009
     },
     {

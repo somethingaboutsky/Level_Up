@@ -29,7 +29,9 @@ struct GameCarousel: View {
                                 Image(ImageResource(name: game.cover.wrappedValue, bundle: Bundle.main))
                                     .resizable()
                                     .frame(width: 300, height: 420)
+                                    .cornerRadius(12)
                                     .shadow(color: .accentColor, radius: 12, x: 0, y: 0)
+                                    
                                 Text(game.title.wrappedValue)
                                     .font(.system(size: 36, weight: .semibold))
                                     .padding(.top, 15)

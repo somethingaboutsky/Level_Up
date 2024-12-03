@@ -21,8 +21,8 @@ struct ChosenSectionView : View {
             GameDetailStory()
         case .characters:
             CharactersView(characters: $game.characters)
-        case .guides:
-            let _ = print("guides")
+        case .map:
+            InteractiveMapView(guideURL: .constant(URL(string: "https://mapgenie.io/assassins-creed/maps/the-holy-land")!))
         }
     }
 }
@@ -92,6 +92,7 @@ struct GameDetailOverview: View {
                     }
                     Text(game.story)
                         .lineLimit(5)
+                        .truncationMode(.tail)
                         .padding(10)
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
                         VStack (spacing: 10) {
@@ -157,7 +158,8 @@ struct GameDetailOverview: View {
                         
                     }
                         
-                })
+                }
+                    .padding(.vertical, 20))
             .onAppear {
                 userPreferences = loadPreferences()!
                 if userPreferences.favouriteGames.contains(game.id) {
@@ -184,17 +186,7 @@ enum Section : String, CaseIterable {
     case overview = "Overview"
     case story = "Storia"
     case characters = "Personaggi"
-    case guides = "Guide"
-}
-
-
-enum Platforms : String, CaseIterable {
-    case pc = "PC"
-    case xbox360 = "XBOX 360"
-    case ps3 = "PS3"
-    case xboxOne = "XBOX One"
-    case ps4 = "PS4"
-    case xboxSeriesXS = "XBOX Series X/S"
+    case map = "Mappa"
 }
 
 

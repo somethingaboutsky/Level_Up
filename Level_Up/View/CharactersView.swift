@@ -47,6 +47,7 @@ struct CharactersView: View {
         }
         .preferredColorScheme(.dark)
         .padding()
+        .padding(.top, 16)
     }
 }
 

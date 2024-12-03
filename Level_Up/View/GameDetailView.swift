@@ -35,7 +35,7 @@ struct GameMainView : View {
     let img_logo = ImageResource(name: "ACLogo", bundle: .main)
     
     var body: some View {
-        VStack(alignment: .center) {
+        VStack() {
             PickerSegmentedControl(selectedSection: $selectedSection)
         }
         .toolbar {
@@ -45,7 +45,9 @@ struct GameMainView : View {
                     .frame(width: 64, height: 64)
             }
         }
+        .padding(.top, 48)
         .preferredColorScheme(.dark)
+        Spacer()
         
         ChosenSectionView(selectedSection: selectedSection, game: $game)
     }
@@ -208,6 +210,6 @@ extension Color {
     
 
 #Preview {
-    GameMainView(selectedSection: .overview, game: .constant(Game(id: 0, title: "Assassin's Creed", cover: "Assassins_ Creed", releaseYear: 2007, platform: ["PC", "XBOX 360", "PS3"], recAge: 18, favourite: false, characters: [])))
+    GameMainView(selectedSection: .overview, game: .constant(Game(id: 0, title: "Assassin's Creed", cover: "Assassins_Creed_1", releaseYear: 2007, platform: ["PC", "XBOX 360", "PS3"], recAge: 18, favourite: false, characters: [])))
 }
 

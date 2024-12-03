@@ -20,10 +20,8 @@ struct PickerSegmentedControl: View {
                 }
             }
             .pickerStyle(.segmented)
-            .position(x: 195, y:40)
-
         }
-        .padding(.bottom, 0)
+        //.padding(.bottom, 0)
     }
 }
 

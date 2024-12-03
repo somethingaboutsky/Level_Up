@@ -68,5 +68,5 @@ struct MoviesCarousel: View {
 }
 
 #Preview {
-    MoviesCarousel(films: .constant([Movie(id: 1, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016)]))
+    MoviesCarousel(films: .constant([Movie(id: 1, title: "Assassin's Creed", cover: "ac_movie", releaseYear: 2016,synopsys: "")]))
 }

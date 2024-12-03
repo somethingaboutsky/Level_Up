@@ -69,6 +69,6 @@ struct BooksCarousel: View {
 }
 
 #Preview {
-    BooksCarousel(bookCollection: .constant([Book(id: 0, title: "The Secret Crusade", cover: "the_secret_crusade", releaseYear: 2007), Book(id: 1, title: "Renaissance", cover: "Renaissance", releaseYear: 2009), Book(id: 2, title: "Unity", cover: "unity", releaseYear: 2015)]))
+    BooksCarousel(bookCollection: .constant([Book(id: 0, title: "The Secret Crusade", cover: "the_secret_crusade", releaseYear: 2007, synopsys: ""), Book(id: 1, title: "Renaissance", cover: "Renaissance", releaseYear: 2009,synopsys: ""), Book(id: 2, title: "Unity", cover: "unity", releaseYear: 2015,synopsys: "")]))
 }
 

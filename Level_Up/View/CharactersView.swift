@@ -49,7 +49,7 @@ struct CharactersView: View {
                                 .background(Color(hex: 0x2b2b2b))
                                 .shadow(color: .accent, radius: 12, x: 0, y: 0)
                                 .overlay(content: {
-                                    Image(ImageResource(name: character.characterImage[0], bundle: .main))
+                                    Image(ImageResource(name: character.characterImage, bundle: .main))
                                         .resizable()
                                         .scaledToFill()
                                         .frame(width: 300)
@@ -72,5 +72,5 @@ struct CharactersView: View {
 }
 
 #Preview {
-    CharactersView(characters: .constant([Characters(name: "Altair", characterImage: ["Altair"], desc: "Altair è bello e bravo"), Characters(name: "Al Mualim", characterImage: ["Al_Mualim_ACR"], desc: "Al Mualim è brutto e cattivo")]))
+    CharactersView(characters: .constant([Characters(name: "Altair", characterImage: "Altair", desc: "Altair è bello e bravo"), Characters(name: "Al Mualim", characterImage: "Al_Mualim_ACR", desc: "Al Mualim è brutto e cattivo")]))
 }

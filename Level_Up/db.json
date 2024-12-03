@@ -119,7 +119,10 @@
       "name": "Rodrigo Borgia",
       "characterImage": "Rodrigo_Borgia.png",
       "desc": "Presentato come l'antagonista centrale di Assassin's Creed II, Rodrigo Borgia è un cardinale e, successivamente, papa, ed è una figura di spicco dei Templari.\nEgli si presenta come un uomo ambizioso, manipolatore e spietato, Rodrigo è disposto a fare qualsiasi cosa per ottenere il potere e portare avanti l'agenda dei Templari. La sua figura storica è basata sul vero papa Alessandro VI.\nRodrigo cospirò quindi assieme al corrotto Uberto Alberti e alla famiglia Pazzi per far arrestare Giovanni e i suoi figli, per poi giustiziarli con l'accusa di \"tradimento\", approfittando dell'assenza di Lorenzo de' Medici e, diventando così, l'acerrimo nemico del protagonista, Ezio Auditore."
+    }
+  ]
     },
+    {
      "id": 3,
      "title": "Assassin's Creed Brotherhood",
      "cover": "Assassins_Creed_Brotherhood.png",
@@ -186,6 +189,7 @@
         }
   ]
     },
+    {
     "id": 4,
     "title": "Assassin's Creed Revelations",
     "cover": "Assassins_Creed_Revelations.png",
@@ -232,6 +236,7 @@
         }
   ]
     },
+    {
     "id": 5,
     "title": "Assassin's Creed III",
     "cover": "Assassins_Creed_3",
@@ -275,9 +280,10 @@
             "name": "Thomas Hickey",
             "characterImage": "thomas",
             "desc": "Thomas Hickey è una figura chiave negli eventi della Rivoluzione Americana, rappresentando una delle minacce principali per Connor. Membro delle forze britanniche, Hickey incarna il conflitto tra le fazioni e l'oppressione che Connor cerca di combattere nella sua lotta per la libertà. Spinto da ambizioni personali e da una forte lealtà verso le forze britanniche, Hickey non esita a ricorrere alla violenza per perseguire i suoi obiettivi, diventando uno degli antagonisti più pericolosi e diretti per Connor.\n\nHickey è un uomo brutale e violento, senza scrupoli nel raggiungere i suoi scopi. La sua determinazione e la sua crudeltà lo rendono un avversario formidabile, con una presenza minacciosa e un comportamento spietato. La sua figura aggiunge tensione e conflitto diretto alla trama, rappresentando uno degli ostacoli più difficili da superare per Connor nella sua lotta contro l'oppressione."
-        },
+        }
     ]
     },
+    {
     "id": 6,
     "title": "Assassin's Creed Liberation",
     "cover": "Assassins_Creed_Liberation",
@@ -311,74 +317,64 @@
             "name": "Raffaele Joaqui'n De Ferrer",
             "characterImage": "rafael",
             "desc": "Ferrer è il governatore spagnolo di New Orleans e uno degli antagonisti principali in *Assassin's Creed Liberation*. Incarna il potere coloniale e l'oppressione che Aveline combatte durante tutta la sua avventura. Ferrer è un uomo spietato, calcolatore e ambizioso, la cui principale motivazione è consolidare e ampliare il controllo della Spagna sulla Louisiana. La sua brama di potere lo rende determinato a mantenere l'ordine attraverso la forza e la repressione, disinteressato alle sofferenze che la sua politica di oppressione causa alla popolazione locale.\n\nDietro la sua freddezza e ambizione, Ferrer nasconde motivazioni più profonde e personali che lo rendono un avversario complesso. Sebbene sembri concentrato esclusivamente sul potere, la sua lotta contro le idee di libertà e uguaglianza di Aveline lo porta a diventare una delle principali minacce per la protagonista. Ferrer non si ferma davanti a nulla pur di proteggere il suo dominio e mantenere il suo status, facendo di lui un nemico determinato e formidabile.\n\nLa figura di Ferrer è quella di un tiranno che rappresenta l'estremo opposto degli ideali di Aveline, ponendo una sfida diretta al suo desiderio di giustizia e libertà per gli oppressi. La sua visione del mondo è intrinsecamente legata alla sottomissione e al controllo, e il suo ruolo di antagonista è essenziale per spingere Aveline a confrontarsi con le forze che minacciano la sua lotta per un mondo più giusto."
-        },
+        }
     ]
-    },
-    
-    
+    }
+    ],
   "books": [
     {
       "id": 0,
       "title": "Assassin's Creed: The Secret Crusade",
       "cover": "the_secret_crusade",
       "releaseYear": 2011,
-      "synopsis": ""
     },
     {
       "id": 1,
       "title": "Assassin's Creed: Renaissance",
       "cover": "Renaissance",
       "releaseYear": 2009,
-      "synopsis": ""
     },
     {
       "id": 2,
       "title": "Assassin's Creed: Brotherhood",
       "cover": "Brotherhood",
       "releaseYear": 2010,
-      "synopsis": ""
     },
     {
       "id": 3,
       "title": "Assassin's Creed: Black Flag",
       "cover": "black_flag",
       "releaseYear": 2013,
-      "synopsis": ""
     },
     {
       "id": 4,
       "title": "Assassin's Creed: Desert Oath",
       "cover": "desert_oath",
       "releaseYear": 2017,
-      "synopsis": ""
     },
     {
       "id": 5,
       "title": "Assassin's Creed: Forsaken",
       "cover": "forsaken",
       "releaseYear": 2012,
-      "synopsis": ""
     },
     {
       "id": 6,
       "title": "Assassin's Creed: Revelations",
       "cover": "revelations",
       "releaseYear": 2011,
-      "synopsis": ""
     },
     {
       "id": 7,
       "title": "Assassin's Creed: Underworld",
       "cover": "underworld",
       "releaseYear": 2015,
-      "synopsis": ""
     },
     {
       "id": 8,
       "title": "Assassin's Creed: Unity",
       "cover": "unity",
       "releaseYear": 2014,
-      "synopsis": ""
     }
   ],
   "films": [
@@ -387,21 +383,18 @@
       "title": "Assassin's Creed",
       "cover": "ac_movie",
       "releaseYear": 2016,
-      "synopsis": ""
     },
     {
       "id": 1,
       "title": "Assassin's Creed Embers",
       "cover": "ac_embers",
       "releaseYear": 2011,
-      "synopsis": ""
     },
     {
       "id": 2,
       "title": "Assassin's Creed Lineage",
       "cover": "ac_lineage",
       "releaseYear": 2009,
-      "synopsis": ""
     }
   ],
   "guides": [
@@ -413,6 +406,7 @@
     }
   ]
 }
+
 
 
 

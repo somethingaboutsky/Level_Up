@@ -309,55 +309,64 @@
       "id": 0,
       "title": "Assassin's Creed: The Secret Crusade",
       "cover": "the_secret_crusade",
-      "releaseYear": 2011
+      "releaseYear": 2011,
+      "synopsis": ""
     },
     {
       "id": 1,
       "title": "Assassin's Creed: Renaissance",
       "cover": "Renaissance",
-      "releaseYear": 2009
+      "releaseYear": 2009,
+      "synopsis": ""
     },
     {
       "id": 2,
       "title": "Assassin's Creed: Brotherhood",
       "cover": "Brotherhood",
-      "releaseYear": 2010
+      "releaseYear": 2010,
+      "synopsis": ""
     },
     {
       "id": 3,
       "title": "Assassin's Creed: Black Flag",
       "cover": "black_flag",
-      "releaseYear": 2013
+      "releaseYear": 2013,
+      "synopsis": ""
     },
     {
       "id": 4,
       "title": "Assassin's Creed: Desert Oath",
       "cover": "desert_oath",
-      "releaseYear": 2017
+      "releaseYear": 2017,
+      "synopsis": ""
     },
     {
       "id": 5,
       "title": "Assassin's Creed: Forsaken",
       "cover": "forsaken",
-      "releaseYear": 2012
+      "releaseYear": 2012,
+      "synopsis": ""
     },
     {
       "id": 6,
       "title": "Assassin's Creed: Revelations",
       "cover": "revelations",
-      "releaseYear": 2011
+      "releaseYear": 2011,
+      "synopsis": ""
     },
     {
       "id": 7,
       "title": "Assassin's Creed: Underworld",
       "cover": "underworld",
-      "releaseYear": 2015
+      "releaseYear": 2015,
+      "synopsis": ""
     },
     {
       "id": 8,
       "title": "Assassin's Creed: Unity",
       "cover": "unity",
-      "releaseYear": 2014
+      "releaseYear": 2014,
+      "synopsis": ""
     }
   ],
   "films": [
@@ -365,19 +374,22 @@
       "id": 0,
       "title": "Assassin's Creed",
       "cover": "ac_movie",
-      "releaseYear": 2016
+      "releaseYear": 2016,
+      "synopsis": ""
     },
     {
       "id": 1,
       "title": "Assassin's Creed Embers",
       "cover": "ac_embers",
-      "releaseYear": 2011
+      "releaseYear": 2011,
+      "synopsis": ""
     },
     {
       "id": 2,
       "title": "Assassin's Creed Lineage",
       "cover": "ac_lineage",
-      "releaseYear": 2009
+      "releaseYear": 2009,
+      "synopsis": ""
     }
   ],
   "guides": [

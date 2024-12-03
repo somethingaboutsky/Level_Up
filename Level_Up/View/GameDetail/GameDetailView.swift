@@ -22,7 +22,7 @@ struct ChosenSectionView : View {
         case .characters:
             CharactersView(characters: $game.characters)
         case .map:
-            InteractiveMapView(guideURL: .constant(URL(string: "https://mapgenie.io/assassins-creed/maps/the-holy-land")!))
+            InteractiveMapView(guideURL: .constant(game.guides.first?.site ?? URL(string: "https://defaulturl.com")!))
         }
     }
 }

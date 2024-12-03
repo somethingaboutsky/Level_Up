@@ -41,13 +41,40 @@ struct InteractiveMapView: View {
 struct WebView: UIViewRepresentable {
     let url: URL
 
-    func makeUIView(context: Context) -> WKWebView {
-        let webView = WKWebView()
-        return webView
-    }
+    class Coordinator: NSObject, WKNavigationDelegate {
+            var parent: WebView
 
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        let request = URLRequest(url: url)
-        uiView.load(request)
-    }
+            init(parent: WebView) {
+                self.parent = parent
+            }
+
+            func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+                guard let host = navigationAction.request.url?.host else {
+                    decisionHandler(.cancel)
+                    return
+                }
+
+                // Blocca i siti indesiderati
+                if host.contains("ads") || host.contains("tracking") || host.contains("pubblicita") || host.contains("ad") || host.contains("advertisement") {
+                    decisionHandler(.cancel)
+                } else {
+                    decisionHandler(.allow)
+                }
+            }
+        }
+
+        func makeCoordinator() -> Coordinator {
+            Coordinator(parent: self)
+        }
+
+        func makeUIView(context: Context) -> WKWebView {
+            let webView = WKWebView()
+            webView.navigationDelegate = context.coordinator
+            return webView
+        }
+
+        func updateUIView(_ uiView: WKWebView, context: Context) {
+            let request = URLRequest(url: url)
+            uiView.load(request)
+        }
 }

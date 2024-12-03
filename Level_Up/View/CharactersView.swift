@@ -56,6 +56,7 @@ struct CharactersView: View {
                                         .position(x: 90, y: 290)
                                         .cornerRadius(16)
                                 })
+                                .padding(.vertical)
                             Text(character.name)
                                 .font(.system(size: 18, weight: .semibold))
                                 .padding(.top, 10)

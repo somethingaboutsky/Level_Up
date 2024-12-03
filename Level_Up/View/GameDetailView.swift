@@ -73,6 +73,7 @@ struct GameDetailOverview: View {
                     Image(ImageResource(name: game.cover, bundle: .main))
                         .resizable()
                         .frame(width: 160, height: 240)
+                        .cornerRadius(12)
                         .shadow(color: .purple, radius: 12, x: 0, y: 0)
                     Text(game.title)
                         .font(.system(size: 28, weight: .bold))

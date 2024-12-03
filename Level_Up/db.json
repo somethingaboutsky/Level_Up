@@ -42,7 +42,11 @@
           "characterImage": ["Warren_Vidic"],
           "desc": "Il dottor Warren Vidic si presenta come l'antagonista del presente, egli è lo scienziato capo di Abstergo Industries.\n\nTemplare convinto, usa Desmond per accedere ai ricordi di Altair e localizzare i Frutti dell'Eden. È freddo, manipolatore e spietato, disposto a tutto per raggiungere i suoi obiettivi.\n\nVidic è più di un semplice scienziato, egli rappresenta la mentalità dei Templari moderni, convinti di essere i \"salvatori\" del mondo."
         }
-      ]
+      ],  "guides": [
+          {
+            "site": "https://mapgenie.io/assassins-creed/maps/the-holy-land"
+          }
+        ]
     },
     {
       "id": 1,
@@ -120,7 +124,7 @@
         },
         {
           "name": "Francesco De' Pazzi",
-          "characterImage": ["Missing"],
+          "characterImage": ["Francesco_De_Pazzi"],
           "desc": "Un altro antagonista importante, Francesco è un membro della potente famiglia dei Pazzi, una delle famiglie rivali di Firenze.\nAmbizioso, corrotto e spinto dalla brama di potere, Francesco si allea con i Templari per rovesciare la famiglia Medici e prendere il controllo di Firenze. È una delle figure centrali nel complotto contro Ezio e la sua famiglia."
         },
         {
@@ -128,7 +132,11 @@
           "characterImage": ["Rodrigo_Borgia"],
           "desc": "Presentato come l'antagonista centrale di Assassin's Creed II, Rodrigo Borgia è un cardinale e, successivamente, papa, ed è una figura di spicco dei Templari.\nEgli si presenta come un uomo ambizioso, manipolatore e spietato, Rodrigo è disposto a fare qualsiasi cosa per ottenere il potere e portare avanti l'agenda dei Templari. La sua figura storica è basata sul vero papa Alessandro VI.\nRodrigo cospirò quindi assieme al corrotto Uberto Alberti e alla famiglia Pazzi per far arrestare Giovanni e i suoi figli, per poi giustiziarli con l'accusa di \"tradimento\", approfittando dell'assenza di Lorenzo de' Medici e, diventando così, l'acerrimo nemico del protagonista, Ezio Auditore."
         }
-      ]
+      ],  "guides": [
+          {
+            "site": "https://mapgenie.io/assassins-creed-2/maps/italy"
+          }
+        ]
     },
     {
       "id": 2,
@@ -199,9 +207,14 @@
           "characterImage": ["claudia"],
           "desc": "La sorella minore di Ezio. Cresciuta in una famiglia coinvolta nel conflitto tra Assassini e Templari, Claudia si trova inevitabilmente coinvolta negli eventi della saga.\nIntelligente, risoluta e capace. Claudia è una donna forte che dimostra di saper affrontare le sfide con coraggio e determinazione. La sua maturità cresce significativamente nel corso della serie. Claudia diventa una figura più centrale nel sostegno alla Confraternita. La sua capacità di gestione e la sua presenza emotiva sono cruciali per Ezio e gli altri."
         }
-      ]
+      ],  "guides": [
+          {
+            "site": "https://mapgenie.io/assassins-creed-brotherhood/maps/italy"
+          }
+        ]
     },
     {
+
       "id": 3,
       "title": "Assassin's Creed Revelations",
       "cover": "Assassins_Creed_Revelations",
@@ -250,7 +263,12 @@
           "characterImage": ["manuel"],
           "desc": "Un ex utilizzatore dell'Animus che appare a Desmond in circostanze enigmatiche. Clay è un personaggio introdotto nei giochi precedenti, la cui storia si intreccia con quella di Desmond. Clay è enigmatico, introverso e a tratti tormentato. Fornisce indizi e guida Desmond, ma il suo comportamento è spesso criptico.\nIl suo ruolo è molto importante: aiuta Desmond (in coma) a esplorare i suoi ricordi e a comprendere meglio il funzionamento dell'Animus."
         }
-      ]
+      ],
+      "guides": [
+          {
+            "site": "https://mapgenie.io/assassins-creed-revelations/maps/constantinople"
+          }
+        ]
     },
     {
       "id": 4,
@@ -300,6 +318,11 @@
           "name": "Thomas Hickay",
           "characterImage": ["thomas"],
           "desc": "Thomas Hickey è un altro personaggio importante legato agli eventi della Rivoluzione Americana. Come membro delle forze britanniche, Hickey rappresenta una delle minacce per Connor durante la guerra. La sua presenza mette in evidenza il conflitto tra le fazioni e l'oppressione della libertà che il protagonista cerca di conquistare, egli è spinto da ambizioni personali e da una forte lealtà verso le forze britanniche. Non esita a usare la violenza per raggiungere i suoi scopi, diventando un avversario formidabile per Connor.\nHickey è un uomo che incarna la brutalità e la violenza, senza scrupoli nel perseguire i suoi obiettivi. La sua determinazione e la sua crudeltà lo rendono uno degli antagonisti più diretti per Connor."
+        }
+      ],
+      "guides": [
+        {
+          "site": "https://www.ign.com/wikis/assassins-creed-3/Walkthrough"
         }
       ]
     }
@@ -379,19 +402,6 @@
       "cover": "ac_lineage",
       "releaseYear": 2009
     }
-  ],
-  "guides": [
-    {
-      "site": "https://www.ign.com/wikis/assassins-creed/Walkthrough"
-    },
-    {
-      "site": "https://www.ign.com/wikis/assassins-creed-2/Walkthrough"
-    },
-    {
-      "site": "https://www.ign.com/wikis/assassins-creed-brotherhood/Walkthrough"
-    },
-    {
-      "site": "https://www.ign.com/wikis/assassins-creed-3/Walkthrough"
-    }
   ]
 }
+

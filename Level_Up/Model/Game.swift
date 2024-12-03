@@ -17,4 +17,5 @@ struct Game: Codable , Identifiable{
     var recAge: Int
     var favourite: Bool
     var characters: [Characters]
+    var guides: [Guide] = []
 }

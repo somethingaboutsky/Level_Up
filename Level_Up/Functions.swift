@@ -45,7 +45,7 @@ func loadPreferences() -> UserPreferences? {
         let jsonDecoder = JSONDecoder()
         let userPrefs = try jsonDecoder.decode(UserPreferences.self, from: inputData)
         
-        print("Loaded preferences: \(userPrefs.favouriteGames)")
+        //print("Loaded preferences: \(userPrefs.favouriteGames)")
 
         return userPrefs
     } catch {

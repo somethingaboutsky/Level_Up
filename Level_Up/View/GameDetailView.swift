@@ -20,7 +20,7 @@ struct ChosenSectionView : View {
         case .story:
             GameDetailStory()
         case .characters:
-            let _ = print("characters")
+            CharactersView(characters: $game.characters)
         case .guides:
             let _ = print("guides")
         }
@@ -74,18 +74,82 @@ struct GameDetailOverview: View {
                         .shadow(color: .purple, radius: 12, x: 0, y: 0)
                     Text(game.title)
                         .font(.system(size: 28, weight: .bold))
-                        .padding(.vertical, 20)
+                        .padding(.top, 20)
+                        .padding(.bottom, 10)
                     Button (action: {
                         game.favourite = !game.favourite
                         updateUserPreferences(game: game, isFavorite: game.favourite)
                     }) {
                         Image(systemName: game.favourite ? "heart.fill" : "heart")
                             .resizable()
-                            .frame(width: 28, height: 28)
+                            .frame(width: 20, height: 20)
                             .padding()
                             .foregroundColor(.black)
                             .background(.gray)
                             .cornerRadius(50)
+                    }
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
+                        VStack (spacing: 10) {
+                            Text("Piattaforme")
+                                .font(.headline)
+                            
+                            HStack(spacing: 10) {
+                                ForEach(game.platform, id:\.self) {
+                                    platform in
+                                    
+                                    switch platform {
+                                    case "PC":
+                                        Image(systemName: "desktopcomputer")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                    case "PS3", "Playstation 3", "PlayStation 3":
+                                        Image(systemName: "playstation.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                    case "PS4", "Playstation 4", "PlayStation 4":
+                                        Image(systemName: "playstation.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(.blue.opacity(0.8))
+                                    case "PS5", "Playstation 5", "PlayStation 5":
+                                        Image(systemName: "playstation.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(.blue)
+                                    case "XBOX 360", "Xbox 360", "XBox 360":
+                                        Image(systemName: "xbox.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(Color(red: 158, green: 197, blue: 67))
+                                    case "XBOX One", "Xbox One", "XBox One":
+                                        Image(systemName: "xbox.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(.black)
+                                    case "XBOX X/S", "Xbox Series X/S", "XBox Series X/S":
+                                        Image(systemName: "xbox.logo")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(Color(red: 56, green: 121, blue: 38))
+                                    default:
+                                        Image(systemName: "gamecontroller")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                            .foregroundColor(.accent)
+                                    }
+
+                                }
+                            }
+                            
+                        }
+                        VStack(spacing: 10) {
+                            Text("Rating")
+                                .font(.headline)
+                            
+                            Text("\(game.recAge)+")
+                                .font(.subheadline)
+                        }
+                        
                     }
                         
                 })
@@ -116,6 +180,16 @@ enum Section : String, CaseIterable {
     case story = "Story"
     case characters = "Characters"
     case guides = "Guides"
+}
+
+
+enum Platforms : String, CaseIterable {
+    case pc = "PC"
+    case xbox360 = "XBOX 360"
+    case ps3 = "PS3"
+    case xboxOne = "XBOX One"
+    case ps4 = "PS4"
+    case xboxSeriesXS = "XBOX Series X/S"
 }
 
 

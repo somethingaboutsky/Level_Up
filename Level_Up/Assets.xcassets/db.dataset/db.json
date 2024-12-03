@@ -1,0 +1,397 @@
+{
+  "name": "Assassin's Creed",
+  "seriesImage": "ACLogo",
+  "desc": "Assassin's Creed è una serie di videogiochi d'azione e avventura storica e un franchise multimediale pubblicato da Ubisoft e sviluppato principalmente dal suo studio Ubisoft Montreal utilizzando il motore di gioco Anvil e i suoi derivati ​​più avanzati.\n\nCreata da Patrice Désilets, Jade Raymond e Corey May, la serie di videogiochi Assassin's Creed descrive una lotta immaginaria vecchia di millenni tra l'Ordine degli Assassini, che combatte per la pace e il libero arbitrio, e i Cavalieri Templari, che desiderano la pace attraverso l'ordine e il controllo.\n\nLa serie presenta personaggi di narrativa storica, fantascienza e di fantasia intrecciati con eventi storici e personaggi storici del mondo reale. Nella maggior parte dei giochi, i giocatori controllano un Assassino storico mentre giocano anche come un Iniziato Assassino o qualcuno coinvolto nel conflitto tra Assassini e Templari nella trama di cornice odierna.\n\nConsiderato un successore spirituale della serie Prince of Persia, Assassin's Creed ha preso ispirazione dal romanzo Alamut dello scrittore sloveno Vladimir Bartol, basato sulla setta storica Hashashin dell'Iran medievale (Persia).",
+  "games": [
+    {
+      "id": 0,
+      "title": "Assassin's Creed",
+      "cover": "Assassins_Creed",
+      "story": "Assassin's Creed (2007), il primo capitolo della saga, è un gioco d'azione e avventura sviluppato da Ubisoft.\nLa storia si svolge su due piani temporali principali: Presente e passato.\n\nNel presente seguiamo Desmond Miles, un barista che viene rapito dalla misteriosa compagnia \"Abstergo Industries\". L'Abstergo utilizza una tecnologia avanzata chiamata Animus, capace di leggere i ricordi genetici dei suoi antenati.\n\nNel passato riviviamo i ricordi di Altair Ibn-La'Ahad, un assassino vissuto durante la Terza Crociata nel 1191. Desmond scopre di essere un discendente degli Assassini, un'antica confraternita in lotta contro i Templari. I Templari moderni, mascherati da Abstergo, vogliono utilizzare l'Animus per trovare manufatti leggendari chiamati Frutti dell'Eden, che conferiscono il controllo mentale su chiunque.\n\nAltair è un membro degli Assassini, ma la sua arroganza causa una missione fallimentare e la perdita di molti alleati. Come punizione, il suo mentore Al Mualim lo degrada e gli assegna una missione per redimersi: eliminare nove figure di spicco, colpevoli di perpetuare conflitti e oppressioni durante la Crociata.",
+      "releaseYear": 2007,
+      "platform": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "recAge": 18,
+      "favourite": false,
+      "characters": [
+        {
+          "name": "Altaïr Ibn-La'Ahad",
+          "characterImage": ["Altair"],
+          "desc": "Altair Ibn-La'Ahad (in arabo: الطائر ابن لا أحد) è il protagonista \"del passato\".\nIl suo nome significa \"L'Uccello Figlio di Nessuno\", riflettendo sia il suo ruolo di Assassino, abile e libero come un uccello, sia il mistero attorno alle sue origini.\n\nEgli si presenta arrogante, impulsivo e spesso disobbedisce agli ordini, credendosi superiore agli altri.\nQuesto comportamento lo porta a fallire una missione cruciale, causando la morte di compagni e la perdita di una preziosa reliquia.\n\nTuttavia, nel corso della storia, Altair attraversa un percorso di crescita personale. Diventa più riflessivo, umile e capisce il vero significato del Credo degli Assassini: non uccidere per potere, ma per proteggere la libertà.\n\nLe abilità di Altair si suddividono in:\n- **Combattimento:** Altair è un maestro nell'uso delle armi, come la spada, i pugnali e la leggendaria lama celata (Hidden Blade). È anche un esperto nel combattimento corpo a corpo.\n- **Parkour:** La sua agilità gli permette di scalare edifici, muoversi rapidamente tra i tetti e sfuggire ai nemici.\n- **Infiltrazione:** Altair è un esperto nell’arte di confondersi tra la folla, spiare e infiltrarsi in aree sorvegliate.\n\nAnche se, per i videogiocatori della saga ha un piccolo deficit rispetto agli altri assassini: non sa nuotare, quindi, attenzione a non atterrare in acqua durante il parkour!\n\nC'è da dire che Altair rimane un personaggio centrale anche dopo il primo gioco per ben tre motivi:\n- **È lo Scrittore del Codice degli Assassini:** Riformula il Credo basandosi sulla sua esperienza.\n- **È lo Scopritore dei Segreti dei Precursori:** Durante la sua vita, studia i manufatti Isu, come i Frutti dell’Eden, e cerca di capire come proteggerli.\n- **La sua eredità:** I suoi insegnamenti influenzano generazioni future di Assassini, inclusi personaggi come Ezio Auditore."
+        },
+        {
+          "name": "Al Mualim",
+          "characterImage": ["Al_Mualim_ACR"],
+          "desc": "Dopo la morte del padre, Altaïr fu accolto dal Maestro Al Mualim, il Mentore dell'Ordine degli Assassini, che lo crebbe e lo addestrò al castello di Masyaf, il quartier generale degli Assassini.\n\nAl Mualim (in arabo: المعلم), che significa \"Il Maestro\", è colui che presenta al protagonista il mantra della saga: \"Nulla è reale, tutto è lecito\"; egli è un uomo di grandi ideali.\n\nCrede fermamente nella missione degli Assassini: mantenere l'equilibrio nel mondo eliminando coloro che abusano del potere per opprimere gli altri.\n\nÈ estremamente pragmatico e non lascia spazio alla pietà se questo significa proteggere il Credo, la sua saggezza e la sua eloquenza lo rendono un leader naturale, capace di ispirare i suoi seguaci."
+        },
+        {
+          "name": "Desmond Miles",
+          "characterImage": ["Desmond"],
+          "desc": "Desmond Miles è il protagonista del presente nella saga di Assassin's Creed. È un personaggio fondamentale per collegare gli eventi storici della serie al contesto moderno.\n\nDesmond nasce in una comunità isolata conosciuta come La Fattoria, dove gli Assassini si nascondono per addestrare i loro membri. Insoddisfatto della vita rigida e controllata, fugge a 16 anni per vivere una vita normale.\n\nDopo la fuga, Desmond si trasferisce in città, nascondendo le sue origini. Lavora come barista e conduce una vita ordinaria fino a quando non viene rapito da Abstergo Industries, la facciata moderna dei Templari."
+        },
+        {
+          "name": "Lucy Stillman",
+          "characterImage": ["Lucy_Stillman"],
+          "desc": "Lucy ci viene presentata in-game come l'assistente dell'antagonista del primo gioco della saga di Assassin's Creed ma, anche come alleata segreta di Desmond.\n\nÈ una scienziata apparentemente fedele ad Abstergo, ma in realtà membro degli Assassini; cerca di proteggere Desmond e aiutarlo a fuggire, pur mantenendo un ruolo di facciata nell'organizzazione."
+        },
+        {
+          "name": "Warren Vidic",
+          "characterImage": ["Warren_Vidic"],
+          "desc": "Il dottor Warren Vidic si presenta come l'antagonista del presente, egli è lo scienziato capo di Abstergo Industries.\n\nTemplare convinto, usa Desmond per accedere ai ricordi di Altair e localizzare i Frutti dell'Eden. È freddo, manipolatore e spietato, disposto a tutto per raggiungere i suoi obiettivi.\n\nVidic è più di un semplice scienziato, egli rappresenta la mentalità dei Templari moderni, convinti di essere i \"salvatori\" del mondo."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Assassin's Creed II",
+      "cover": "Assassins_Creed_2",
+      "story": "Rispetto al primo gioco, Assassin's Creed II (2009) ha una trama più emotiva e un protagonista più umano. Anche a distanza di anni è il gioco più amato dai fan per la sua storia, le sue ambientazioni ricche dell'Italia del Rinascimento e il protagonista: Ezio Auditore da Firenze.\n\nAnch'egli antenato di Desmond Miles, ci viene presentato come un giovane aristocratico fiorentino che si trasforma in un Assassino dopo che la sua famiglia viene coinvolta in una cospirazione.\n\nLa storia ruota attorno alla vendetta, alla scoperta di un antico ordine, e alla lotta contro i Templari, che continuano a tramare per ottenere il controllo del mondo.\n\nEzio viene coinvolto in una rete di intrighi politici e scopre segreti che lo collegano a una guerra secolare tra Assassini e Templari; durante il suo viaggio, si allea con figure storiche come Leonardo da Vinci, che lo aiuta con invenzioni e con l'interpretazione di antichi codici.\n\nLa trama si sviluppa in una narrazione personale e allo stesso tempo epica, con Ezio che gradualmente abbraccia il suo ruolo nella lotta per la libertà. Tramite il gioco non solo vedremo la crescita del protagonista e della trama, ma anche delle costruzioni di quel tempo. \n\nIl giocatore si muoverà in varie città italiane del gioco: partirà da Firenze per spostarsi a Monteriggioni, San Gimignano, Forlì e si recherà poi a Venezia e Città del Vaticano. \n\nIl gioco amplia le meccaniche introdotte nel primo capitolo, migliorando il parkour, il combattimento e l'esplorazione. Introduce nuovi strumenti e abilità, come la doppia lama celata, il volo con le macchine di Leonardo e nuove tecniche di assassinio; le città sono vive e vibranti, con la possibilità di interagire con NPC, comprare oggetti, investire denaro e personalizzare l'equipaggiamento di Ezio.\n\nVendetta e giustizia, potere e corruzione, eredità e identità sono le tematiche che il videogioco esplora, facendo innamorare il giocatore con le sue colonne sonore pluripremiate, che rendono lo scenario ancor più coinvolgente.",
+      "releaseYear": 2009,
+      "platform": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "recAge": 18,
+      "favourite": false,
+      "characters": [
+        {
+          "name": "Ezio Auditore",
+          "characterImage": ["Ezio_Auditore"],
+          "desc": "Ezio Auditore da Firenze è uno dei personaggi più amati e iconici della serie Assassin's Creed. Protagonista di Assassin's Creed II, Assassin's Creed Brotherhood e Assassin's Creed Revelations, la sua evoluzione come Assassino è uno degli aspetti più affascinanti del gioco.\n\nEzio inizia come un giovane impulsivo, orgoglioso e spensierato, un giovane aristocratico che non conosce molto delle lotte di potere che si svolgono attorno a lui. È vivace, socievole e ama godersi la vita, senza comprendere appieno le implicazioni delle azioni dei potenti che lo circondano.\n\nFiglio di Giovanni Auditore, un nobile fiorentino, e di Maria Auditore. È il primogenito di una famiglia benestante e ha diversi fratelli e sorelle. La sua famiglia gioca un ruolo importante nell'evoluzione del suo carattere; tramite i suoi occhi vediamo l'Italia dell'epoca del Rinascimento italiano (1476-1499).\n\nNel gioco, vediamo l'evoluzione emotiva del personaggio a seguito di alcuni eventi tragici che lo portano ad avvicinarsi al credo degli Assassini, la stessa confraternita presentata nel gioco precedente: Assassin's Creed, con gli occhi di Altair Ibn-La'Ahad.\n\nEzio è un abile combattente e una figura eccezionale per l'arte dell'assassinio. All'inizio del gioco, è un novizio, ma con il tempo e l'esperienza accumulata durante le sue avventure, diventa uno dei più potenti e abili Assassini.\n\nCosa sapere di più su di lui?\n- **Combattimento:** È esperto con una varietà di armi, tra cui spade, pugnali, lance e archi. Con il tempo, sviluppa uno stile di combattimento fluido e letale.\n- **Parkour:** Ezio è un maestro del movimento urbano, capace di scalare pareti, saltare tra i tetti e fuggire dai nemici con agilità. La sua mobilità è una delle sue principali risorse.\n- **Strategia e ingegno:** Grazie all'influenza di alleati come Leonardo da Vinci, Ezio apprende nuove invenzioni e tecniche che lo rendono ancora più letale, come l'uso della doppia lama celata.\n\nCol tempo, Ezio abbraccia il Credo degli Assassini, che promuove la lotta per la libertà contro le forze oppressive che cercano di dominare l'umanità. Si rende conto che la sua missione è parte di una battaglia secolare contro i Templari, un ordine che cerca di controllare l'umanità attraverso il potere e la manipolazione.\n\nEzio è un personaggio profondamente legato alla sua famiglia e ai suoi amici, la sua famiglia è il centro della sua vita, e la perdita di alcuni di loro diventa uno dei motivi che lo spinge ad agire. Durante la sua crescita, Ezio forma legami con figure storiche reali come Leonardo da Vinci, Niccolò Machiavelli e altri personaggi influenti del Rinascimento, che lo aiutano nel suo percorso."
+        },
+        {
+          "name": "Desmond Miles",
+          "characterImage": ["Desmond"],
+          "desc": "Desmond Miles è il protagonista del presente nella saga di Assassin's Creed. È un personaggio fondamentale per collegare gli eventi storici della serie al contesto moderno.\n\nDesmond nasce in una comunità isolata conosciuta come La Fattoria, dove gli Assassini si nascondono per addestrare i loro membri. Insoddisfatto della vita rigida e controllata, fugge a 16 anni per vivere una vita normale.\n\nDopo la fuga, Desmond si trasferisce in città, nascondendo le sue origini. Lavora come barista e conduce una vita ordinaria fino a quando non viene rapito da Abstergo Industries, la facciata moderna dei Templari."
+        },
+        {
+          "name": "Leonardo Da Vinci",
+          "characterImage": ["Leonardo_Da_Vinci"],
+          "desc": "Come non conoscere il famoso Leonardo Da Vinci: egli è un genio rinascimentale, Leonardo è un inventore e scienziato che, in-game, aiuta Ezio con invenzioni e miglioramenti tecnici, come il volo e nuove armi. È una figura chiave nella crescita di Ezio, sia come alleato che come consigliere. Ci verrà presentato nella sua dimora, in Assassin's Creed II ma avremo il piacere di rincontrarlo nel gioco successivo, Assassin's Creed: Brotherhood.\nLe strade di Leonardo e del protagonista si rincontrano spesso nel gioco ed egli si dimostra sempre un alleato più che fedele, oltre ad esser una mente brillante e un ottimo consigliere."
+        },
+        {
+          "name": "Lorenzo De Medici",
+          "characterImage": ["Lorenzo_De_Medici"],
+          "desc": "Uno dei principali alleati di Ezio, Lorenzo De' Medici è un importante politico e mecenate fiorentino. Giusto, pacifico e intellettualmente curioso, Lorenzo è una figura che cerca di mantenere l'equilibrio politico a Firenze durante il Rinascimento. È anche un punto di riferimento per Ezio durante la sua lotta contro i Templari."
+        },
+        {
+          "name": "Niccolo' Machiavelli",
+          "characterImage": ["ACB_Machiavelli"],
+          "desc": "Ambizioso e pragmatico, è noto per la sua visione cinica e realista della politica, come emerge dal suo celebre trattato Il Principe. Machiavelli è un personaggio di grande intelligenza e pragmatismo, che diventa un importante consigliere per Ezio.\nFilosofo e stratega, Machiavelli diventa un importante alleato di Ezio, insegnandogli alcune delle strategie politiche e militari fondamentali per la sua missione guidata dal credo degli Assassini."
+        },
+        {
+          "name": "Mario Auditore",
+          "characterImage": ["Mario_Auditore"],
+          "desc": "Zio di Ezio, Mario è un membro anziano e saggio della famiglia Auditore.\nÈ il capo della roccaforte di Monteriggioni e una figura paterna per Ezio, che lo aiuta a crescere come Assassino. Mario è un uomo di valore e saggezza, che educa Ezio al credo degli Assassini dopo un tragico evento.\nCon la sua presentazione in gioco, ci viene presentata l'ambientazione cupa e buia di Monteriggioni che si ripresenterà agli inizi del successivo capitolo, Assassin's Creed: Brotherhood."
+        },
+        {
+          "name": "Claudia Auditore",
+          "characterImage": ["Claudia_Auditore"],
+          "desc": "Sorella di Ezio, Claudia è un personaggio che ha un ruolo importante nella vita familiare di Ezio. Gentile e protettiva, Claudia si prende cura della famiglia Auditore e svolge anche un ruolo attivo nella gestione degli affari familiari, supportando Ezio nelle sue missioni; la sua storia evolve insieme a quella di Ezio, sebbene in un contesto più personale."
+        },
+        {
+          "name": "Petruccio Auditore",
+          "characterImage": ["AC2_Petruccio"],
+          "desc": "Petruccio, fratello minore di Ezio, è giovane e spensierato all'inizio del gioco, ma la sua vita prende una piega tragica che diventa una motivazione per Ezio. La sua morte rappresenta uno dei catalizzatori che spingono Ezio a perseguire la vendetta e la giustizia."
+        },
+        {
+          "name": "Federico Auditore",
+          "characterImage": ["Federico_Auditore-2"],
+          "desc": "Altro fratello di Ezio, Federico è uno dei membri della famiglia che ha un impatto diretto sugli eventi iniziali del gioco e con la quale sembra avere un rapporto molto più stretto con il protagonista; Federico è un giovane e impetuoso, spesso desideroso di fare valere la propria forza e autorità. La sua morte segna un altro momento cruciale nell'evoluzione del personaggio di Ezio."
+        },
+        {
+          "name": "Giovanni Auditore",
+          "characterImage": ["AC2_Giovanni"],
+          "desc": "Giovanni Auditore è il capofamiglia della famiglia Auditore, una nobile famiglia di Firenze. Inizialmente, Giovanni sembra essere un uomo rispettato e ben posizionato nella società, ma il suo coinvolgimento in un misterioso complotto cambierà le sorti della sua famiglia.\nLa sua morte segna l'inizio del viaggio di Ezio come Assassino, spingendolo a cercare vendetta e giustizia. La sua figura è molto importante perché, nonostante non sia un personaggio attivo durante gran parte della trama, le sue azioni passate e le sue scelte influenzano profondamente le motivazioni di Ezio e il corso degli eventi.\nGiovanni è un uomo di grande integrità e onore. Viene descritto come un uomo saggio, devoto alla sua famiglia e impegnato nella difesa dei suoi valori.\nDi Giovanni Auditore vediamo:\n- Virtù e lealtà: Giovanni è leale alla sua famiglia e ha un forte senso del dovere. Tuttavia, ha anche una visione più ampia e complessa della lotta tra Assassini e Templari, anche se non sempre lo espone esplicitamente a Ezio. La sua moralità e il suo senso di giustizia sono una parte fondamentale della sua personalità.\n- Ruolo come padre: Giovanni è anche un padre amorevole e protettivo nei confronti dei suoi figli. La sua relazione con Ezio, sebbene non esplorata a fondo nei primi momenti del gioco, si manifesta attraverso le sue azioni e le decisioni che prende per il bene della famiglia."
+        },
+        {
+          "name": "La Volpe",
+          "characterImage": ["La_Volpe"],
+          "desc": "La Volpe, il cui vero nome è Antonio de Venezia, è un membro della Confraternita degli Assassini e uno degli alleati più importanti di Ezio nel gioco. A Venezia, La Volpe rappresenta uno degli \"Amici\" di Ezio, che è il termine usato per indicare i suoi alleati locali che lo aiutano a combattere contro i Templari e le forze corrotte.\nLa Volpe si occupa di coordinare e guidare i membri della resistenza contro il potere dei Templari, e fornisce a Ezio informazioni vitali per la sua missione. La sua influenza nella città è considerevole, e il suo aiuto è determinante per il progresso di Ezio a Venezia.\nEgli è anche un abile stratega e un manipolatore nelle ombre, capace di lavorare dietro le quinte per ottenere risultati. È molto abile nel raccogliere informazioni e pianificare operazioni contro i Templari, rivelandosi un alleato prezioso per Ezio.\nLa Volpe è una persona molto astuta, abile nel gestire le situazioni difficili e nel fare alleanze che si rivelano utili per la causa degli Assassini. Non è un combattente che agisce a testa bassa, ma piuttosto un pensatore e un pianificatore, il che lo rende una figura importante nella lotta contro i Templari. Il soprannome \"La Volpe\" riflette il suo carattere elusivo e la sua capacità di operare senza essere facilmente individuato. La Volpe è sempre un passo avanti rispetto ai suoi nemici, operando nell'ombra e usando la sua intelligenza per sopraffare gli avversari.\nNonostante la sua natura cauta e talvolta distante, La Volpe è leale alla causa degli Assassini e alla libertà. La sua lealtà è messa alla prova nel corso del gioco, ma rimane comunque un alleato fondamentale per Ezio."
+        },
+        {
+          "name": "Cristina Vespucci",
+          "characterImage": ["Cristina_Vespucci"],
+          "desc": "è un personaggio di Assassin's Creed II che riveste un ruolo importante nella vita personale di Ezio Auditore. La sua storia e la sua relazione con Ezio sono uno degli aspetti più emotivi e complessi della trama, contribuendo a dare profondità al personaggio del protagonista.\nCristina è una giovane donna che vive a Firenze ed è una delle figure principali nel contesto della vita privata di Ezio. La sua presenza nel gioco è legata a una storia d'amore che, purtroppo, non riesce a svilupparsi nel modo che Ezio desidera, complice la turbolenta situazione politica e familiare in cui si trova. Cristina è l'oggetto dell'affetto di Ezio fin dalla sua giovinezza. Sebbene tra i due ci sia un forte legame emotivo, la loro relazione non è priva di ostacoli.\nLa loro storia d'amore, a causa delle circostanze, è segnata da una serie di eventi tragici che influenzeranno profondamente Ezio durante il suo percorso.\nCristina è una giovane donna che, sebbene non appaia frequentemente nel gioco, lascia una forte impressione sul protagonista e su chi interagisce con lei. Sebbene il suo ruolo nella trama possa sembrare quello di una figura passiva, Cristina è anche una donna di carattere. In situazioni difficili, si dimostra capace di prendere decisioni razionali, pur non potendo mai evitare l'influenza degli eventi che travolgeranno la sua vita e quella di Ezio.\nLa relazione tra Ezio e Cristina non è priva di sfide, in quanto entrambi si trovano a vivere in un periodo di grande incertezza e violenza. Le scelte che Ezio deve fare nel corso della sua avventura, e la sua costante lotta per la giustizia, sono anche dettate dalla speranza di proteggere e onorare la sua storia con Cristina."
+        },
+        {
+          "name": "Francesco De' Pazzi",
+          "characterImage": ["Missing"],
+          "desc": "Un altro antagonista importante, Francesco è un membro della potente famiglia dei Pazzi, una delle famiglie rivali di Firenze.\nAmbizioso, corrotto e spinto dalla brama di potere, Francesco si allea con i Templari per rovesciare la famiglia Medici e prendere il controllo di Firenze. È una delle figure centrali nel complotto contro Ezio e la sua famiglia."
+        },
+        {
+          "name": "Rodrigo Borgia",
+          "characterImage": ["Rodrigo_Borgia"],
+          "desc": "Presentato come l'antagonista centrale di Assassin's Creed II, Rodrigo Borgia è un cardinale e, successivamente, papa, ed è una figura di spicco dei Templari.\nEgli si presenta come un uomo ambizioso, manipolatore e spietato, Rodrigo è disposto a fare qualsiasi cosa per ottenere il potere e portare avanti l'agenda dei Templari. La sua figura storica è basata sul vero papa Alessandro VI.\nRodrigo cospirò quindi assieme al corrotto Uberto Alberti e alla famiglia Pazzi per far arrestare Giovanni e i suoi figli, per poi giustiziarli con l'accusa di \"tradimento\", approfittando dell'assenza di Lorenzo de' Medici e, diventando così, l'acerrimo nemico del protagonista, Ezio Auditore."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Assassin's Creed Brotherhood",
+      "cover": "Assassins_Creed_Brotherhood",
+      "story": "Assassin's Creed: Brotherhood (2010) è il terzo capitolo principale della saga, un seguito diretto di Assassin's Creed II. Questo gioco continua a raccontare la storia di Ezio Auditore, ora più maturo e con un ruolo di maggiore responsabilità, mentre affronta nuove sfide sia personali che legate alla sua missione di Assassino. Il gioco introduce nuovi elementi di gameplay e approfondisce la lotta tra Assassini e Templari.\n\nL'intera trama si svolge principalmente a Roma, il cuore del potere dei Templari. Rispetto a Firenze, Venezia o Monteriggioni viste in Assassin's Creed II, Roma è una città immensa, con una struttura sociale ed economica più complessa. I contrasti visivi e sociali sono più che chiari: Roma è divisa tra quartieri fiorenti e zone degradate sotto il controllo dei Templari. Il giocatore può vedere gli effetti dell'oppressione e lavorare per liberare la città dalla corruzione.\n\nLuoghi iconici come il Colosseo, il Vaticano e Castel Sant’Angelo fanno da sfondo a molte missioni, rendendo Roma un vero protagonista del gioco. Ezio, ora un leader, si assume la responsabilità di ricostruire e guidare la Confraternita degli Assassini. Il tema del lavoro di squadra e della leadership è centrale.\n\nEsplorando meglio il gameplay di questo gioco, notiamo diverse innovazioni rispetto ai capitoli precedenti, rendendo l'esperienza di gioco più ricca e varia. Tra le modifiche vi sono:\n\n- **Il sistema di combattimento:**\n  Il combattimento è stato migliorato, con l'aggiunta di nuove mosse e armi. Ezio può ora effettuare uccisioni a catena, permettendo di affrontare gruppi di nemici con maggiore fluidità. La gestione delle armi è stata ampliata, includendo nuovi strumenti come la balestra e bombe fumogene.\n\n- **La gestione della confraternita:**\n  Una delle novità più significative è la possibilità di reclutare cittadini oppressi per farli entrare nella Confraternita degli Assassini.\n  - **Addestramento e missioni:** I nuovi Assassini possono essere addestrati e inviati in missioni secondarie per guadagnare risorse e ridurre il controllo dei Templari in varie aree.\n  - **Supporto durante le missioni:** Gli alleati possono essere richiamati durante le missioni principali, permettendo di pianificare attacchi più strategici.\n\n- **Rigenerazione di Roma:**\n  Come leader della Confraternita, Ezio ha il compito di restaurare Roma. Questo include:\n  - Liberare zone della città distruggendo torri Templari;\n  - Ristrutturare negozi e infrastrutture per migliorare l'economia locale;\n  - Guadagnare denaro attraverso le attività commerciali restaurate.\n\n- **Missioni secondarie:**\n  Oltre alla trama principale, ci sono numerose attività opzionali:\n  - Sfide legate ai mercenari, ai ladri e alle cortigiane, ognuna delle quali rappresenta un'alleanza utile nella lotta contro i Templari.\n  - Esplorazione di antichi sotterranei romani, simili alle tombe degli Assassini di Assassin's Creed II, per ottenere equipaggiamenti speciali.\n\n- **Multiplayer (Novità):**\n  Brotherhood è il primo capitolo della saga a introdurre una modalità multiplayer. I giocatori possono scegliere tra diversi personaggi Templari e competere in modalità che combinano stealth e strategia. Ogni personaggio ha abilità uniche, rendendo le partite varie e coinvolgenti.",
+      "releaseYear": 2010,
+      "platform": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "recAge": 18,
+      "favourite": false,
+      "characters": [
+        {
+          "name": "Ezio Auditore",
+          "characterImage": ["ezio"],
+          "desc": "L'Ezio Auditore che incontriamo in Assassin's Creed: Brotherhood è un personaggio significativamente evoluto rispetto al giovane e impulsivo protagonista di Assassin's Creed II. È un uomo più maturo, consapevole del peso delle sue responsabilità e del ruolo che ricopre all'interno della Confraternita degli Assassini. Questa trasformazione si riflette nella sua personalità, nelle sue azioni e nel modo in cui interagisce con gli altri personaggi.\nEzio è ormai un Maestro Assassino e si assume la responsabilità di guidare la Confraternita degli Assassini. Non è più il giovane avventato che agiva per vendetta personale; ora si muove con un senso di missione più grande, motivato dal desiderio di liberare Roma dal giogo dei Templari. Dimostra una maggiore capacità di pianificazione e di pensiero a lungo termine. Le sue decisioni sono ponderate, e cerca sempre di agire nel migliore interesse della Confraternita e della causa degli Assassini.\nEgli non si dimostra solo un combattente, è anche un insegnante e un ispiratore. Recluta nuovi membri per la Confraternita e si impegna a formare una rete di Assassini capaci di operare autonomamente. Questo aspetto mette in luce il suo carisma naturale e la sua capacità di motivare gli altri.\nNonostante le difficoltà e le perdite che affronta, Ezio mostra una resilienza straordinaria. La sua determinazione nel combattere i Templari è incrollabile, e non si lascia scoraggiare nemmeno davanti agli ostacoli più grandi.\nEzio agisce sempre con un forte senso di giustizia e onore. Pur essendo un assassino, ha un codice morale che lo guida, cercando sempre di minimizzare i danni collaterali e di proteggere gli innocenti. Conserva il fascino e l'arguzia che lo caratterizzavano in Assassin's Creed II, ma li usa con più moderazione e in contesti appropriati. È consapevole del proprio carisma, ma non lo utilizza per fini egoistici.\nSi dimostra più empatico nei confronti delle sofferenze altrui, probabilmente a causa delle esperienze che lo hanno segnato. Questa empatia lo rende un leader amato e rispettato, sia dai membri della Confraternita che dagli alleati.\nA tutti gli effetti, Ezio Auditore in Assassin's Creed: Brotherhood è un personaggio straordinariamente complesso e tridimensionale. È un leader, un mentore, un guerriero e un uomo con profonde emozioni e convinzioni. La sua crescita personale e la sua trasformazione rispetto al capitolo precedente lo rendono uno dei protagonisti più amati e memorabili della serie."
+        },
+        {
+          "name": "Desmond Miles",
+          "characterImage": ["desmond"],
+          "desc": "Desmond Miles in Assassin's Creed: Brotherhood continua a essere un personaggio chiave della saga, poiché rappresenta il ponte tra passato e presente. In questo capitolo, il suo ruolo si espande e diventa più attivo rispetto ai giochi precedenti. Pur rimanendo il contenitore della storia di Ezio, Desmond inizia a prendere maggiore consapevolezza del suo potenziale e del significato del suo coinvolgimento nella lotta tra Assassini e Templari.\nSebbene inizialmente fosse scettico riguardo alla sua eredità di Assassino, inizia ad accettare il suo ruolo con maggiore convinzione. Dimostra un senso di responsabilità crescente, consapevole che la lotta degli Assassini moderni dipende anche da lui. Nel corso della storia, Desmond mostra un interesse sempre maggiore verso i segreti dell'Animus, della Prima Civilizzazione e del conflitto millenario tra Assassini e Templari. Questa curiosità lo spinge a esplorare nuove possibilità, sia nel mondo virtuale che in quello reale.\nNonostante i pericoli e l'incertezza, Desmond è sempre più disposto a fare sacrifici per aiutare la causa degli Assassini, dimostrando coraggio e una crescente fiducia nelle sue capacità.\nDesmond continua a rivivere i ricordi di Ezio Auditore tramite l'Animus, sfruttando il passato per comprendere il presente. Gli eventi di Brotherhood permettono a Desmond di esplorare non solo il percorso di Ezio, ma anche di apprendere le tecniche e le strategie che utilizzerà nel mondo reale.\nLavora a stretto contatto con altri membri della moderna Confraternita degli Assassini, come Shaun Hastings, Rebecca Crane e Lucy Stillman. Oltre a rivivere i ricordi genetici, Desmond contribuisce in modo attivo alle missioni del gruppo.\nIn questo capitolo, Desmond inizia a mettere in pratica le abilità apprese attraverso l'Animus. Grazie all'effetto sanguisuga (bleeding effect), le competenze di Ezio vengono trasferite a Desmond, permettendogli di padroneggiare tecniche di parkour, furtività e combattimento.\nChe dire della sua presenza in questo nuovo capitolo? Desmond mantiene il suo abbigliamento moderno, ma il suo atteggiamento diventa più determinato e sicuro. I dettagli del suo design riflettono il suo passaggio da uomo comune a Assassino attivo. Rispetto ai giochi precedenti, Desmond ha più libertà di movimento e interazione con il mondo reale, rendendo il suo personaggio più dinamico e coinvolgente."
+        },
+        {
+          "name": "Shaun Hastings",
+          "characterImage": ["shaun"],
+          "desc": "Shaun è il ricercatore e storico del team. La sua principale responsabilità è fornire contesto storico e dettagli sulle figure e le località che Desmond esplora tramite l'Animus.\nGestisce il database dell'Animus, arricchendolo con informazioni che aiutano Desmond (e il giocatore) a comprendere meglio gli eventi e i personaggi storici. È noto per il suo umorismo pungente e la sua tendenza al sarcasmo, che usa spesso per alleggerire situazioni tese o per prendere in giro i suoi colleghi. Sebbene possa sembrare distaccato, tiene molto alla causa degli Assassini.\nÈ il cervello del gruppo, dotato di una grande conoscenza storica e una mente critica. Spesso offre spunti interessanti sugli eventi storici che Desmond rivive.\nHa un rapporto scherzoso ma rispettoso con Rebecca e Lucy. Con Desmond, tende a essere un po' più provocatorio, ma il suo sarcasmo è spesso un modo per incoraggiarlo."
+        },
+        {
+          "name": "Rebecca Crane",
+          "characterImage": ["rebecca"],
+          "desc": "Rebecca è l'ingegnere tecnico del team ed è responsabile della manutenzione e dell'ottimizzazione dell'Animus. Senza di lei, Desmond non potrebbe rivivere i ricordi genetici dei suoi antenati.\nHa un ruolo essenziale nel garantire che l'Animus funzioni senza problemi e nel monitorare la salute mentale e fisica di Desmond durante le sessioni.\nRebecca ha un atteggiamento positivo e allegro che contrasta con il sarcasmo di Shaun. È una presenza rassicurante per il team e si dimostra sempre incoraggiante verso Desmond. Lei adora il suo lavoro e ha un legame quasi emotivo con l'Animus, che chiama affettuosamente il mio bambino. La sua passione per la tecnologia e il progresso è evidente in ogni sua azione.\nÈ molto vicina a Shaun, con il quale ha un rapporto di amicizia che si esprime in battute e piccoli litigi. Con Desmond è calorosa e solidale, cercando sempre di farlo sentire a suo agio."
+        },
+        {
+          "name": "Lucy Stillman",
+          "characterImage": ["lucy"],
+          "desc": "Lucy è una figura di spicco nella moderna Confraternita degli Assassini. È colei che ha introdotto Desmond al conflitto tra Assassini e Templari, salvandolo dai pericoli in cui si trovava all'inizio della saga.\nHa un ruolo di guida e supporto per Desmond, sia nel mondo reale che nelle sequenze dell'Animus.\nIn questi capitoli si è dimostrata una persona sicura di sé, profondamente dedita alla causa degli Assassini. Mostra grande coraggio e resilienza di fronte alle difficoltà. È molto protettiva verso Desmond, cercando di alleviare le sue preoccupazioni e offrendogli supporto morale. Questo lato empatico la rende una figura quasi materna per il gruppo.\nSebbene sia più seria rispetto a Shaun e Rebecca, Lucy ha un lato caloroso e accogliente che bilancia il dinamismo del team.\nLucy è particolarmente vicina a Desmond, con cui ha un rapporto di fiducia reciproca. È anche un punto di riferimento per Shaun e Rebecca, fungendo da leader informale del gruppo."
+        },
+        {
+          "name": "Caterina Sforza",
+          "characterImage": ["caterina"],
+          "desc": "Una nobildonna italiana e leader politico-militare. Storicamente nota per la sua tenacia, Caterina è una delle poche donne del Rinascimento ad aver ricoperto ruoli di potere significativi, sia per lignaggio che per capacità strategica. Forte, indipendente e coraggiosa, Caterina è un simbolo di resilienza. Mostra un'eccezionale abilità nel mantenere il controllo anche nelle situazioni più difficili e non si lascia intimidire facilmente. La sua personalità carismatica è accompagnata da una straordinaria intelligenza.\nÈ un’alleata di Ezio e condivide con lui obiettivi comuni, rendendosi una figura di supporto sia strategico che emotivo."
+        },
+        {
+          "name": "Niccolò Machiavelli",
+          "characterImage": ["machiavelli"],
+          "desc": "Filosofo e politico fiorentino, Machiavelli è uno degli intellettuali più celebri del Rinascimento. È noto per la sua abilità strategica e il suo pragmatismo.\nPragmatico, riflessivo e strategico, Machiavelli è il tipo di persona che privilegia l'efficacia rispetto alla moralità, il che lo rende un alleato utile ma anche complesso. Sebbene sembri freddo, è profondamente devoto alla causa degli Assassini.\nMachiavelli è un consigliere di Ezio e offre un supporto strategico essenziale per le operazioni della Confraternita. La sua conoscenza della politica romana e delle dinamiche di potere è inestimabile."
+        },
+        {
+          "name": "Bartolomeo D'Alviano",
+          "characterImage": ["bartolomeo"],
+          "desc": "Un comandante mercenario italiano, noto per la sua forza e il suo coraggio in battaglia. Bartolomeo è una figura storica realmente esistita, famoso per le sue imprese militari.\nImpetuoso, leale e passionale. Bartolomeo è il tipo di persona che agisce con il cuore, spesso prima di riflettere. Nonostante la sua natura esplosiva, è estremamente fedele ai suoi amici e alla causa degli Assassini.\nÈ il leader dei mercenari e un alleato fondamentale per Ezio. La sua forza militare e il suo spirito guerriero giocano un ruolo cruciale nella lotta contro i nemici della Confraternita."
+        },
+        {
+          "name": "Leonardo Da Vinci",
+          "characterImage": ["leonardo"],
+          "desc": "Genio del Rinascimento, artista e inventore. Leonardo si ripresenta anche in questo capitolo della saga ed è una delle figure più famose della storia per le sue invenzioni visionarie e opere d'arte iconiche.\nGeniale, gentile e pacifico, Leonardo è un uomo di pensiero, sempre alla ricerca di nuove idee e innovazioni. È leale ad Ezio e alla Confraternita, pur mantenendo un atteggiamento generalmente neutrale verso i conflitti. Leonardo fornisce ad Ezio strumenti e invenzioni che lo aiutano nelle sue missioni. È un alleato indispensabile grazie alla sua mente brillante e al suo approccio innovativo."
+        },
+        {
+          "name": "La Volpe",
+          "characterImage": ["la_volpe"],
+          "desc": "Leader della gilda dei ladri a Roma. La sua figura richiama il concetto di \"furbo come una volpe,\" incarnando l'astuzia e l'ingegno.\nAstuto, pragmatico e carismatico. La Volpe è il tipo di persona che riesce sempre a cavarsela, sfruttando la sua rete di ladri per ottenere informazioni e risorse. È uno degli alleati più fidati di Ezio. Grazie alla sua rete di contatti e alla sua conoscenza della città, La Volpe offre un supporto strategico essenziale."
+        },
+        {
+          "name": "Claudia Auditore",
+          "characterImage": ["claudia"],
+          "desc": "La sorella minore di Ezio. Cresciuta in una famiglia coinvolta nel conflitto tra Assassini e Templari, Claudia si trova inevitabilmente coinvolta negli eventi della saga.\nIntelligente, risoluta e capace. Claudia è una donna forte che dimostra di saper affrontare le sfide con coraggio e determinazione. La sua maturità cresce significativamente nel corso della serie. Claudia diventa una figura più centrale nel sostegno alla Confraternita. La sua capacità di gestione e la sua presenza emotiva sono cruciali per Ezio e gli altri."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Assassin's Creed Revelations",
+      "cover": "Assassins_Creed_Revelations",
+      "story": "Assassin's Creed: Revelations (2011), il quarto capitolo principale della saga, è un gioco che approfondisce la storia personale di Ezio Auditore e il suo legame con Altair Ibn-La'Ahad, il protagonista del primo Assassin’s Creed. Il gioco mantiene l'equilibrio tra le vicende storiche del Rinascimento e quelle moderne, espandendo ulteriormente il conflitto tra Assassini e Templari.\n\nIl gioco si svolge principalmente a Costantinopoli (odierna Istanbul), una città vibrante e culturalmente ricca, che al tempo era al centro dell'Impero Ottomano. Il contesto storico è quello della lotta per il potere tra i Bizantini e gli Ottomani che si intreccia con il conflitto segreto tra Assassini e Templari. L'ambientazione è visivamente affascinante, con monumenti come la Basilica di Santa Sofia e strade affollate che riflettono il crocevia di culture di Costantinopoli.\n\nLa trama segue Ezio Auditore, ormai un uomo maturo e Maestro Assassino, nel suo viaggio personale per scoprire i segreti del Credo e comprendere il legame tra la sua vita e quella di Altair. Il gioco introduce il concetto di \"chiusura\" per Ezio: è un viaggio non solo fisico ma anche spirituale, dove cerca di trovare risposte alle domande lasciate in sospeso nelle sue avventure precedenti. Si esplorano i temi di conoscenza, saggezza e eredità, con Ezio che riflette sul significato più profondo della sua missione.\n\nLe novità ci sono anche per questo capitolo e sono:\n- **Rampino:** Una delle novità è il rampino, che permette a Ezio di muoversi più velocemente tra i tetti e di eseguire nuovi tipi di attacchi.\n- **Bombe Personalizzabili:** I giocatori possono creare diversi tipi di bombe per affrontare le missioni in modo più strategico, adattandosi a diversi stili di gioco.\n- **Ricordi di Altair:** I giocatori possono rivivere momenti chiave della vita di Altair tramite sequenze speciali, approfondendo il suo personaggio e il suo legame con Ezio.\n- **Sequenze Moderne:** Il gioco include sezioni in cui Desmond Miles, bloccato nell'Animus, esplora i suoi ricordi e riflette sulla sua identità.\n\nAssassin's Creed: Revelations è un capitolo che punta più sullo sviluppo emotivo dei suoi personaggi che sull'introduzione di grandi novità nella trama generale. È una storia ricca di introspezione, che dà ai fan della serie un senso di conclusione per due dei personaggi più iconici della saga.",
+      "releaseYear": 2011,
+      "platform": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "recAge": 18,
+      "favourite": false,
+      "characters": [
+        {
+          "name": "Ezio Auditore",
+          "characterImage": ["ezio_rev"],
+          "desc": "Ora un uomo più maturo e riflessivo, Ezio è alla ricerca di saggezza e pace interiore. La sua crescita personale è al centro della trama.\nIn Assassin's Creed: Revelations, Ezio Auditore è un uomo maturo, consapevole del peso degli anni e delle scelte che ha compiuto nella sua lunga carriera come Assassino.\nAlla fine della storia, Ezio ha 52 anni, essendo nato nel 1459 e gli eventi del gioco svolgendosi nel 1511; è cresciuto molto rispetto al giovane ribelle e impulsivo che abbiamo conosciuto in Assassin's Creed II. Ora è un uomo riflessivo, che valuta con attenzione le sue azioni e le loro conseguenze.\nGli anni di battaglie contro i Templari hanno lasciato il segno su di lui, sia fisicamente che emotivamente. Tuttavia, non ha perso la sua determinazione a combattere per ciò che ritiene giusto.\nCome Maestro Assassino, Ezio è ora una figura di guida per i nuovi membri della Confraternita, la sua leadership è carismatica e basata sull'esperienza diretta.\nIn questo capitolo, Ezio si interroga sul significato più profondo della sua missione e sulla sua eredità come Assassino. Il tema della ricerca di sé è centrale. Il suo aspetto non è per niente come quello dei capitoli scorsi della saga, ci ritroviamo davanti un Ezio che mostra chiaramente i segni dell'età. Ha rughe sul volto e una barba più folta, che riflettono la sua maturità e le difficoltà affrontate nel corso degli anni.\nIl suo abbigliamento è quello di un Maestro Assassino, con dettagli che rappresentano il suo alto rango e il rispetto che ha guadagnato nella Confraternita.\nNonostante l'età, Ezio è ancora un combattente formidabile, agile e intelligente. Ha affinato le sue abilità nel corso degli anni, rendendolo ancora più letale e strategico.\nIn Revelations, utilizza strumenti innovativi come il rampino e bombe personalizzabili, che dimostrano la sua capacità di adattarsi e sperimentare nuovi metodi.\nL'Ezio di Revelations è il ritratto di un uomo che ha vissuto intensamente, che porta il peso delle sue azioni con dignità e che è determinato a concludere il suo viaggio con onore. La sua maturità e il suo sviluppo lo rendono uno dei personaggi più amati e complessi della saga."
+        },
+        {
+          "name": "Yusuf Tazim",
+          "characterImage": ["yusuf"],
+          "desc": "Yusuf è profondamente radicato nella cultura ottomana e conosce alla perfezione Costantinopoli. La sua padronanza delle dinamiche sociali e politiche locali lo rende un leader rispettato e un alleato prezioso per Ezio.\nÈ il capo della Confraternita degli Assassini a Costantinopoli e, in questa veste, è responsabile delle operazioni degli Assassini nella città e della gestione delle relazioni con le varie fazioni locali.\nÈ un combattente esperto, strategico e ingegnoso. Una delle sue innovazioni principali è l’introduzione del rampino assassino, che non solo facilita la mobilità in città ma aggiunge nuove possibilità tattiche nel combattimento.\nYusuf si dimostra sin da subito un personaggio carismatico, leale, astuto, amichevole e inclusivo: è immediatamente affabile e conquista chiunque con il suo atteggiamento positivo e il suo senso dell'umorismo.\nNonostante il suo ruolo serio, tende a mantenere un approccio rilassato e ottimista; è profondamente devoto al Credo degli Assassini e alla missione di proteggere la libertà contro i Templari. La sua lealtà verso Ezio è evidente fin dal primo incontro, e si impegna a fornire tutto il supporto necessario.\nYusuf è anche molto astuto e pragmatico. Capisce quando è il momento di agire con discrezione e quando invece è necessario un intervento deciso. A differenza di altri leader che potrebbero essere più rigidi, Yusuf accoglie Ezio con calore e gli fa sentire che fa parte della Confraternita locale fin da subito.\nYusuf ed Ezio sviluppano rapidamente un rapporto di stima reciproca. Yusuf riconosce il valore di Ezio come Maestro Assassino, ma non perde l’occasione di insegnargli nuove tecniche e di fargli conoscere la città e le sue peculiarità. Il loro rapporto è arricchito da momenti di leggerezza grazie al senso dell'umorismo di Yusuf, che bilancia il tono spesso più serio di Ezio.\nYusuf è uno dei personaggi più memorabili di Revelations grazie alla sua personalità vivace e alla sua capacità di rendere ogni scena in cui appare interessante e coinvolgente. La sua presenza offre una prospettiva unica sulla Confraternita degli Assassini in una cultura diversa da quella italiana, mostrando come il Credo si adatti alle diverse realtà del mondo."
+        },
+        {
+          "name": "Altair Ibn-La'Ahad",
+          "characterImage": ["aci"],
+          "desc": "In Assassin's Creed: Revelations, Altair non è più il giovane temerario che abbiamo visto nel primo capitolo, ma un uomo che ha trovato una sorta di pace interiore, pur affrontando grandi sacrifici. La sua storia si completa in questo capitolo, creando un parallelo con Ezio che lo porta a completare il suo viaggio personale, sia nel passato che nel presente.\nAltair rappresenta il simbolo della crescita, della saggezza e della comprensione, elementi che guidano la narrazione di Revelations e offrono al giocatore una chiusura emotiva e spirituale per due dei più iconici Assassini della saga.\nIn Revelations, le sequenze che riguardano Altair sono giocabili e danno ai giocatori un'idea più chiara del suo sviluppo. Queste sequenze non si limitano a momenti storici passati, ma mostrano anche il cambiamento interiore di Altair, che evolve da un giovane arrogante a un leader saggio e riflessivo, passando per momenti di grande sacrificio personale.\nQueste missioni permettono di esplorare in prima persona i luoghi iconici della vita di Altair, come la sua fortezza e il suo villaggio natale.\nIl giocatore ha anche modo di osservare la crescita spirituale di Altair, la sua lotta con la sua stessa natura e la sua continua ricerca di verità. Il percorso di Ezio in Revelations è molto influenzato dalla figura di Altair, non solo come figura storica, ma come un mentore spirituale, per così dire. Il confronto con Altair aiuta Ezio a riflettere sulla propria vita e sulla propria missione, mettendo in discussione il significato più profondo della Confraternita degli Assassini.\nIl gioco approfondisce l’eredità di Altair, che è ormai leggendaria. Non solo è stato il fondatore del Credo degli Assassini, ma la sua vita e le sue scelte hanno avuto un impatto duraturo su tutta la Confraternita.\nIn Revelations, Ezio si trova a esplorare i \"Ricordi di Altair,\" ossia sequenze che rivelano momenti chiave della vita di Altair e che offrono spunti su come la Confraternita è cambiata e evoluta nel corso dei secoli."
+        },
+        {
+          "name": "Clay Kaczmarek",
+          "characterImage": ["clay"],
+          "desc": "Un ex utilizzatore dell'Animus che appare a Desmond in circostanze enigmatiche. Clay è un personaggio introdotto nei giochi precedenti, la cui storia si intreccia con quella di Desmond. Clay è enigmatico, introverso e a tratti tormentato. Fornisce indizi e guida Desmond, ma il suo comportamento è spesso criptico.\nIl suo ruolo è molto importante: aiuta Desmond (in coma) a esplorare i suoi ricordi e a comprendere meglio il funzionamento dell'Animus."
+        },
+        {
+          "name": "Principe Ahmet",
+          "characterImage": ["ahmet"],
+          "desc": "Ahmet è un membro della famiglia imperiale ottomana, figlio del sultano e potenziale erede al trono. Sebbene non sia il sovrano, la sua posizione di principe lo rende un attore importante nelle lotte di potere interne all'Impero Ottomano. È un uomo ambizioso, che ha grandi sogni di potere e un desiderio di governare l'Impero. La sua posizione e le sue ambizioni lo mettono in contrasto con altre figure politiche e familiari, che vedono la sua ascesa al trono come una minaccia.\nAhmet non è impulsivo, ma sa come muoversi strategicamente nella corte ottomana, utilizzando astuzia e inganno per cercare di accumulare influenza. È una figura che agisce sempre con un piano, anche se non tutte le sue mosse si rivelano efficaci. Sebbene sia motivato dalla sua brama di potere, ha anche delle debolezze, in particolare nelle sue interazioni con il padre e gli altri membri della famiglia imperiale. Questo lo rende un personaggio interessante, che non si limita a essere un antagonista monolitico, ma che ha anche dei conflitti interni.\nAhmet ha contatti con i Templari, che cercano di sfruttare le sue ambizioni per i propri scopi. Il suo ruolo nei confronti dei Templari è ambiguo, poiché mentre cerca di ottenere il potere per sé, è anche manipolato e utilizzato dai Templari, che vedono in lui un potenziale alleato.\nSebbene Ahmet non sia un nemico diretto come alcuni altri antagonisti, la sua posizione e le sue azioni mettono in pericolo la Confraternita degli Assassini, che è sempre attenta a chi cerca di destabilizzare l'ordine mondiale. Ezio Auditore, insieme agli altri Assassini, si trova a dover affrontare indirettamente le sue azioni politiche e le sue alleanze.\nAhmet, pur non essendo un guerriero come alcuni altri antagonisti, è pericoloso in quanto manipola le persone e sfrutta le loro debolezze. È una figura che agisce dietro le quinte, influenzando eventi politici con astuzia e inganno, creando scompiglio nelle dinamiche di Costantinopoli.\nIl Principe Ahmet rappresenta il tema del potere e delle ambizioni politiche che si intrecciano con le lotte tra Assassini e Templari. Sebbene non sia il principale antagonista di Ezio, il suo ruolo nella storia è fondamentale per capire le forze in gioco a Costantinopoli. La sua posizione e le sue azioni spingono Ezio e gli altri Assassini a entrare in conflitto con lui, anche se in modi indiretti.\nQuindi, non è un semplice \"cattivo\" nel senso tradizionale, ma una figura complessa che agisce per il suo interesse, manipolando le circostanze a suo favore, ma anche mettendo in pericolo l'equilibrio della città e della Confraternita. La sua ambizione lo rende un nemico insidioso, difficile da affrontare direttamente, ma che spinge il protagonista e la Confraternita a intervenire."
+        },
+        {
+          "name": "Sofia Sartor",
+          "characterImage": ["sofia"],
+          "desc": "Sofia è una giovane bibliotecaria e una studiosa originaria di Venezia, ma si trova a Costantinopoli per motivi legati alla sua carriera. È una donna intelligente e affascinante, con una profonda passione per i libri e la conoscenza. La sua professione come bibliotecaria la porta a essere coinvolta nel contesto storico e culturale di Costantinopoli; gestisce una vasta raccolta di libri e documenti antichi, che includono anche alcuni degli scritti di Altair. La sua conoscenza delle opere storiche e filosofiche è notevole, ed è proprio grazie a questa sua competenza che Ezio entra in contatto con lei.\nSofia è una donna estremamente intelligente, con una grande passione per la conoscenza. La sua curiosità e il suo amore per i libri la spingono a cercare continuamente nuove informazioni, ed è per questa ragione che si trova coinvolta in alcune delle ricerche più misteriose della trama, in particolare legate agli scritti di Altair. Nonostante sia una figura che può sembrare più fragile rispetto ad altri personaggi della saga, Sofia è estremamente indipendente e non si lascia facilmente intimidire. La sua determinazione e la sua forza interiore emergono più volte durante il gioco, quando affronta le difficoltà e si confronta con le situazioni che la circondano. Si distingue per la sua natura gentile e la sua sensibilità. È un personaggio che, pur non essendo un combattente, riesce a entrare in sintonia con Ezio grazie alla sua umanità e alla sua empatia. La sua sensibilità la rende anche una figura che offre a Ezio un punto di riflessione emotiva durante la sua lunga e difficile missione.\nIl primo incontro tra Sofia e Ezio avviene quando Ezio arriva a Costantinopoli. All'inizio, Sofia è un personaggio piuttosto distante, focalizzata sulla sua carriera e sulla sua passione per i libri. Tuttavia, man mano che Ezio esplora la città e si avventura alla ricerca delle informazioni su Altair, il loro legame cresce lentamente. Sebbene Sofia non faccia parte della Confraternita degli Assassini e non partecipi direttamente nelle missioni di combattimento, diventa un importante alleato per Ezio, fornendo supporto intellettuale e pratico. La sua conoscenza dei libri e dei documenti storici aiuta Ezio a raccogliere informazioni cruciali per la sua missione.\nNel corso del gioco, il rapporto tra Ezio e Sofia si sviluppa in modo naturale, con un crescente legame emotivo. Sofia rappresenta un momento di rifugio e calma nella vita di Ezio, che sta affrontando una missione pericolosa e turbolenta. La loro connessione cresce anche sul piano personale, con Ezio che comincia a vedere in Sofia una figura che gli offre un punto di equilibrio e un interesse che va oltre la sua missione.\nSofia Sartor è un personaggio che arricchisce Assassin's Creed: Revelations con la sua profondità emotiva e intellettuale. Sebbene non sia coinvolta nel combattimento o nelle azioni di guerra come altri personaggi, la sua intelligenza, indipendenza e la sua connessione con Ezio la rendono una figura chiave nel gioco. La sua presenza nella trama offre a Ezio un'opportunità di crescita personale, mentre il loro legame fornisce una dolce ma potente dinamica che bilancia la serietà e la tensione della missione di Ezio."
+        },
+        {
+          "name": "Manual Palaiologos",
+          "characterImage": ["manuel"],
+          "desc": "Un ex utilizzatore dell'Animus che appare a Desmond in circostanze enigmatiche. Clay è un personaggio introdotto nei giochi precedenti, la cui storia si intreccia con quella di Desmond. Clay è enigmatico, introverso e a tratti tormentato. Fornisce indizi e guida Desmond, ma il suo comportamento è spesso criptico.\nIl suo ruolo è molto importante: aiuta Desmond (in coma) a esplorare i suoi ricordi e a comprendere meglio il funzionamento dell'Animus."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Assassin's Creed III",
+      "cover": "Assassins_Creed_3",
+      "story": "Assassin's Creed III (2012) è ambientato principalmente durante gli eventi che portarono alla fondazione degli Stati Uniti d'America. Si svolge in un vasto e dettagliato mondo aperto, che include le colonie americane, Boston, New York, e le vaste foreste dell'America del Nord, durante il periodo della Rivoluzione Americana (1775–1783).\nIl gioco esplora temi legati alla lotta per l'indipendenza, la libertà e le tensioni sociali e politiche tra i coloni americani e l'Impero Britannico. La guerra tra Templari e Assassini si intreccia con gli eventi storici, con figure famose come George Washington, Benjamin Franklin e Charles Lee che fanno da sfondo alla narrazione. Uno degli aspetti distintivi di Assassin's Creed III è l'ambientazione in un periodo storico ricco di conflitti ideologici e fisici. La lotta per l'indipendenza degli Stati Uniti è il cuore pulsante della trama, e il gioco mette in luce la tensione tra il desiderio di autonomia e il controllo delle potenze coloniali.\nIl protagonista di Assassin's Creed III è Connor Kenway, il cui vero nome è Ratonhnhaké:ton (un nome che significa \"uomo che cammina nella nebbia\" nella lingua dei Mohawk). Connor è un Mezzo Mohawk e Mezzo Inglese, il che lo rende una figura unica tra i protagonisti della saga. Il suo viaggio è caratterizzato da una serie di eventi tragici che lo portano a diventare un Assassino e a lottare per la libertà e la giustizia.\nAssassin's Creed III introduce diverse innovazioni nella serie, migliorando le meccaniche di gioco e l'interazione con l'ambiente:\n-Mondo Aperto Vasto e Dinamico: La mappa del gioco è vasta e variegata, includendo non solo le città coloniali, ma anche vaste foreste, montagne, e campagne. Il mondo è popolato da animali selvatici, bande di soldati, e coloni, e l'interazione con l'ambiente gioca un ruolo fondamentale nel gameplay.\n-Navigazione e Battaglie Navali: Una delle innovazioni più significative di Assassin's Creed III è l'introduzione delle battaglie navali, che permettono al protagonista di navigare e combattere a bordo di una nave. Le battaglie navali sono diventate una delle caratteristiche più apprezzate del gioco, con l'uso di cannoni, manovre tattiche e gestione delle risorse della nave.\n-Caccia e Raccolta: La caccia è un elemento chiave nel gioco, che permette ai giocatori di cacciare animali selvatici come cervi, orsi e lupi, sia per scopi pratici (per materiali da crafting) che per motivi legati alla narrativa. Questo aspetto introduce una nuova dimensione al gioco, incentrata sulla sopravvivenza e sull'esplorazione.\n-Sistema di Combattimento Rivisitato: Il combattimento è stato rinnovato per essere più dinamico, con nuove animazioni e una maggiore varietà di combo. Connor ha a disposizione una vasta gamma di armi, tra cui la famosa doppia lama, pistole e spade. Inoltre, le battaglie possono coinvolgere più nemici contemporaneamente, con una fluidità che rende il combattimento più coinvolgente.\n-Missioni e Attività Secondarie: Oltre alla trama principale, il gioco offre numerose missioni secondarie, tra cui missioni di assassinio, caccia, e attività di esplorazione. Le missioni di assassinio, come nei capitoli precedenti, sono cruciali per avanzare nel gioco e ottenere ricompense. La varietà delle missioni consente al giocatore di esplorare il mondo in modo più approfondito.\nQuesto quinto capitolo della saga di Assassin's Creed affronta temi maturi e complessi come la libertà, la giustizia sociale, la rivoluzione e il conflitto intergenerazionale. La lotta per l'indipendenza degli Stati Uniti si intreccia con le dinamiche interne alla guerra tra Assassini e Templari, mostrando come i due gruppi influiscano sulle forze politiche ed economiche in gioco; la Rivoluzione Americana è al centro del gioco, e i temi di liberazione e indipendenza sono esplorati in profondità. Connor, come figura simbolica della lotta per la libertà, affronta costantemente le sfide morali che accompagnano la ricerca di giustizia e, la storia del protagonista è anche una narrazione di conflitto familiare e perdita. Le sue scelte sono spesso influenzate dal suo passato e dalle sue radici culturali, mentre cerca di trovare la propria identità nel contesto turbolento della guerra per l'indipendenza.\nAssassin's Creed III è un capitolo che segna una svolta per la serie, sia per il passaggio a un nuovo protagonista che per l'espansione delle meccaniche di gioco. L'ambientazione nella Rivoluzione Americana e la profonda connessione di Connor con i temi della libertà e della giustizia fanno di questo gioco un'esperienza unica. Le innovazioni nel gameplay, come le battaglie navali e la caccia, offrono un nuovo livello di immersione, mentre la narrazione affronta temi universali e complessi che arricchiscono l'intera saga.",
+      "releaseYear": 2012,
+      "platform": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "recAge": 18,
+      "favourite": false,
+      "characters": [
+        {
+          "name": "Connor Kenway (Ratohnhake:ton)",
+          "characterImage": ["connor_1"],
+          "desc": "Il protagonista di Assassin's Creed III è Connor Kenway, il cui vero nome è Ratonhnhaké:ton (un nome che significa \"uomo che cammina nella nebbia\" nella lingua dei Mohawk). Connor è un Mezzo Mohawk e Mezzo Inglese, il che lo rende una figura unica tra i protagonisti della saga. Il suo viaggio è caratterizzato da una serie di eventi tragici che lo portano a diventare un Assassino e a lottare per la libertà e la giustizia.\nLa sua storia inizia con una tragica perdita familiare che lo porta a intraprendere il cammino di vendetta e giustizia, la sua evoluzione personale lo spinge a diventare un Assassino, cercando di liberare la sua gente dalle oppressioni esterne, ma anche di trovare un equilibrio tra la sua eredità culturale e il suo ruolo nella guerra tra Assassini e Templari.\nCome simbolo della lotta per la libertà, Connor è un personaggio profondamente legato ai temi della giustizia e dell'indipendenza. La sua motivazione è sempre guidata dalla ricerca di un mondo migliore, anche se questo lo porta a confrontarsi con le dure realtà della guerra e della vendetta.\nConnor è abile nel combattimento, nelle tecniche di parkour, e nell'uso delle armi, inclusi archi, pistole, e la sua celebre doppia lama. A differenza di Ezio o Altair, Connor si distingue per il suo stile di combattimento selvaggio, che si riflette anche nella sua connessione con la natura e la sua educazione tra le tribù Native American."
+        },
+        {
+          "name": "Haytham Kenway",
+          "characterImage": ["haytham"],
+          "desc": "Haytham Kenway è il padre di Connor e un Templare di alto rango. Ha una presenza imponente nella trama e la sua figura è una delle principali antagoniste nel contesto della guerra tra Assassini e Templari.\nEgli è un uomo di grande intelligenza, ambizione e determinazione. Ha una visione ben definita sul ruolo dei Templari nel mondo, cercando di costruire un ordine basato su ordine e controllo. La sua visione contrasta fortemente con quella di Connor, il quale lotta per la libertà e l'autodeterminazione. Sebbene sia un Templare, Haytham è un personaggio complesso con una certa morale personale, il che lo rende un antagonista affascinante.\nHaytham è un uomo sofisticato, determinato e pieno di charme. La sua personalità è quella di un leader carismatico, ma i suoi metodi, spesso manipolativi, lo rendono una figura da temere. La relazione con suo figlio Connor è fondamentale per lo sviluppo della trama e rappresenta uno dei conflitti principali del gioco."
+        },
+        {
+          "name": "Charles Lee",
+          "characterImage": ["charles"],
+          "desc": "Haytham Kenway è il padre di Connor e un Templare di alto rango. Ha una presenza imponente nella trama e la sua figura è una delle principali antagoniste nel contesto della guerra tra Assassini e Templari.\nEgli è un uomo di grande intelligenza, ambizione e determinazione. Ha una visione ben definita sul ruolo dei Templari nel mondo, cercando di costruire un ordine basato su ordine e controllo. La sua visione contrasta fortemente con quella di Connor, il quale lotta per la libertà e l'autodeterminazione. Sebbene sia un Templare, Haytham è un personaggio complesso con una certa morale personale, il che lo rende un antagonista affascinante.\nHaytham è un uomo sofisticato, determinato e pieno di charme. La sua personalità è quella di un leader carismatico, ma i suoi metodi, spesso manipolativi, lo rendono una figura da temere. La relazione con suo figlio Connor è fondamentale per lo sviluppo della trama e rappresenta uno dei conflitti principali del gioco."
+        },
+        {
+          "name": "Achilles Davenport",
+          "characterImage": ["achilles"],
+          "desc": "Achilles Davenport è il mentore di Connor e una figura fondamentale nella sua crescita come Assassino. Achilles è un vecchio Assassino che ha abbandonato molte delle sue responsabilità, ma che torna a prendere sotto la sua ala protettrice Connor, guidandolo attraverso i principi della Confraternita degli Assassini, desidera che Connor diventi un Assassino competente e aiuti la Confraternita nella sua lotta contro i Templari. Sebbene stanco e disilluso, Achilles ha un forte senso del dovere e un grande amore per la causa degli Assassini.\nAchilles è un uomo saggio, ma anche segnato dal tempo e dalle sue esperienze dolorose. La sua personalità è quella di un padre per Connor, ma anche un mentore severo. Sebbene possa sembrare scorbutico a volte, la sua attenzione verso Connor è sempre motivata dal desiderio di fare di lui un uomo di valore."
+        },
+        {
+          "name": "Benjamin Franklin",
+          "characterImage": ["benjamin"],
+          "desc": "Benjamin Franklin è una delle figure storiche più prominenti nel gioco. Il famoso filosofo, inventore e politico è un alleato di Connor e una figura chiave nella lotta per l'indipendenza delle colonie americane. La sua presenza aiuta a collegare gli eventi della Rivoluzione Americana con la trama del gioco.\nFranklin è un convinto sostenitore della libertà e dell'indipendenza americana. Sebbene non sia direttamente coinvolto nella guerra tra Assassini e Templari, la sua influenza sulla causa della libertà e della giustizia lo rende una risorsa importante per Connor; è un uomo di grande intelligenza, arguzia e umorismo. È noto per la sua astuzia e il suo carisma, e nel gioco il suo ruolo è quello di consigliere e stratega. La sua personalità è quella di un uomo che sa come manipolare e influenzare gli eventi, ma sempre con uno scopo più grande in mente."
+        },
+        {
+          "name": "Kaniehtí:io (Ziio)",
+          "characterImage": ["kanie"],
+          "desc": "Ziio (Kaniehtí:io) è la madre di Connor e una figura importante nella sua vita prima che le tragedie lo spingano a diventare un Assassino. La sua morte e il suo legame con le tradizioni dei nativi americani sono tra i fattori motivanti per Connor, che cerca vendetta e giustizia per la sua gente, come madre, è una figura protettiva e amorevole per Connor. Sebbene non abbia un ruolo centrale nella trama come gli altri personaggi, la sua morte diventa un catalizzatore emotivo che indirizzerà Connor verso il suo destino di Assassino.\nZiio è una donna forte, orgogliosa della sua cultura Mohawk. La sua connessione con la natura e la sua dedizione alla sua famiglia la rendono una figura centrale nel cuore di Connor, sebbene il suo tempo nel gioco sia limitato."
+        },
+        {
+          "name": "Thomas Hickay",
+          "characterImage": ["thomas"],
+          "desc": "Thomas Hickey è un altro personaggio importante legato agli eventi della Rivoluzione Americana. Come membro delle forze britanniche, Hickey rappresenta una delle minacce per Connor durante la guerra. La sua presenza mette in evidenza il conflitto tra le fazioni e l'oppressione della libertà che il protagonista cerca di conquistare, egli è spinto da ambizioni personali e da una forte lealtà verso le forze britanniche. Non esita a usare la violenza per raggiungere i suoi scopi, diventando un avversario formidabile per Connor.\nHickey è un uomo che incarna la brutalità e la violenza, senza scrupoli nel perseguire i suoi obiettivi. La sua determinazione e la sua crudeltà lo rendono uno degli antagonisti più diretti per Connor."
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "title": "Assassin's Creed: The Secret Crusade",
+      "cover": "the_secret_crusade",
+      "releaseYear": 2011
+    },
+    {
+      "id": 1,
+      "title": "Assassin's Creed: Renaissance",
+      "cover": "Renaissence",
+      "releaseYear": 2009
+    },
+    {
+      "id": 2,
+      "title": "Assassin's Creed: Brotherhood",
+      "cover": "Brotherhood",
+      "releaseYear": 2010
+    },
+    {
+      "id": 3,
+      "title": "Assassin's Creed: Black Flag",
+      "cover": "black_flag",
+      "releaseYear": 2013
+    },
+    {
+      "id": 4,
+      "title": "Assassin's Creed: Desert Oath",
+      "cover": "desert_oath",
+      "releaseYear": 2017
+    },
+    {
+      "id": 5,
+      "title": "Assassin's Creed: Forsaken",
+      "cover": "forsaken",
+      "releaseYear": 2012
+    },
+    {
+      "id": 6,
+      "title": "Assassin's Creed: Revelations",
+      "cover": "revelations",
+      "releaseYear": 2011
+    },
+    {
+      "id": 7,
+      "title": "Assassin's Creed: Underworld",
+      "cover": "underworld",
+      "releaseYear": 2015
+    },
+    {
+      "id": 8,
+      "title": "Assassin's Creed: Unity",
+      "cover": "unity",
+      "releaseYear": 2014
+    }
+  ],
+  "films": [
+    {
+      "id": 0,
+      "title": "Assassin's Creed",
+      "cover": "ac_movie",
+      "releaseYear": 2016
+    },
+    {
+      "id": 1,
+      "title": "Assassin's Creed Embers",
+      "cover": "ac_embers",
+      "releaseYear": 2011
+    },
+    {
+      "id": 2,
+      "title": "Assassin's Creed Lineage",
+      "cover": "ac_lineage",
+      "releaseYear": 2009
+    }
+  ],
+  "guides": [
+    {
+      "site": "https://www.ign.com/wikis/assassins-creed/Walkthrough"
+    },
+    {
+      "site": "https://www.ign.com/wikis/assassins-creed-2/Walkthrough"
+    },
+    {
+      "site": "https://www.ign.com/wikis/assassins-creed-brotherhood/Walkthrough"
+    },
+    {
+      "site": "https://www.ign.com/wikis/assassins-creed-3/Walkthrough"
+    }
+  ]
+}

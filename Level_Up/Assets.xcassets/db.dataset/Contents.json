@@ -1,7 +1,7 @@
 {
   "data" : [
     {
-      "filename" : "ProvaDb.json",
+      "filename" : "db.json",
       "idiom" : "universal",
       "universal-type-identifier" : "public.json"
     }

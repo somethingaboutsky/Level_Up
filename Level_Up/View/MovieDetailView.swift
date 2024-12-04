@@ -21,34 +21,35 @@ struct MovieDetailView: View {
                 .position(x:160, y:300)
                 .frame(width: 320, height: 600)
                 .overlay(
-                    VStack {
-                        Image(ImageResource(name: movie.cover, bundle: .main))
-                            .resizable()
-                            .frame(width: 160, height: 240)
-                            .cornerRadius(12)
-                            .shadow(color: .purple, radius: 12, x: 0, y: 0)
-                            .padding(.top, 10)
-                        
-                        Text(movie.title)
-                            .font(.system(size: 28, weight: .bold))
-                            .padding(.top, 20)
-                            .padding(.bottom, 10)
-                        Text(String(movie.releaseYear))
-                        
-                        HStack{
-                            Text("Sinossi")
-                                .font(.headline)
-                            Spacer()
-                        }.padding(.leading, 10)
+                    ScrollView (.vertical) {
+                        VStack {
+                            Image(ImageResource(name: movie.cover, bundle: .main))
+                                .resizable()
+                                .frame(width: 160, height: 240)
+                                .cornerRadius(12)
+                                .shadow(color: .purple, radius: 12, x: 0, y: 0)
+                                .padding(.top, 10)
                             
-                        ScrollView (.vertical) {
-                            Text(movie.synopsys)
+                            Text(movie.title)
+                                .font(.system(size: 28, weight: .bold))
+                                .padding(.top, 20)
+                                .padding(.bottom, 10)
+                            Text(String(movie.releaseYear))
+                            
+                            HStack{
+                                Text("Sinossi")
+                                    .font(.headline)
+                                Spacer()
+                            }.padding(.bottom, 10)
+                                
+                            Text(LocalizedStringKey(movie.synopsys))
                                 .font(.system(size: 15))
                                 .truncationMode(.tail)
-                                
-                        }.padding(.horizontal, 10)
-                            .padding(.bottom, 10)
-                    }.padding(.vertical, 20))
+                                    
+                        }.padding(.vertical, 20)
+                    }.frame(height: 550)
+                        .padding(.horizontal, 10)) .padding(.bottom, 10)
+                    
         }.preferredColorScheme(.dark)
             .toolbar{
                 ToolbarItem(placement: .principal) {

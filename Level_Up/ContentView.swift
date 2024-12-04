@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var userPrefs = UserPreferences(favouriteGames: [])
+    @State var userPrefs = UserPreferences(favouriteGames: [], firstTime: true)
     @State var result: String = ""
     @State var gameSeries = DataLoader().gameSeries!
     

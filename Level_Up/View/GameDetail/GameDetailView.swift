@@ -61,6 +61,7 @@ struct GameDetailOverview: View {
     @Binding var game: Game
     
     @State var userPreferences: UserPreferences = loadPreferences()!
+    @State private var isStoryExpanded: Bool = false
     
     var body: some View {
         Rectangle()
@@ -91,10 +92,16 @@ struct GameDetailOverview: View {
                             .background(.gray)
                             .cornerRadius(50)
                     }
+                    
                     Text(game.story)
-                        .lineLimit(5)
-                        .truncationMode(.tail)
-                        .padding(10)
+                        .lineLimit(isStoryExpanded ? nil : 5)
+                                                .truncationMode(.tail)
+                                                .padding(10)
+                                                .onTapGesture {
+                                                        isStoryExpanded.toggle()
+                                                    print(isStoryExpanded)
+                                                }
+                    
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
                         VStack (spacing: 10) {
                             Text("Piattaforme")

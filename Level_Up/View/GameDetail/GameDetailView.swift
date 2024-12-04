@@ -43,7 +43,6 @@ struct GameMainView : View {
                 Image(img_logo)
                     .resizable()
                     .frame(width: 64, height: 64)
-                    .padding(.vertical, 10)
             }
         }
         .padding(.top, 48)

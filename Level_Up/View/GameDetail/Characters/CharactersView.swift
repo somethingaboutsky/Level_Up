@@ -20,25 +20,31 @@ struct CharactersView: View {
                         NavigationLink(destination: CharacterDetailView(character: .constant(character))) {
                             VStack {
                                 ZStack {
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .background(Color(hex: 0x2b2b2b))
+                                    RoundedRectangle(cornerRadius: 12)
                                         .frame(width: 150, height: 240)
-                                        .shadow(color: .accent, radius: 12, x: 0, y: 0)
-                                    
+                                        
                                     Image(character.characterImage)
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 150, height: 240)
-                                        .cornerRadius(16)
+
                                 }
+                                .foregroundColor(.black.opacity(0.5))
+
+                                .background(Color(hex: 0x2b2b2b).opacity(0.5))
+                                .cornerRadius(12)
+                                .shadow(color: .accent, radius: 12, x: 0, y: 0)
+                                
+                                
+
                                 
                                 Text(character.name)
                                     .font(.system(size: 18, weight: .semibold))
                                     .padding(.top, 10)
+                                    .foregroundColor(.white)
                             }
                             .padding(.top, 10)
                         }
-                        .foregroundColor(.black.opacity(0.5))
                     }
                 }
             }

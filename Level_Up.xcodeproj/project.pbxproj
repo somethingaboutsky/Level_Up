@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B4D9C8B2CF8EEE000EAA316 /* Level_Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Level_Up.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4D9C8B2CF8EEE000EAA316 /* Level Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Level Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4D9C9C2CF8EEE100EAA316 /* Level_UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Level_UpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4D9CA62CF8EEE100EAA316 /* Level_UpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Level_UpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 		0B4D9C8C2CF8EEE000EAA316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B4D9C8B2CF8EEE000EAA316 /* Level_Up.app */,
+				0B4D9C8B2CF8EEE000EAA316 /* Level Up.app */,
 				0B4D9C9C2CF8EEE100EAA316 /* Level_UpTests.xctest */,
 				0B4D9CA62CF8EEE100EAA316 /* Level_UpUITests.xctest */,
 			);
@@ -117,7 +117,7 @@
 			packageProductDependencies = (
 			);
 			productName = Level_Up;
-			productReference = 0B4D9C8B2CF8EEE000EAA316 /* Level_Up.app */;
+			productReference = 0B4D9C8B2CF8EEE000EAA316 /* Level Up.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0B4D9C9B2CF8EEE100EAA316 /* Level_UpTests */ = {
@@ -408,15 +408,14 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vincenzo.fardella.unipa.levelup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Level Up";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -448,15 +447,14 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vincenzo.fardella.unipa.levelup;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Level Up";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;

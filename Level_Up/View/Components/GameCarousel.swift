@@ -47,6 +47,11 @@ struct GameCarousel: View {
                 }
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+            .onChange(of: currentPage) { _ in
+                // Trigger haptic feedback
+                let generator = UIImpactFeedbackGenerator(style: .medium)
+                generator.impactOccurred()
+            }
             
             // Custom page control
             HStack(spacing: 8) {

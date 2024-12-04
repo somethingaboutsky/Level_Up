@@ -6,13 +6,13 @@ struct CharactersView: View {
     var body: some View {
         VStack(spacing: 20) {
             HStack {
-                Text("Lista personaggi")
+                Text("Personaggi")
                     .font(.system(size: 28, weight: .bold))
                 Spacer()
             }
             
             ScrollView {
-                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 15) {
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
                     ForEach(0..<characters.count, id: \.self) { index in
                         
                         let character = characters[index]

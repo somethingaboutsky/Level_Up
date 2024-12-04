@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct OnboardAppView: View {
+    @Binding var userPreferences: UserPreferences
+    
     @State private var currentPage: Int = 0
     let uif = UIFunctions()
     let screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
-    
-    let pages : [ any View] = [firstPage(),secondPage(), thirdPage()]
-    
+        
     var body: some View {
         VStack{
+            
+            Text("Benvenuto in Level Up!")
+                .bold()
+                .font(.system(size: 32, weight: .bold))
+                .foregroundColor(.white)
+                .padding(.bottom, 30)
             
             RoundedRectangle(cornerRadius: 32)
                 .fill(.black)
@@ -25,25 +31,24 @@ struct OnboardAppView: View {
                 .overlay(
                     VStack{
                         TabView (selection: $currentPage) {
-                            ForEach(pages.indices, id:\.self){ index in
+                            ForEach(0..<4, id:\.self){ index in
                                 if index == 0{
                                     firstPage()
                                 }else if index == 1{
                                     secondPage()
-                                }else {
+                                }else if index == 2{
                                     thirdPage()
+                                } else {
+                                    fourthPage(userPreferences: $userPreferences)
                                 }
-                                
                             }}
                         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                         .frame(width: 300, height: 450)
                         .preferredColorScheme(.dark)
                         
-                        
-                        
                         Spacer()
                         HStack(spacing: 8) {
-                            ForEach(uif.visiblePages(totalPages: 3, currentPage: currentPage), id: \.self) { page in
+                            ForEach(uif.visiblePages(totalPages: 4, currentPage: currentPage), id: \.self) { page in
                                 Circle()
                                     .fill(page == currentPage ? .accentColor : Color.gray)
                                     .frame(width: 10, height: 10)
@@ -54,7 +59,7 @@ struct OnboardAppView: View {
                         
                     })
         }.frame(width: screenWidth, height: screenHeight)
-            .background(.white.opacity(0.35))
+            .background(Color(hex: 0x2b2b2b))
        
         
         
@@ -63,38 +68,40 @@ struct OnboardAppView: View {
 }
 
 
+// FIRST PAGE ✔
 
 struct firstPage : View {
     @State var currentFrame = 0
     
     //Crea l'array di frame da animare
-    var scroll : [String] = buildStringArray(prefix: "scroll-", count: 38, startWithZero: false)
+    var scroll : [String] = buildStringArray(prefix: "swipe-left-right-", count: 114, startWithZero: true)
     
 
-    var animationDuration: Double = 1.0
+    var animationDuration: Double = 5.0
     @State var animationTimer: Timer?
           
     var body: some View {
         VStack{
             
-            Text("Benvenuto in Level Up!")
+            Text("Esplora!")
                 .bold()
                 .font(.title)
                 .foregroundColor(.white)
                 .padding(.top, 30)
-                
-                Image(scroll[currentFrame])
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 270, height: 270)
-                            .padding(.vertical,10)
-                            .scaledToFit()
-                            .onAppear {
-                                startAnimation()
-                            }
-                            .onDisappear() {
-                                stopAnimation()
-                            }
+            
+            Image(scroll[currentFrame])
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 270, height: 270)
+                        .padding(.vertical,10)
+                        .scaledToFit()
+                        .onAppear {
+                            startAnimation()
+                        }
+                        .onDisappear() {
+                            stopAnimation()
+                        }
+            
             Text("Fai uno **SWIPE** per vedere tutti i giochi della tua saga preferita")
             
         }
@@ -127,9 +134,7 @@ struct firstPage : View {
 }
     
 
-
-
-
+// SECOND PAGE ✔
 
 struct secondPage : View {
     @State var currentFrame = 0
@@ -162,7 +167,7 @@ struct secondPage : View {
                             .onDisappear() {
                                 stopAnimation()
                             }
-            Text("Fai uno **SCRLL** per vedere tutti i film e libri correlati alla tua saga preferita")
+            Text("Fai uno **SCROLL** per vedere tutti i film e libri correlati alla tua saga preferita")
             
         }
         
@@ -194,10 +199,7 @@ struct secondPage : View {
 }
 
 
-
-
-
-
+// THIRD PAGE ✔
 
 struct thirdPage : View {
     @State var currentFrame = 0
@@ -265,10 +267,38 @@ struct thirdPage : View {
 }
 
 
+struct fourthPage: View {
+    @Binding var userPreferences: UserPreferences
+
+    var body : some View {
+        VStack {
+            Text("Buon Divertimento!")
+                .bold()
+                .font(.title)
+            Spacer()
+            Image(ImageResource(name: "Logo", bundle: .main))
+                .resizable()
+                .frame(width: 220, height: 220)
+            Spacer()
+            Button(action: {
+                userPreferences.firstTime = false
+                storePreferences(userPrefs: userPreferences)
+            }) {
+                Text("Iniziamo!")
+                    .font(.headline)
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(.accent)
+                    .cornerRadius(10)
+            }
+        }.padding(.vertical, 50)
+    }
+}
+
 
 
 #Preview {
-    OnboardAppView()
+    OnboardAppView(userPreferences: .constant(UserPreferences(favouriteGames: [], firstTime: true)))
                         
 }
 

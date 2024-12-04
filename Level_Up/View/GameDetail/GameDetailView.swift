@@ -93,14 +93,14 @@ struct GameDetailOverview: View {
                             .cornerRadius(50)
                     }
                     
-                    Text(game.story)
-                        .lineLimit(isStoryExpanded ? nil : 5)
-                                                .truncationMode(.tail)
-                                                .padding(10)
-                                                .onTapGesture {
-                                                        isStoryExpanded.toggle()
-                                                    print(isStoryExpanded)
-                                                }
+                    NavigationLink(destination: GameMainView(selectedSection: .story, game: $game)) {
+                        Text(game.story)
+                            .lineLimit(isStoryExpanded ? nil : 5)
+                            .truncationMode(.tail)
+                            .padding(10)
+                            .multilineTextAlignment(.leading)
+                    }.foregroundColor(.white)
+                                            
                     
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
                         VStack (spacing: 10) {

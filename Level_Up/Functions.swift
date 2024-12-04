@@ -16,7 +16,7 @@ func storePreferences (userPrefs: UserPreferences) {
             url.appendPathComponent("preferences.json")
  
             try jsonData.write(to: url)
-            print("Stored preferences")
+            print("Stored preferences: \(userPrefs)")
         }
     } catch {
         print(error)

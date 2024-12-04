@@ -9,5 +9,5 @@ import Foundation
 
 struct UserPreferences: Codable {
     var favouriteGames: [Int]
-    var firstTime: Bool = true
+    var firstTime: Bool
 }

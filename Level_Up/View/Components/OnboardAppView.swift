@@ -140,7 +140,7 @@ struct secondPage : View {
     @State var currentFrame = 0
     
     //Crea l'array di frame da animare
-    var vSwipe : [String] = buildStringArray(prefix: "ezgif-frame-", count: 119, startWithZero: true)
+    var vSwipe : [String] = buildStringArray(prefix: "vswipe-", count: 95, startWithZero: true)
         
 
     var animationDuration: Double = 5.0
@@ -205,10 +205,10 @@ struct thirdPage : View {
     @State var currentFrame = 0
     
     //Crea l'array di frame da animare
-    var vSwipe : [String]  = buildStringArray(prefix: "ezgif-frame-", count: 119, startWithZero: true)
+    var tap : [String]  = buildStringArray(prefix: "tap-", count: 122, startWithZero: true)
         
 
-    var animationDuration: Double = 5.0
+    var animationDuration: Double = 6.0
     @State var animationTimer: Timer?
           
     var body: some View {
@@ -220,7 +220,7 @@ struct thirdPage : View {
                 .foregroundColor(.white)
                 .padding(.top, 30)
                 
-                Image(vSwipe[currentFrame])
+                Image(tap[currentFrame])
                             .resizable()
                             .scaledToFit()
                             .frame(width: 270, height: 270)
@@ -245,11 +245,11 @@ struct thirdPage : View {
            animationTimer?.invalidate()
 
            // Calcola l'intervallo per ogni frame
-           let frameInterval = animationDuration / Double(vSwipe.count)
+           let frameInterval = animationDuration / Double(tap.count)
 
            // Crea un nuovo timer per l'animazione
            animationTimer = Timer.scheduledTimer(withTimeInterval: frameInterval, repeats: true) { _ in
-               currentFrame = (currentFrame + 1) % vSwipe.count
+               currentFrame = (currentFrame + 1) % tap.count
            }
        }
     

@@ -70,16 +70,22 @@ struct GameDetailOverview: View {
             .position(x:160, y:300)
             .frame(width: 320, height: 600)
             .overlay(
-                VStack {
+                VStack (spacing: 20) {
                     Image(ImageResource(name: game.cover, bundle: .main))
                         .resizable()
-                        .frame(width: 160, height: 240)
+                        .frame(width: 220, height: 300)
                         .cornerRadius(12)
                         .shadow(color: .purple, radius: 12, x: 0, y: 0)
-                    Text(game.title)
-                        .font(.system(size: 28, weight: .bold))
-                        .padding(.top, 20)
-                        .padding(.bottom, 10)
+                    VStack (spacing: 0) {
+                        Text(game.title)
+                            .font(.system(size: 28, weight: .bold))
+                            
+                        Text(String(game.releaseYear))
+                            .font(.system(size: 22, weight: .light))
+                    }
+                    .padding(.top, 20)
+                    .padding(.bottom, 10)
+
                     Button (action: {
                         game.favourite = !game.favourite
                         updateUserPreferences(game: game, isFavorite: game.favourite)
@@ -93,13 +99,13 @@ struct GameDetailOverview: View {
                             .cornerRadius(50)
                     }
                     
-                    NavigationLink(destination: GameMainView(selectedSection: .story, game: $game)) {
+                    /*NavigationLink(destination: GameMainView(selectedSection: .story, game: $game)) {
                         Text(game.story)
                             .lineLimit(isStoryExpanded ? nil : 5)
                             .truncationMode(.tail)
                             .padding(10)
                             .multilineTextAlignment(.leading)
-                    }.foregroundColor(.white)
+                    }.foregroundColor(.white)*/
                                             
                     
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2)) {
@@ -115,40 +121,40 @@ struct GameDetailOverview: View {
                                     case "PC":
                                         Image(systemName: "desktopcomputer")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                     case "PS3", "Playstation 3", "PlayStation 3":
                                         Image(systemName: "playstation.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                     case "PS4", "Playstation 4", "PlayStation 4":
                                         Image(systemName: "playstation.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(.blue.opacity(0.8))
                                     case "PS5", "Playstation 5", "PlayStation 5":
                                         Image(systemName: "playstation.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(.blue)
                                     case "XBOX 360", "Xbox 360", "XBox 360":
                                         Image(systemName: "xbox.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(Color(red: 158, green: 197, blue: 67))
                                     case "XBOX One", "Xbox One", "XBox One":
                                         Image(systemName: "xbox.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(.black)
                                     case "XBOX X/S", "Xbox Series X/S", "XBox Series X/S":
                                         Image(systemName: "xbox.logo")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(Color(red: 56, green: 121, blue: 38))
                                     default:
                                         Image(systemName: "gamecontroller")
                                             .resizable()
-                                            .frame(width: 20, height: 20)
+                                            .frame(width: 25, height: 25)
                                             .foregroundColor(.accent)
                                     }
 
@@ -161,19 +167,19 @@ struct GameDetailOverview: View {
                                 .font(.headline)
                             
                             Text("\(game.recAge)+")
-                                .font(.subheadline)
+                                .font(.system(size: 18, weight: .semibold))
                         }
                         
                     }
                         
                 }
-                    .padding(.vertical, 20))
-            .onAppear {
-                userPreferences = loadPreferences()!
-                if userPreferences.favouriteGames.contains(game.id) {
-                    game.favourite = true
+                .padding(.vertical, 20))
+                .onAppear {
+                    userPreferences = loadPreferences()!
+                    if userPreferences.favouriteGames.contains(game.id) {
+                        game.favourite = true
+                    }
                 }
-            }
     }
        
 }

@@ -127,3 +127,38 @@ func getDocumentsDirectory() -> URL {
 }
 
 
+func buildStringArray(prefix : String, count: Int, startWithZero: Bool) -> [String]{
+    var arr : [String] = []
+    if startWithZero == false {
+        for index in 0..<count{
+            var string = prefix + String(index)
+            arr.append(string)
+        
+        }
+        return arr
+    } else {
+        for index in 0..<count {
+            var string = ""
+            
+            switch index {
+            case 0..<10:
+                string = prefix + "00" + String(index)
+            case 10..<100:
+                string = prefix + "0" + String(index)
+            default:
+                string = prefix + String(index)
+            }
+            
+            arr.append(string)
+        }
+        
+        return arr
+        
+    }
+    
+}
+
+
+
+
+

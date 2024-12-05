@@ -436,57 +436,6 @@
             ]
         },
         {
-            "id": 6,
-            "title": "Assassin's Creed Black Flag",
-            "cover": "Assassins_Creed_4_black_flag",
-            "story": "Assassin's Creed IV: Black Flag (2012) è uno dei capitoli più amati della serie, ambientato nell'affascinante e caotico mondo della pirateria durante l'età d'oro dei pirati.\n\nIl gioco è ambientato tra il 1715 e il 1722, durante l'epoca d'oro della pirateria nei Caraibi. Questo periodo è caratterizzato da ribellioni, avventure, e la lotta per il controllo delle rotte commerciali da parte delle grandi potenze coloniali, come Spagna e Inghilterra.\n\nTra i luoghi principali troviamo:\n- Nassau: Un rifugio per pirati, ricco di caos e libertà;\n- Havana: Un centro coloniale spagnolo con un'architettura imponente e una forte presenza militare;\n- Kingston: Una città sotto il controllo britannico, che riflette lo stile urbano e le dinamiche coloniali dell'epoca;\n- Isole e mari aperti: Gran parte del gioco si svolge nell'oceano, dove è possibile esplorare isole, relitti, barriere coralline e città costiere.\n\nLa storia segue un personaggio che inizia come pirata e si trova coinvolto nel conflitto millenario tra Assassini e Templari. Il tema principale è la libertà: politica, personale e ideologica. Attraverso il viaggio del protagonista, il giocatore esplora dilemmi morali e scelte che definiscono il significato della libertà.\n\nNel gameplay di questo nuovo capitolo abbiamo:\n- Esplorazione navale: Uno degli aspetti distintivi del gioco è il vasto oceano da esplorare con la tua nave, la Jackdaw. Puoi navigare tra isole tropicali, attaccare navi nemiche, scoprire tesori sommersi e persino affrontare tempeste.\n- Combattimenti navali: Le battaglie tra navi sono epiche, con cannoni, arrembaggi e strategie per abbordare e depredare i nemici.\n- Missioni a terra: Il gameplay tradizionale di Assassin's Creed è presente con parkour, assassinii furtivi e missioni basate sull'infiltrazione.\n- Caccia e raccolta: Puoi cacciare animali marini come balene e squali, oltre a predatori terrestri, per ottenere risorse utili per potenziare il protagonista e la Jackdaw.\n- Esplorazione subacquea: Una novità rispetto ai capitoli precedenti è la possibilità di immergersi sott'acqua per esplorare relitti sommersi e raccogliere tesori.\n\nDelle novità totalmente nuove della saga di Assassin's Creed. Il gioco celebra lo spirito ribelle e avventuroso dei pirati, ma non evita di mostrare anche il lato più oscuro della pirateria: tradimenti, violenza e difficoltà.\n\nLa musica del gioco, inclusi i canti marinari (chiamati shanty), è parte integrante dell'atmosfera e accompagna perfettamente i viaggi in mare; ovviamente, il realismo non manca nemmeno in questo gioco: Black Flag mescola personaggi e eventi storici reali con una narrazione fittizia. La vita dei pirati, le battaglie navali e la tensione tra potenze coloniali sono rappresentati con una certa accuratezza.",
-            "releaseYear": 2012,
-            "platform": [
-                "PlayStation 3",
-                "Xbox 360",
-                "PC"
-            ],
-            "recAge": 18,
-            "favourite": false,
-            "characters": [
-                    {
-                      "name": "Edward Kenway",
-                      "characterImage": "edward",
-                      "desc": "Il protagonista, Edward James Kenway, è un personaggio complesso e carismatico che inizia come un avventuriero alla ricerca di gloria e ricchezza. La sua storia personale, motivata da ambizioni e lotte interiori, lo porta a riflettere su ciò che è veramente importante nella vita, rendendolo una figura affascinante da seguire.\n\nAll'inizio del gioco, Edward è mosso da desideri egoistici, interessato principalmente a ottenere ricchezza e potere attraverso la pirateria. La sua visione della vita è spesso superficiale, concentrata su guadagni immediati e poco consapevole dei più ampi conflitti del mondo che lo circonda.\n\nLa sua principale motivazione iniziale è il desiderio di sfuggire a una vita di povertà. È affascinato dalla libertà e dall'avventura offerte dalla pirateria, ma questa sete di libertà è spesso macchiata da decisioni discutibili.\n\nNel corso della sua avventura, Edward inizia a confrontarsi con il peso delle sue azioni. Le sue esperienze lo portano a maturare, spingendolo a mettere in discussione le sue priorità e i suoi valori.\n\nTra le sue abilità e lo stile di combattimento del personaggio, Edward è diverso dagli altri assassini della saga:\n- **Furtività**: Sebbene non sia inizialmente addestrato come un Assassino, Edward dimostra una naturale predisposizione per il combattimento furtivo e l'infiltrazione, caratteristiche che sviluppa ulteriormente nel corso del gioco.\n- **Abilità marziali**: È un maestro nell'uso delle spade e delle pistole. Combatte con uno stile aggressivo e versatile, spesso usando due spade contemporaneamente e più pistole per attacchi ravvicinati.\n- **Navigazione**: Come capitano della Jackdaw, Edward eccelle nella navigazione e nel comando navale. È un marinaio esperto, in grado di affrontare battaglie navali con intelligenza strategica e abilità tecnica.\n\nLa sua relazione con gli Assassini? Edward inizia come un estraneo al conflitto tra Assassini e Templari. La sua visione pratica della vita lo rende inizialmente distante dall'ideologia degli Assassini, ma le sue esperienze lo portano a interagire profondamente con questa confraternita.\n\nE con i pirati, Edward stringe legami con molti dei pirati più famosi dell'epoca, come Blackbeard, Charles Vane e Mary Read. Questi rapporti sono caratterizzati da cameratismo, ma anche da tensioni e differenze di vedute.\n\nQuesto protagonista non viene ricordato solo per tutto ciò, bensì, per i suoi ideali:\n- **Libertà**: Edward è un simbolo della lotta per la libertà, non solo dalle leggi oppressive delle potenze coloniali, ma anche dalle restrizioni autoimposte delle sue ambizioni.\n- **Identità**: Il suo viaggio esplora il tema dell'identità, con Edward che cerca di definire chi è al di là del ruolo di pirata.\n- **Redenzione**: Una parte centrale del personaggio di Edward è il suo percorso di redenzione, poiché cerca di rimediare ai suoi errori e trovare un significato più profondo nella sua vita."
-                    },
-                    {
-                      "name": "Ade'Wale",
-                      "characterImage": "adewale_bf",
-                      "desc": "Adéwalé è un uomo razionale, calmo e di grande integrità morale. Nonostante sia coinvolto nella vita dei pirati, mostra una profonda consapevolezza delle sue scelte e delle loro conseguenze; egli è il primo ufficiale della Jackdaw, la nave di Edward.\n\nAdéwalé rappresenta una sorta di bussola morale per Edward, contrastando il suo comportamento spesso impulsivo. È un personaggio fondamentale per l'evoluzione del protagonista.\n\nSappiamo per certo che è un navigatore esperto e un guerriero abile, Adéwalé è indispensabile nelle battaglie navali e nei combattimenti. La sua fedeltà a Edward e alla ciurma della Jackdaw è incrollabile, ma non teme di confrontare il suo capitano quando ritiene che le sue scelte siano sbagliate.\n\nA causa del suo passato, Adéwalé prova una profonda empatia verso gli oppressi e i meno fortunati. Questo lato della sua personalità lo rende un personaggio particolarmente umano e toccante.\n\nAdéwalé è centrale non solo per il funzionamento della Jackdaw, ma anche per il viaggio personale di Edward. Attraverso le sue azioni e i suoi valori, la figura di Adéwalé rappresenta una prospettiva più ampia sulla lotta per la libertà, andando oltre il semplice desiderio di ricchezza o avventura che inizialmente motiva Edward."
-                    },
-                    {
-                      "name": "BlackBeard (Edward Thatch)",
-                      "characterImage": "blackbeard",
-                      "desc": "Una delle figure storiche più famose dell'epoca, Thatch è un pirata temuto e rispettato.\n\nNonostante la sua fama di uomo spietato, Thatch è anche un leader carismatico e strategico. Sa usare la paura come arma per ottenere il controllo, ma ha una visione pragmatica del mondo della pirateria; è sia un alleato che una figura di ispirazione per il giovane Kenway. La loro interazione esplora i sogni e le disillusioni della vita da pirata."
-                    },
-                    {
-                      "name": "Charles Vane",
-                      "characterImage": "charles_bf",
-                      "desc": "Vane è imprevedibile, crudele e a tratti instabile. Rappresenta l'aspetto più brutale e spietato della pirateria. Egli è un altro pirata storico e alleato (non sempre affidabile) di Edward.\n\nLa dinamica tra i due è spesso tesa, con Vane che mette in evidenza i rischi di fidarsi degli altri nel mondo dei pirati."
-                    },
-                    {
-                      "name": "Mary Read",
-                      "characterImage": "mary",
-                      "desc": "Una pirata enigmatica e affascinante, che gioca un ruolo importante nella storia. Forte, indipendente e determinata, Mary è un personaggio che sfida le convenzioni del suo tempo. La sua saggezza e il suo spirito libero sono fondamentali per il tema della libertà presente nel gioco.\n\nMary diventa una confidente e un alleato importante per Edward, aiutandolo a capire meglio se stesso e il mondo che lo circonda."
-                    },
-                    {
-                      "name": "Anne Bonny",
-                      "characterImage": "anne",
-                      "desc": "Celebre pirata irlandese, alleata di Edward; Anne (nata Anne Cormac) è intelligente, coraggiosa e piena di risorse. Pur condividendo la vita di pirata, è una figura più riflessiva rispetto ad altri personaggi, capace di vedere oltre l’illusione della pirateria come pura libertà.\n\nAnne è una compagna di viaggio e un’amica, la cui presenza aiuta a dare profondità emotiva alla storia.\n\nAnne è una sopravvissuta, la sua vita l'ha resa dura, ma anche incredibilmente determinata a non piegarsi alle avversità. Pur avendo un'aria di durezza, Anne è capace di profonde connessioni emotive. È leale con le persone che rispettano i suoi valori e che dimostrano di meritare la sua fiducia.\n\nLa presenza di questo personaggio arricchisce la storia non solo con il suo carisma, ma anche con il modo in cui le sue esperienze mettono in luce temi come la lotta per la libertà, l'uguaglianza e la ricerca di un senso di appartenenza. È una figura che agisce come contrappunto emotivo e morale per alcuni dei personaggi più egoisti o cinici che popolano il mondo della pirateria."
-                    }
-            ],
-            "guides": [
-                {
-                    "site": "https://mapgenie.io/assassins-creed-4-black-flag/maps/caribbean-sea"
-                }
-            ]
-        },
-        {
             "id": 7,
             "title": "Assassin's Creed Rogue",
             "cover": "Assassins_Creed_rouge",

@@ -41,9 +41,7 @@ struct CharacterDetailView: View {
             ToolbarItem(placement: .principal) {
                 Image(img_logo)
                     .resizable()
-                    .frame(width: 64, height: 64)
-                    .padding(.vertical, 20)
-
+                    .frame(width: 50, height: 50)
             }
         }
             

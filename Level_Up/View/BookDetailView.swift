@@ -57,7 +57,7 @@ struct BookDetailView: View {
                 ToolbarItem(placement: .principal) {
                     Image(img_logo)
                         .resizable()
-                        .frame(width: 64, height: 64)
+                        .frame(width: 50, height: 50)
                 }
             }
         
